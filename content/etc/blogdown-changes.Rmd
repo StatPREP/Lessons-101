@@ -1,0 +1,11 @@
+---
+title: "Blogdown changes"
+author: "D. Kaplan"
+date: "4/22/2019"
+output: html_document
+---
+
+
+* Added an `index.html` under hugo-lithium/ to set homepage content.
+
+

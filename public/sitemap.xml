@@ -139,4 +139,12 @@
     <priority>0</priority>
   </url>
   
+  <url>
+    <loc>/etc/blogdown-changes/</loc>
+  </url>
+  
+  <url>
+    <loc>/etc/tips-for-active-classroom/</loc>
+  </url>
+  
 </urlset>

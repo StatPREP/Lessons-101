@@ -11,21 +11,22 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "About"
-    url = "/about/" 
-[[menu.main]]
     name = "Topics"
     url = "/topics/"
+    weight = 1
 [[menu.main]]
     name = "Lessons"
     url = "/lessons/"
+    weight  = 4
 [[menu.main]]
     name = "LittleApps"
     url = "/littleapps/"
     weight = 10
 [[menu.main]]
-    name = "etc."
+    name = "Misc."
     url = "/etc/" 
+    weight = 20
+
 
 [params]
     description = "StatPREP 101"
