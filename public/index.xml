@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>StatPREP 101</title>
-    <link>/angry-mclean-54c866.netlify.com/</link>
+    <link>/</link>
     <description>Recent content on StatPREP 101</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/angry-mclean-54c866.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/angry-mclean-54c866.netlify.com/index.html</link>
+      <link>/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/angry-mclean-54c866.netlify.com/index.html</guid>
+      <guid>/index.html</guid>
       <description>StatPREP 101 is our name for the lessons</description>
     </item>
     

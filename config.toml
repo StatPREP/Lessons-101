@@ -1,4 +1,4 @@
-baseurl = "angry-mclean-54c866.netlify.com/"
+baseurl = "/" 
 languageCode = "en-us"
 title = "StatPREP 101"
 theme = "hugo-lithium"
