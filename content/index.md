@@ -1,1 +1,0 @@
-**StatPREP 101** is our name for the lessons 

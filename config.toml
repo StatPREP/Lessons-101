@@ -1,4 +1,4 @@
-baseurl = "" 
+baseurl = "/" 
 languageCode = "en-us"
 title = "StatPREP 101" 
 publishDir = "public"
@@ -12,8 +12,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [[menu.main]]
     name = "About"
-    url = "/about/"
-    weight = 20
+    url = "/about/" 
 [[menu.main]]
     name = "Topics"
     url = "/topics/"
@@ -27,6 +26,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[menu.main]]
     name = "etc."
     url = "/etc/" 
+
 [params]
     description = "StatPREP 101"
 
