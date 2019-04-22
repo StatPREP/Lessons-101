@@ -1,0 +1,67 @@
+---
+title: "Jittering"
+date: "StatPREP Class Lesson"
+weight: -10
+description: "Jittering is a graphical technique that extends point plots to make them more informative about categorical variables."
+output:
+  word_document:
+    reference_docx: lesson-style.docx
+  pdf_document: tint::tintPdf
+  html_document:
+    rmdformats::material
+---
+
+
+```{r include = FALSE}
+SDSdata::sds_setup()
+library(ggformula)
+library(SDSdata)
+library(LittleApp)
+library(DT)
+jitter_app <- get_app_info("jitter")
+```
+
+# Orientation
+
+Graphical displays are effective when they connect well with human visual and cognitive  faculties. Humans are extremely good at some visual tasks and surprisingly poor at others. To illustrate,  consider the task of identifying how many 3's there are in the following list:
+
+```{r echo = FALSE, width = "60%"}
+knitr::include_graphics("/images/numbers-without-color.png") 
+```
+
+The task is difficult because recognizing shapes is a tough cognitive task.
+
+The task becomes much simpler if we take advantage of color, which our visual systems can process very quickly. Try finding the 3's again:
+
+```{r echo = FALSE, width = "60%"}
+knitr::include_graphics("/images/numbers-with-color.png") 
+```
+
+One visual task that people are good at might be called "seeing the forest despite the trees." When dots are scatter across a display, people can easily perceive differences in density from  place to place. This despite the dots being all identical to one another.
+
+```{r echo = FALSE}
+n = 1000
+Dat <- tibble(x = rnorm(n, 10, 3), y = rnorm(n, 1, 4))
+gf_point(y ~ x,  data = Dat) %>%
+  gf_theme(
+    theme(line = element_blank(),
+        text = element_blank(),
+        title = element_blank()))
+```
+
+
+This human capacity to see density is one of the factors that makes point plots an effective way to present  data.
+
+Regrettably, when one or both of the variables in a point plot are categorical, all of the dots at each level of the variable line up; multiple dots can be exactly in the same place in  the graph. This is called *overplotting*. We perceive this multiplicity 
+
+
+The relationship shown in the [`r jitter_app$name`](`r jitter_app$url`) Little App is (by default) a straight line. (If there is a covariate, there will be multiple lines, one for each level of the covariate.) There are two important ways you can describe such lines:
+
+
+# Activity
+
+1. Open up the [`r jitter_app$name`](`r jitter_app$url`) Little App. Select `NHANES` as the data frame and systolic blood pressure as the response variable. 
+
+----------------------
+
+Version 0.1, `r Sys.Date()`, Danny Kaplan

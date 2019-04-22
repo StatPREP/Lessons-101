@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.55.2" />
+
+
+<title>Jittering - StatPREP 101</title>
+<meta property="og:title" content="Jittering - StatPREP 101">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+  <meta property="description" content="Jittering is a graphical technique that extends point plots to make them more informative about categorical variables.">
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/StatPREP-lessons.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>  <span class="nav-logo"></span>
+
+  <ul class="nav-links">
+    
+    <li><a href="/topics/">Topics</a></li>
+    
+    <li><a href="/lessons/">Lessons</a></li>
+    
+    <li><a href="/littleapps/">LittleApps</a></li>
+    
+    <li><a href="/etc/">Misc.</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+
+    <h1 class="article-title">Jittering</h1>
+
+    
+
+    <div class="article-content">
+      
+
+
+<div id="orientation" class="section level1">
+<h1>Orientation</h1>
+<p>Graphical displays are effective when they connect well with human visual and cognitive faculties. Humans are extremely good at some visual tasks and surprisingly poor at others. To illustrate, consider the task of identifying how many 3’s there are in the following list:</p>
+<p><img src="/images/numbers-without-color.png" width="80%" /></p>
+<p>The task is difficult because recognizing shapes is a tough cognitive task.</p>
+<p>The task becomes much simpler if we take advantage of color, which our visual systems can process very quickly. Try finding the 3’s again:</p>
+<p><img src="/images/numbers-with-color.png" width="80%" /></p>
+<p>One visual task that people are good at might be called “seeing the forest despite the trees.” When dots are scatter across a display, people can easily perceive differences in density from place to place. This despite the dots being all identical to one another.</p>
+<p><img src="/lessons/jittering_files/figure-html/unnamed-chunk-4-1.png" width="80%" /></p>
+<p>This human capacity to see density is one of the factors that makes point plots an effective way to present data.</p>
+<p>Regrettably, when one or both of the variables in a point plot are categorical, all of the dots at each level of the variable line up; multiple dots can be exactly in the same place in the graph. This is called <em>overplotting</em>. We perceive this multiplicity</p>
+<p>The relationship shown in the <a href="https://dtkaplan.shinyapps.io/LA_jitter/">LA_jitter</a> Little App is (by default) a straight line. (If there is a covariate, there will be multiple lines, one for each level of the covariate.) There are two important ways you can describe such lines:</p>
+</div>
+<div id="activity" class="section level1">
+<h1>Activity</h1>
+<ol style="list-style-type: decimal">
+<li>Open up the <a href="https://dtkaplan.shinyapps.io/LA_jitter/">LA_jitter</a> Little App. Select <code>NHANES</code> as the data frame and systolic blood pressure as the response variable.</li>
+</ol>
+<hr />
+<p>Version 0.1, 2019-04-22, Danny Kaplan</p>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>First  item</li>
+          <li>Second footer item</li>
+          <li>Third</li>
+        </ul> 
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

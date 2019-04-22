@@ -1,0 +1,60 @@
+---
+title: "The standard deviation and the 95% summary interval"
+date: "StatPREP Class Lesson"
+weight: 6
+description: "Relating the 95% summary interval to a traditional measure of spread: the standard deviation"
+output:
+  word_document:
+    reference_docx: lesson-style.docx
+  html_document:
+    rmdformats::material
+  pdf_document: tint::tintPdf
+---
+
+
+```{r include = FALSE}
+SDSdata::sds_setup()
+library(LittleApp)
+library(DT)
+center_app <- get_app_info("spread")
+```
+
+# Orientation
+
+The length of the *95% summary interval* is a pretty good way to describe the amount of variation in a variable. Yet statisticians tend to prefer using the *standard deviation*. This makes sense, since statisticians are interested in confusing the poor student by using obscure names ("Deviation?". Really?) and formulas that can be hard to understand. ... Not really!! Even though the standard deviation has an odd name and seems complicated, the actual reason it's used so much by statisticians is that it has some nice mathematical properties.
+
+The purpose of this lesson is to help you understand the standard deviation in terms of the 95% summary interval. Often, there's a very close and relatively simple relationship between the two. This means that it's possible to make sense of the standard deviation without formulas. (There's still the odd name, but there's nothing we can do about that!)
+ 
+# Activity
+
+Open up the [Center and spread](`r center_app$url`) Little App, and select the `Births_2014` data frame. Set the sample size to n = 200.
+
+1. Set the response variable to be `baby_wt`, the age of the mother at the time of birth. You'll see that there is variability, that is, not every mother is exactly the same age.
+
+2. Turn on the display of the mean and the standard deviation. Look closely at the annotation for the standard deviation. The standard deviation is a kind of measuring unit, like the inch marks on a ruler. The annotation is being drawn as a ruler. The mean is exactly in the middle and there are tick marks at ± 1 standard deviation and at ± 2 standard deviations.^[Sometimes the ± 2 marks don't fit within the frame, so those aren't included on the ruler.]
+
+4. The numerical value of the standard deviation is the length between tick marks, just as an inch is the length between marks on a ruler. 
+
+    a. Use the measuring stick to find the numerical value for the standard deviation for the data shown in your plot.
+    b. Open the "Statistics" tab underneath the graphic where you will find printed the standard deviation as calculated directly from the data. Compare that number to the number you found in (a). They should be just about the same.
+    c. Use the measuring stick to find the length of the whole ruler being displayed. Compare that to the number you read in (b) from the Statistics tab. Explain how long the ruler is by how many standard deviations it is long.
+    
+5. Turn on the display of the 95% summary interval. See where the ends of the 95% summary interval fall along the standard deviation ruler.
+
+    * How long is the standard deviation compared to the length of the 95% summary interval? 
+    * Make the sample size bigger, say, n = 2000. Does the relationship between the 95% summary interval and the standard deviation change?
+    * Fill in the blank: The 95% summary interval is ____ times as long as the standard deviation. Feel free to round to a whole number. 
+    
+6. The simple relationship between the 95% summary interval and the standard deviation often holds, but not always. Some variables consistently have the standard deviation ruler mis-aligned with the 95% summary interval.
+
+    * Set the response variable to be APGAR score. Try several New Samples and see if the 95% summary interval aligns with the ruler.
+    * Turn on the violin density display. Is it symmetric? Does it have a very long tail?
+    * Go back to `baby_wt` and look at the violin. How does the shape of this violin differ from that for APGAR. Is it symmetric? Does it have a very long tail.
+    * Fill in the blank: The 95% summary interval is ____ times as long as the standard deviation for variables that have a density that is ____ (about symmetry) and ____ have a long tail.
+
+
+    
+
+----------------------
+
+Version 0.1, `r Sys.Date()`, Daniel Kaplan

@@ -3,13 +3,101 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2017-07-23T21:13:14-05:00</lastmod>
+    <loc>/lessons/jittering/</loc>
+  </url>
+  
+  <url>
+    <loc>/lessons/variable-types/</loc>
+  </url>
+  
+  <url>
+    <loc>/lessons/variables-and-units/</loc>
+  </url>
+  
+  <url>
+    <loc>/lessons/response-and-explanatory/</loc>
+  </url>
+  
+  <url>
+    <loc>/lessons/summary-interval/</loc>
+  </url>
+  
+  <url>
+    <loc>/lessons/sd_and_summary_interval/</loc>
+  </url>
+  
+  <url>
+    <loc>/lessons/common-and-rare/</loc>
+  </url>
+  
+  <url>
+    <loc>/lessons/distribution-shapes/</loc>
+  </url>
+  
+  <url>
+    <loc>/lessons/normal-parameters/</loc>
+  </url>
+  
+  <url>
+    <loc>/lessons/comparing-two-groups/</loc>
+  </url>
+  
+  <url>
+    <loc>/lessons/comparing-confidence-intervals/</loc>
+  </url>
+  
+  <url>
+    <loc>/lessons/two-sample-t-test/</loc>
+  </url>
+  
+  <url>
+    <loc>/lessons/relationship-patterns/</loc>
+  </url>
+  
+  <url>
+    <loc>/lessons/how-much-is-explained/</loc>
+  </url>
+  
+  <url>
+    <loc>/lessons/point_plot/</loc>
+    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/topics/instructions-center-spread/</loc>
+    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/lessons/</loc>
+    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/etc/</loc>
+    <loc>/</loc>
+    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/topics/</loc>
+    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/topics/instructions-normal-distribution/</loc>
+    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/topics/instructions-linear-regression/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
     <lastmod>2017-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -33,20 +121,9 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2017-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/</loc>
     <lastmod>2017-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/etc/app3/</loc>
-    <lastmod>2017-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
@@ -98,16 +175,6 @@
   </url>
   
   <url>
-    <loc>/etc/app1/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/etc/app2/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/2015/01/01/lorem-ipsum/</loc>
     <lastmod>2015-01-01T13:09:13-06:00</lastmod>
   </url>
@@ -118,33 +185,23 @@
   </url>
   
   <url>
-    <loc>/lessons/</loc>
-    <lastmod>2012-07-23T21:13:14-05:00</lastmod>
+    <loc>/etc/</loc>
+    <lastmod>2010-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/lessons/lesson1/</loc>
-    <lastmod>2012-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/topics/topic-1/</loc>
-    <lastmod>2011-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/topics/</loc>
-    <lastmod>2011-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/etc/blogdown-changes/</loc>
   </url>
   
   <url>
     <loc>/etc/tips-for-active-classroom/</loc>
+    <lastmod>2010-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/etc/blogdown-changes/</loc>
+    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/topics/instructions-two-sample-t-test/</loc>
   </url>
   
 </urlset>

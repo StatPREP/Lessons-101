@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.55.2" />
+
+
+<title>Types of variables - StatPREP 101</title>
+<meta property="og:title" content="Types of variables - StatPREP 101">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+  <meta property="description" content="Introduces the distinction between quantitative and categorical variables, the *range* of a quantitative variable and the *levels* of a categorical variable.">
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/StatPREP-lessons.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>  <span class="nav-logo"></span>
+
+  <ul class="nav-links">
+    
+    <li><a href="/topics/">Topics</a></li>
+    
+    <li><a href="/lessons/">Lessons</a></li>
+    
+    <li><a href="/littleapps/">LittleApps</a></li>
+    
+    <li><a href="/etc/">Misc.</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+
+    <h1 class="article-title">Types of variables</h1>
+
+    
+
+    <div class="article-content">
+      
+
+
+<div id="orientation" class="section level1">
+<h1>Orientation</h1>
+<p>There are two major types of variables:</p>
+<ul>
+<li>Quantitative, where the <em>value</em> of the variable is a number.</li>
+<li>Categorical, where the value of the variable is one of a set of labels. That is, the value tells which <em>category</em> or <em>group</em> the row falls into.</li>
+</ul>
+<p>It’s usually easy to tell what type a variable is by looking at the variable’s column in the data frame. But it’s also easy to tell from a point plot what are the types of the response and explanatory variables.</p>
+<p>Quantitative variables cover an <em>interval</em> of the number line. That interval is described by two numbers: the minimum value and the maximum value of the variable.</p>
+<p>Quantitative variables also have a <em>spread</em>. There are different ways to measure the spread. In this lesson, we’ll use the <em>difference</em> between the maximum and minimum value. Note that the <em>interval</em> is two numbers while the <em>spread</em> is a single number.</p>
+<p>The <em>spread</em> is said to measure the <em>variability</em> in the variable. Other ways to quantify the spread, which we won’t use in this lesson, are the <em>standard deviation</em> and the <em>variance</em>.</p>
+<p>For categorical variables, we don’t use the concepts <em>interval</em> or <em>spread</em>. The possible or allowed values of a categorical variable are called the <em>levels</em> of that variable. For example, the levels of a categorical variable describing “commute type” might be: walk, bike, bus, drive, etc. The levels of a categorical variable like “language spoken” might be English, Spanish, Chinese, and so on.</p>
+<p>The levels of many categorical variables are <em>unordered</em>. This means that the concept of <em>between</em> doesn’t naturally apply. For instance, there is no natural way that Spanish is between English and Chinese.</p>
+<p>Some categorical variables are <em>ordinal</em>, which is just to say that there is a natural order to the levels. An example is a variable recording “opinion,” which might have levels Disagree, Neutral, Agree.</p>
+</div>
+<div id="activity" class="section level1">
+<h1>Activity</h1>
+<p>Open the <a href="https://dtkaplan.shinyapps.io/LA_point_plot/">Point Plot Little App</a>. Set the data frame to <code>NHANES</code> and the sample size to be several hundred.</p>
+<ol style="list-style-type: decimal">
+<li><p>Pick a quantitative response variable and a categorical explanatory variable. You might have to use trial and error to find such variables but once you do, it will be evident in the graph. Please don’t use <code>ID</code> or <code>SurveyYr</code> – stick to the variables that are about the individual being surveyed.</p>
+<p><strong>Tip</strong>: When one or both of the response and explanatory variables is categorical, it is often nice to <em>jitter</em> the point plot. Jittering doesn’t change the values of the variable itself, it just changes how they are displayed in the point plot. Jittering moves each point a small random distance from the exact tick which marks the level of the variable along the axis.</p>
+<ul>
+<li><p>Write down the names of the variables you selected. For the categorical variable, write down each of the levels.</p></li>
+<li><p>Measure the <em>interval</em> spanned by the quantitative variable for each group defined by the categorical variable. You can use the measuring stick built into the app. (That is, click at a point in the graphics frame and drag the mouse to select a vertical interval.) Write down the interval for each categorical level.</p></li>
+<li><p>Also, measure and record the <em>spread</em> of the quantitative variable for each categorical level.</p></li>
+</ul></li>
+<li><p>Using the selector for the explanatory variable, find five more categorical variables in the <code>NHANES</code> data. At least two of your five should be <em>ordinal</em> variables.</p>
+<ul>
+<li>For each, write down the levels, and whether the variable is unordered or ordinal.</li>
+</ul></li>
+</ol>
+<hr />
+<p>Version 0.1, 2019-04-22, Daniel Kaplan</p>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>First  item</li>
+          <li>Second footer item</li>
+          <li>Third</li>
+        </ul> 
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

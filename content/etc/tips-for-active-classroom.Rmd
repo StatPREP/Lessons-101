@@ -1,5 +1,7 @@
 ---
 title: "Tips for an active classroom"
+description: "Some ideas for engaging students in discussion about statistics."
+date: "2010-01-02"
 output: 
   html_document:
     theme: readable

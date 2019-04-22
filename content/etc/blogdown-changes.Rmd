@@ -1,7 +1,8 @@
 ---
 title: "Blogdown changes"
 author: "D. Kaplan"
-date: "4/22/2019"
+description: "Internal notes regarding the setup of this  site."
+date: "2010-01-01"
 output: html_document
 ---
 

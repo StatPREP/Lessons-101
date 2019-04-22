@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.55.2" />
+
+
+<title>Comparing two groups - StatPREP 101</title>
+<meta property="og:title" content="Comparing two groups - StatPREP 101">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+  <meta property="description" content="Visualizing sampling variation in the difference between two groups.">
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/StatPREP-lessons.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>  <span class="nav-logo"></span>
+
+  <ul class="nav-links">
+    
+    <li><a href="/topics/">Topics</a></li>
+    
+    <li><a href="/lessons/">Lessons</a></li>
+    
+    <li><a href="/littleapps/">LittleApps</a></li>
+    
+    <li><a href="/etc/">Misc.</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+
+    <h1 class="article-title">Comparing two groups</h1>
+
+    
+
+    <div class="article-content">
+      
+
+
+<div id="orientation" class="section level1">
+<h1>Orientation</h1>
+<p>A friend and I were discussing ways to measure poverty. Of course, there’s the so-called “poverty level” of income defined by the US government. But we were interested in whether it might be worthwhile to do a detailed interview with, say, 100 families, quantifying how much trouble they have paying for different things: food, housing, healthcare, transportation, emergencies etc. Then we’d look at easy things to measure so that we could have an index for these different things, food stress, housing stress, and so on.</p>
+<p>To get started, we decided to look at some already available data to generate ideas about what things might be related to poverty. This could help us design our interview.</p>
+<p>We know that you’re taking a statistics course, so we arranged to visit with you so that you could help us handle the data. You told us that you already have some data about income, health, socio-economic factors and such. It’s called the <code>NHANES</code> data.</p>
+<p>We arranged to meet you in a local coffee shop, which has free internet.</p>
+</div>
+<div id="activity" class="section level1">
+<h1>Activity</h1>
+<p>When we got to the coffee shop, you opened up a statistics app, called the <a href="https://dtkaplan.shinyapps.io/LA_t_test/">t-test</a> Little App. You set the app to work with the <code>NHANES2</code> data. You explained that there is a lot of data, but maybe it would be good to start with a sample of 100, so that we would get an idea of what things might work in our planned interviews of 100 families.</p>
+<ol style="list-style-type: decimal">
+<li><p>You set the response variable in the app to a variable called “income_poverty.” We could see at a glance that this variable ranged from 0 to 5. That didn’t make sense to us.</p>
+<ul>
+<li>Explain what the <code>income_poverty</code> variable measures and how it’s related to income.</li>
+</ul></li>
+<li><p>We decided to start with home ownership, so you set the explanatory variable to “home_type”.</p>
+<ul>
+<li>Describe the pattern shown by the data in the graph. Do you think that you can say much about the poverty variable based on home ownership?</li>
+</ul></li>
+<li><p>The dots were all over the place. You told us that it can be helpful to look at the mean poverty level separately for people who own and who rent their home. You turned on a display of the mean. Exciting! The mean was different for the two groups.</p>
+<ul>
+<li>“Slow down,” you said to your friends. Explain to them why any meaningful comparison of the means has to take into account the random nature of sampling.</li>
+<li>Use the app’s measuring stick to quantify the difference “Own” mean versus “Rent” mean. (Or, you could read it off the scale for the vertical axis.) Write down the distance you measured.</li>
+</ul></li>
+<li><p>Next you told us to watch the two means while you pressed over and over the New Sample button. You told us to watch whether there was a consistent pattern, from sample to sample, of one of the means being higher than the others.</p>
+<ul>
+<li>Each time you press New Sample, measure the difference between the two means. Take care to record which mean is higher than which.</li>
+<li>Is there a consistent pattern or is the mean for “Own” sometimes above and sometimes below the mean for “Rent?”</li>
+</ul></li>
+<li><p>To show what pattern appears in the difference between the two means <em>when there is no meaningful difference</em>, check the “Shuffle groups” box. This will show the same data, but the explanatory variable will be randomly shuffled. This eliminates any possible systematic relationship between the response and explanatory variables.</p>
+<ul>
+<li>Press the New Sample button many times and observe which mean is higher than the other. Give a simple description of the pattern you see.</li>
+</ul></li>
+</ol>
+<hr />
+<p>Version 0.2, 2019-04-22, Carol Howald</p>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>First  item</li>
+          <li>Second footer item</li>
+          <li>Third</li>
+        </ul> 
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.55.2" />
+
+
+<title>The two-sample t test - StatPREP 101</title>
+<meta property="og:title" content="The two-sample t test - StatPREP 101">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+  <meta property="description" content="Having already looked at the overlap of confidence intervals on  the means of two groups, formalizing the process as a t-test.">
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/StatPREP-lessons.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>  <span class="nav-logo"></span>
+
+  <ul class="nav-links">
+    
+    <li><a href="/topics/">Topics</a></li>
+    
+    <li><a href="/lessons/">Lessons</a></li>
+    
+    <li><a href="/littleapps/">LittleApps</a></li>
+    
+    <li><a href="/etc/">Misc.</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+
+    <h1 class="article-title">The two-sample t test</h1>
+
+    
+
+    <div class="article-content">
+      
+
+
+<div id="orientation" class="section level1">
+<h1>Orientation</h1>
+<p>Suppose you have an explanatory variable that defines two, distinct groups, like the <code>home_type</code> variable in the <code>NHANES2</code> data. You notice that the two groups have different mean values for the explanatory variable.</p>
+<p>A possible explanation for the observed difference in the two means is that it is just a pattern that reflects the play of chance rather than any systematic difference in the population of the two groups,</p>
+<p>One way to test this explanation is to look at the <em>confidence intervals</em> on the means. If they overlap, the just-chance explanation is plausible. If they don’t overlap, the <em>just-chance</em> explanation isn’t plausible.</p>
+<p>The <em>just-chance</em> explanation is called the <em>Null Hypothesis</em>.</p>
+<p>Testing the Null Hypothesis by looking at the overlap, or lack of overlap, between the two confidence intervals works very well. But in the early 1900s, mathematicians and, believe if or not, a brewer at Guinness, discovered a method that is slightly more reliable, especially when the number of data points in each group is small, say &lt; 10. The more reliable method is called a <em>t test</em>.</p>
+<p>This lesson introduces the t test.</p>
+</div>
+<div id="activity" class="section level1">
+<h1>Activity</h1>
+<p>Open up the <a href="https://dtkaplan.shinyapps.io/LA_t_test/">t-test</a> Little App. Set the response variable to <code>income_poverty</code> and the explanatory variable to <code>home_type</code>. Set the sample size to n = 100. Check the box in the controls to show the mean values of the two groups.</p>
+<ol style="list-style-type: decimal">
+<li><p>Check the box in the controls to show the <em>confidence interval</em> on the mean and the <em>t-interval</em>. The t-interval is displayed as a black, sideways-H shape. The t-interval is always <em>centered</em> on one of the two means. The t-test is based on whether the other mean falls inside the t-interval or outside.</p>
+<ul>
+<li>Is the other mean inside or outside the t-interval?</li>
+</ul></li>
+<li><p>The t-statistic is simply telling how far apart the two means are with repect to the t-interval. Go to the “Statistics” tab to see the report from the t-test and read off the t-statistic. When the other mean is right at the boundary of the T-interval, the t statistic is 2. If the mean were further outside the T interval, the t statistic is proportionately greater than 2.</p>
+<ul>
+<li>Look at where the second mean is with respect to the T interval, and compare that to the value of t shown in the report in the Statistics tab. Do they correspond? Look at several new samples to see whether the correspondance continues to hold.</li>
+</ul></li>
+<li><p>The t-statistic is usually translated into a p-value, which is a probability. The p-value will be less than 0.05 when the other mean is outside the t-interval</p>
+<ul>
+<li>Does the p-value go up or down with the t-statistic? Look at several new samples to figure out which.</li>
+</ul></li>
+<li><p>Check the “Shuffle groups” box. This simulates a situation where there is no systematic relationship between the response and explanatory variables.</p>
+<ul>
+<li>Note whether the t-interval includes both means or not overlap. Press New Sample several times to see whether the overlap (or lack of overlap) is consistent from one sample to another.</li>
+<li>Look at the p-value across several new samples with shuffling on. What’s the largest p-value you see? What’s the smallest? What’s a typical p-value?</li>
+</ul></li>
+<li><p>MOVE THIS TO A “Sample size and inference” LESSON?</p></li>
+</ol>
+<p>Explore how sample size effects the length of the t-interval.</p>
+<pre><code>* Set the sample size to n = 20. Measure the length of the t-interval using the app&#39;s measuring stick. Do this for several new samples to get an idea of the *typical* length of the confidence intervals for a sample size n = 20. Write down your result.
+
+* Set the sample size to n = 200, ten times larger than the previous step. Again, measure the typical length of the t-interval over several new samples. Write down your result.
+
+* Set the sample size to n = 2000, ten times larger than the previous step and one-hundred times larger than when n = 20. Again, measure the typical length of the t-interval over several new samples.
+
+ * Compare the lengths of the t-interval that you measures for n = 20, 200, 2000. Describe the pattern:
+      - Do larger sample sizes lead to larger confidence intervals?
+      - What&#39;s the ratio of the length of the n=2000 t-interval to the n = 20 confidence interval? Can you see a simple relationship between this ratio and the ratio in sample size of 2000/20 = 100?
+      - Test out your theory for the relationship between sample size and t-interval length using the lengths of the confidence interval for n = 2000 compared to n  = 200. Does your theory work? </code></pre>
+<hr />
+<p>Version 0.1, 2019-04-22, Carol Howald</p>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>First  item</li>
+          <li>Second footer item</li>
+          <li>Third</li>
+        </ul> 
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+

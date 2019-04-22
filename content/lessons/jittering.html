@@ -1,0 +1,36 @@
+---
+title: "Jittering"
+date: "StatPREP Class Lesson"
+weight: -10
+description: "Jittering is a graphical technique that extends point plots to make them more informative about categorical variables."
+output:
+  word_document:
+    reference_docx: lesson-style.docx
+  pdf_document: tint::tintPdf
+  html_document:
+    rmdformats::material
+---
+
+
+
+<div id="orientation" class="section level1">
+<h1>Orientation</h1>
+<p>Graphical displays are effective when they connect well with human visual and cognitive faculties. Humans are extremely good at some visual tasks and surprisingly poor at others. To illustrate, consider the task of identifying how many 3’s there are in the following list:</p>
+<p><img src="/images/numbers-without-color.png" width="80%" /></p>
+<p>The task is difficult because recognizing shapes is a tough cognitive task.</p>
+<p>The task becomes much simpler if we take advantage of color, which our visual systems can process very quickly. Try finding the 3’s again:</p>
+<p><img src="/images/numbers-with-color.png" width="80%" /></p>
+<p>One visual task that people are good at might be called “seeing the forest despite the trees.” When dots are scatter across a display, people can easily perceive differences in density from place to place. This despite the dots being all identical to one another.</p>
+<p><img src="/lessons/jittering_files/figure-html/unnamed-chunk-4-1.png" width="80%" /></p>
+<p>This human capacity to see density is one of the factors that makes point plots an effective way to present data.</p>
+<p>Regrettably, when one or both of the variables in a point plot are categorical, all of the dots at each level of the variable line up; multiple dots can be exactly in the same place in the graph. This is called <em>overplotting</em>. We perceive this multiplicity</p>
+<p>The relationship shown in the <a href="https://dtkaplan.shinyapps.io/LA_jitter/">LA_jitter</a> Little App is (by default) a straight line. (If there is a covariate, there will be multiple lines, one for each level of the covariate.) There are two important ways you can describe such lines:</p>
+</div>
+<div id="activity" class="section level1">
+<h1>Activity</h1>
+<ol style="list-style-type: decimal">
+<li>Open up the <a href="https://dtkaplan.shinyapps.io/LA_jitter/">LA_jitter</a> Little App. Select <code>NHANES</code> as the data frame and systolic blood pressure as the response variable.</li>
+</ol>
+<hr />
+<p>Version 0.1, 2019-04-22, Danny Kaplan</p>
+</div>

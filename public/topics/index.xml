@@ -6,19 +6,48 @@
     <description>Recent content in Topics on StatPREP 101</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Jul 2011 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 22 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/topics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Topic 2</title>
-      <link>/topics/topic-1/</link>
-      <pubDate>Sat, 23 Jul 2011 21:13:14 -0500</pubDate>
+      <title>Center &amp; spread</title>
+      <link>/topics/instructions-center-spread/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/topics/topic-1/</guid>
-      <description> First of the lessons is this one which I’ve just added on to
- </description>
+      <guid>/topics/instructions-center-spread/</guid>
+      <description>Orientation for instructors Early in most introductory statistics courses, students are taught ways to describe quantitative variables. As regards numerical descriptions, the mean and standard deviation are “normal.” (Pun intended.) The median and interquartile range offer an alternative when the variable is “skew.” The means and/or median are described as “representative” or “typical” values. The standard deviation describes how far “typical” values are from the mean, that is, how much “typical” values are spread out.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to the normal distribution</title>
+      <link>/topics/instructions-normal-distribution/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/topics/instructions-normal-distribution/</guid>
+      <description>Orientation for instructors It would be hard to overstate the centrality of the normal distribution to statistics and to the introductory statistics course. It’s even got a cult following; for instance, you can buy a normal pillow or a t-shirt.
+ Role in statistical practice Fundamentally, the normal distribution provides a standard for defining “extreme” and “middle.” We measure distance from the mean in terms of the standard deviation. A value two or more standard deviations from the mean is practically the definition of “exteme.</description>
+    </item>
+    
+    <item>
+      <title>Linear regression</title>
+      <link>/topics/instructions-linear-regression/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/topics/instructions-linear-regression/</guid>
+      <description>Orientation for instructors Linear regression is one of the oldest and most widely used statistical techniques. It is used to describe or model a connection or relationship between a quantitative response variable and one or more explanatory variables.
+Many, perhaps most, introductory statistics courses cover simple regression, which is a special case of linear regression in which the response variable, \(y\) is modeled as a straight-line function of the explanatory variable \(x\), that is, \(y = f(x) = a x + b\).</description>
+    </item>
+    
+    <item>
+      <title>The two-sample t test</title>
+      <link>/topics/instructions-two-sample-t-test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/topics/instructions-two-sample-t-test/</guid>
+      <description>Orientation for instructors The two-sample t-test is a staple of introductory statistics. In many courses, it is the most advanced topic taught. In others, it is followed by linear regression and/or ANOVA. At Howard Community College, the t-test is taught in the last 2 weeks of our course.
+A t-test is part of the apparatus of statistical inference. The purpose of statistical inference is to guide valid conclusions about the population from a sample.</description>
     </item>
     
   </channel>
