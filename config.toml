@@ -1,6 +1,7 @@
-baseurl = "/" 
+baseurl = "" 
 languageCode = "en-us"
-title = "StatPREP 101"
+title = "StatPREP 101" 
+publishDir = "public"
 theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
@@ -25,7 +26,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 10
 [[menu.main]]
     name = "etc."
-    url = "/etc/"
+    url = "/etc/" 
 [params]
     description = "StatPREP 101"
 
@@ -42,7 +43,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     favicon = "favicon.ico"
 
     [params.logo]
-    url = "StatPREP-logo-square.png"
+    url = "StatPREP-lessons.png"
     width = 50
     height = 50
     alt = "Logo"
