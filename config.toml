@@ -1,0 +1,49 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "StatPREP 101"
+theme = "hugo-lithium"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 20
+[[menu.main]]
+    name = "Topics"
+    url = "/topics/"
+[[menu.main]]
+    name = "Lessons"
+    url = "/lessons/"
+[[menu.main]]
+    name = "LittleApps"
+    url = "/littleapps/"
+    weight = 10
+[[menu.main]]
+    name = "etc."
+    url = "/etc/"
+[params]
+    description = "StatPREP 101"
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    MathJaxVersion = "2.7.5"
+
+    # path to the favicon, under "static"
+    favicon = "favicon.ico"
+
+    [params.logo]
+    url = "StatPREP-logo-square.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Etcs on StatPREP 101</title>
+    <link>/etc/</link>
+    <description>Recent content in Etcs on StatPREP 101</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Jul 2017 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="/etc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Third Little App</title>
+      <link>/etc/app3/</link>
+      <pubDate>Sun, 23 Jul 2017 21:13:14 -0500</pubDate>
+      
+      <guid>/etc/app3/</guid>
+      <description>This will be THE SECOND little app file.</description>
+    </item>
+    
+    <item>
+      <title>Tips 1</title>
+      <link>/etc/app1/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/etc/app1/</guid>
+      <description>This will be a little app file.</description>
+    </item>
+    
+    <item>
+      <title>Tips 2</title>
+      <link>/etc/app2/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/etc/app2/</guid>
+      <description>This will be THE SECOND little app file.</description>
+    </item>
+    
+  </channel>
+</rss>
