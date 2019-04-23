@@ -52,7 +52,9 @@ gf_point(y ~ x,  data = Dat) %>%
 
 This human capacity to see density is one of the factors that makes point plots an effective way to present  data.
 
-Regrettably, when one or both of the variables in a point plot are categorical, all of the dots at each level of the variable line up; multiple dots can be exactly in the same place in  the graph. This is called *overplotting*. We perceive this multiplicity 
+Regrettably, when one or both of the variables in a point plot are categorical, all of the dots at each level of the variable line up; multiple dots can be exactly in the same place in  the graph. This is called *overplotting*. We perceive this multiplicity as a single dot and cannot see changes in density for different values of the variables.
+
+*Jittering* and *transparency* are techniques to modify point plots so that we can see the relative density for different values of the variable.
 
 
 The relationship shown in the [`r jitter_app$name`](`r jitter_app$url`) Little App is (by default) a straight line. (If there is a covariate, there will be multiple lines, one for each level of the covariate.) There are two important ways you can describe such lines:
@@ -60,7 +62,41 @@ The relationship shown in the [`r jitter_app$name`](`r jitter_app$url`) Little A
 
 # Activity
 
-1. Open up the [`r jitter_app$name`](`r jitter_app$url`) Little App. Select `NHANES` as the data frame and systolic blood pressure as the response variable. 
+1. Open up the [`r jitter_app$name`](`r jitter_app$url`) Little App. Select `NHANES` as the data frame,  with `sex` as the response variable and `education` as the explanatory variable.  Leave the sample size a n = 50.
+
+    * Count the points in the image. Are there n = 50 dots visible? 
+
+    * Turn down the sample size to n = 5. There are now some places where there were dots for n = 50 but not for n = 5. What's going on at the places where there are not dots?
+    
+    * Look at the "statistics" tab. This contains a table of the points being displayed. Is the number of rows in the table consistent with n = 5? According to the table, are there any combinations of variables for which there is more than one row? Press "New Sample" if necessary so that there will be at least one repeated combination. Looking at the corresponding  place in the graphic, is there any sign that the combination is repeated multiple times.
+    
+    * Turn up the sample size to, say, n = 1000. Can you tell which values of the variables are most common? Why not?
+    
+2. Leaving n = 1000, move the horizontal slider that controls jittering width from zero to a value of about 0.1. Notice what's changed in the plot.
+
+3. Move the vertical slider to move from zero vertical jittering to about 0.1.
+
+    * Is it possible to tell which combinations of the variables are most common?
+    
+4. Select n to include the entire sampling frame: all the data. This will put about 7000 points in the graphic. 
+
+    * Is it still possible to distinguish the relative frequency of the different combinations of the response and explanatory variables?
+
+    * Try changing the jittering sliders to make the differences in relative frequency more evident, while still keeping the square clouds of points separate. Is your choice of jittering settings larger or smaller  than it was when n = 1000 points were being displayed.
+    
+5.  Even with jittering, with large n there will be some overplotting. This is where transparency comes into  the picture. Using transparency reveals such overplotting in  terms of the perceived darkness of the display.
+
+     * Turn down  the transparency slider from 1 to a small value that makes it easy to see where there is overplotting. (Hint: Depending on the jittering settings you selected in (4), you might need to make the value of the transparency slider very small.
+     
+     * What are the values of the horizontal and vertical jittering controls and of the transparency control that make it easiest to distinguish the different density of data across the ten different variable combinations?
+     
+6.  Set the response variable to `income_poverty`, which is quantitative. (Leave the explanatory variable as `education`.) And turn  the vertical jittering to zero. 
+
+    * Can you tell which values of `income_poverty` are more common at the different education levels? Adjust the horizontal jittering and transparency to create a plot you think is effective at showing how the distributions  of `income_poverty` change from one education level to another. Record your settings and tell the story shown by  the graph using everyday English terms.
+    
+7. Check the "show violin plot" box underneath the jittering controls.
+
+    * Explain what is the relationship between the violin-like shapes and the density displayed by the jittered point plot.
 
 ----------------------
 
