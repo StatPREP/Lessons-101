@@ -100,4 +100,4 @@ The relationship shown in the [`r jitter_app$name`](`r jitter_app$url`) Little A
 
 ----------------------
 
-Version 0.1, `r Sys.Date()`, Danny Kaplan
+Version 0.1, `r Sys.Date()`, Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 

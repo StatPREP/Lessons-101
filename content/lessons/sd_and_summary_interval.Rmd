@@ -57,4 +57,4 @@ Open up the [Center and spread](`r center_app$url`) Little App, and select the `
 
 ----------------------
 
-Version 0.1, `r Sys.Date()`, Daniel Kaplan
+Version 0.1, `r Sys.Date()`, Daniel Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 

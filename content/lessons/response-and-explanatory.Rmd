@@ -129,4 +129,4 @@ These variables are found in the data available through the Little App. For simp
 
 ----------------------
 
-Version 0.1, `r Sys.Date()`, Danny Kaplan
+Version 0.1, `r Sys.Date()`, Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 

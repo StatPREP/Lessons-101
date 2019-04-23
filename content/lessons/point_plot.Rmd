@@ -3,9 +3,6 @@ title: "Data and Point Plots"
 date: "2019-04-22"
 description: "Introduces the distinction between quantitative and categorical variables through their very different appearances in a point plot."
 output:
-  html_document:
-    rmdformats::material
-  pdf_document: tint::tintPdf
   word_document:
     reference_docx: lesson-style.docx
 weight: 100
@@ -79,4 +76,4 @@ Open the [Point Plot Little App](`r point_plot_app$url`).
 
 ----------------------
 
-Version 0.1, `r Sys.Date()`, Daniel Kaplan
+Version 0.1, `r Sys.Date()`, Daniel Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 

@@ -64,4 +64,4 @@ Open up the [t-test](`r t_test_app$url`) Little App.  Set the response variable 
 
 ----------------------
 
-Version 0.1, `r Sys.Date()`, Carol Howald
+Version 0.1, `r Sys.Date()`, Carol Howald, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 

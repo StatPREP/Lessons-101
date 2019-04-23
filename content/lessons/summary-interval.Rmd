@@ -2,7 +2,7 @@
 title: "Variation and the 95% summary interval"
 date: "StatPREP Class Lesson"
 weight: 5
-description: "Using an interval to describe the spread of a variable"
+description: "We typically describe variation  or uncertainty using an *interval*. The 95% summary interval is a way to describe the spread of a variable."
 output:
   word_document:
     reference_docx: lesson-style.docx
@@ -76,4 +76,4 @@ You've already looked at how the max-to-min interval and the 95% summary interva
 
 ----------------------
 
-Version 0.1, `r Sys.Date()`, Daniel Kaplan
+Version 0.1, `r Sys.Date()`, Daniel Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 

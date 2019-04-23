@@ -55,4 +55,4 @@ The *unit of observation* is the kind of "thing" each row of the data is about. 
 
 ----------------------
 
-Version 0.1, `r Sys.Date()`, Danny Kaplan
+Version 0.1, `r Sys.Date()`, Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 

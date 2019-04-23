@@ -9,4 +9,11 @@ output: html_document
 
 * Added an `index.html` under hugo-lithium/ to set homepage content.
 
+* Added `word-versions` directory under static.
+     - Used `blogdown::build_dir(".")` in lessons directory to build word versions of all lessons.
+     - Used OS tools to copy `.docx` files to the `static/word-versions` directory.
+     - Added a link at the bottom of each lesson `.Rmd` file to point to the word version.
+     
+     
+
 

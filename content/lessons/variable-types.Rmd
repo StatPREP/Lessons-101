@@ -7,8 +7,6 @@ output:
   word_document:
     reference_docx: lesson-style.docx
   pdf_document: tint::tintPdf
-  html_document:
-    rmdformats::material
 ---
 
 
@@ -65,4 +63,4 @@ Open the [Point Plot Little App](`r point_plot_app$url`). Set the data frame to 
 
 ----------------------
 
-Version 0.1, `r Sys.Date()`, Daniel Kaplan
+Version 0.1, `r Sys.Date()`, Daniel Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 

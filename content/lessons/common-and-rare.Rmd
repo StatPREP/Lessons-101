@@ -4,11 +4,8 @@ date: "StatPREP Class Lesson"
 description: "Using the z-score to express everyday concepts of common and rare."
 weight: 8
 output:
-  html_document:
-    rmdformats::material
   word_document:
     reference_docx: lesson-style.docx
-  pdf_document: tint::tintPdf
 ---
 
 ```{r include = FALSE}
@@ -72,4 +69,4 @@ Open up the [rare-and-common](`r rare_app$url`) Little App.  Set the response va
 
 ----------------------
 
-Version 0.1, `r Sys.Date()`, Thomas Kinzeler and Danny Kaplan
+Version 0.1, `r Sys.Date()`, Thomas Kinzeler and Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`)

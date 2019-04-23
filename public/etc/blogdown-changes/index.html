@@ -71,7 +71,13 @@
 
 
 <ul>
-<li>Added an <code>index.html</code> under hugo-lithium/ to set homepage content.</li>
+<li><p>Added an <code>index.html</code> under hugo-lithium/ to set homepage content.</p></li>
+<li>Added <code>word-versions</code> directory under static.
+<ul>
+<li>Used <code>blogdown::build_dir(&quot;.&quot;)</code> in lessons directory to build word versions of all lessons.</li>
+<li>Used OS tools to copy <code>.docx</code> files to the <code>static/word-versions</code> directory.</li>
+<li>Added a link at the bottom of each lesson <code>.Rmd</code> file to point to the word version.</li>
+</ul></li>
 </ul>
 
     </div>

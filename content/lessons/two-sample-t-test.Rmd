@@ -75,4 +75,4 @@ Explore how sample size effects the length of the t-interval.
 
 ----------------------
 
-Version 0.1, `r Sys.Date()`, Carol Howald
+Version 0.1, `r Sys.Date()`, Carol Howald, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 

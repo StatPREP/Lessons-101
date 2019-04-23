@@ -60,4 +60,4 @@ When we got to the coffee shop, you opened up a statistics app, called the  [t-t
 
 ----------------------
 
-Version 0.2, `r Sys.Date()`, Carol Howald
+Version 0.2, `r Sys.Date()`, Carol Howald, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 
