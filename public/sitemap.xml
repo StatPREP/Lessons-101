@@ -43,6 +43,10 @@
   </url>
   
   <url>
+    <loc>/lessons/sqrt-n/</loc>
+  </url>
+  
+  <url>
     <loc>/lessons/comparing-confidence-intervals/</loc>
   </url>
   
@@ -89,6 +93,11 @@
   <url>
     <loc>/topics/instructions-normal-distribution/</loc>
     <lastmod>2019-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/topics/instructions-confidence-intervals/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -1,0 +1,29 @@
+---
+title: "The square root of n"
+date: "StatPREP Class Lesson"
+description: "How √n figures into confidence intervals. DRAFT"
+weight: 30
+output:
+  word_document:
+    reference_docx: lesson-style.docx
+---
+
+```{r include = FALSE}
+SDSdata::sds_setup()
+library(LittleApp)
+library(DT)
+t_test_app <- get_app_info("t_test")
+```
+
+# Orientation
+
+
+# Activity
+
+
+    
+
+
+----------------------
+
+Version 0.2, `r Sys.Date()`, Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 

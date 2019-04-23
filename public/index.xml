@@ -111,6 +111,16 @@ Actually, there is not just one normal distribution but a whole family of them, 
     </item>
     
     <item>
+      <title>The square root of n</title>
+      <link>/lessons/sqrt-n/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lessons/sqrt-n/</guid>
+      <description> Orientation  Activity Version 0.2, 2019-04-23, Danny Kaplan, Word version
+ </description>
+    </item>
+    
+    <item>
       <title>Comparing two confidence intervals</title>
       <link>/lessons/comparing-confidence-intervals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -176,6 +186,16 @@ Models are useful when they serve a purpose. For instance, a toy plane can serve
       <guid>/topics/instructions-normal-distribution/</guid>
       <description>Orientation for instructors It would be hard to overstate the centrality of the normal distribution to statistics and to the introductory statistics course. It’s even got a cult following; for instance, you can buy a normal pillow or a t-shirt.
  Role in statistical practice Fundamentally, the normal distribution provides a standard for defining “extreme” and “middle.” We measure distance from the mean in terms of the standard deviation. A value two or more standard deviations from the mean is practically the definition of “exteme.</description>
+    </item>
+    
+    <item>
+      <title>Confidence intervals</title>
+      <link>/topics/instructions-confidence-intervals/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/topics/instructions-confidence-intervals/</guid>
+      <description>Lessons  Variation and the 95% summary interval Comparing two groups \(\sqrt{n}\) and confidence intervals   Orientation A fundamental aspect of statistical reasoning is recognizing that estimates computed from a sample are, to some extent, random. That is, another sample will likely produce a different estimate.
+Remarkably, we can estimate the amount of uncertainty due to the randomness of sampling from just a single sample. We quantify this uncertainty with a margin of error.</description>
     </item>
     
     <item>

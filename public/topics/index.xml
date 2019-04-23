@@ -31,6 +31,16 @@
     </item>
     
     <item>
+      <title>Confidence intervals</title>
+      <link>/topics/instructions-confidence-intervals/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/topics/instructions-confidence-intervals/</guid>
+      <description>Lessons  Variation and the 95% summary interval Comparing two groups \(\sqrt{n}\) and confidence intervals   Orientation A fundamental aspect of statistical reasoning is recognizing that estimates computed from a sample are, to some extent, random. That is, another sample will likely produce a different estimate.
+Remarkably, we can estimate the amount of uncertainty due to the randomness of sampling from just a single sample. We quantify this uncertainty with a margin of error.</description>
+    </item>
+    
+    <item>
       <title>Linear regression</title>
       <link>/topics/instructions-linear-regression/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
