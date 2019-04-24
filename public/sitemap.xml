@@ -3,7 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/topics/instructions-data/</loc>
+    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/lessons/jittering/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/instructions-graphing/</loc>
+    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -43,11 +53,21 @@
   </url>
   
   <url>
+    <loc>/lessons/sampling-bias/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/instructions-center-spread/</loc>
+    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/lessons/comparing-two-groups/</loc>
   </url>
   
   <url>
-    <loc>/lessons/sqrt-n/</loc>
+    <loc>/topics/instructions-normal-distribution/</loc>
+    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -59,7 +79,16 @@
   </url>
   
   <url>
+    <loc>/topics/instructions-confidence-intervals/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/lessons/relationship-patterns/</loc>
+  </url>
+  
+  <url>
+    <loc>/topics/instructions-two-sample-t-test/</loc>
   </url>
   
   <url>
@@ -67,12 +96,12 @@
   </url>
   
   <url>
-    <loc>/lessons/point_plot/</loc>
-    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+    <loc>/topics/instructions-linear-regression/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/topics/instructions-center-spread/</loc>
+    <loc>/lessons/point-plot/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -92,21 +121,6 @@
     <loc>/topics/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/topics/instructions-normal-distribution/</loc>
-    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/topics/instructions-confidence-intervals/</loc>
-    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/topics/instructions-linear-regression/</loc>
-    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -211,10 +225,6 @@
   <url>
     <loc>/etc/blogdown-changes/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/topics/instructions-two-sample-t-test/</loc>
   </url>
   
 </urlset>

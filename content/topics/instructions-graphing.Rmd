@@ -1,0 +1,58 @@
+---
+title: "Graphing data"
+author: "Daniel Kaplan"
+weight: -5
+date: "2019-04-22"
+---
+
+```{r setup, include=FALSE}
+
+```
+
+## Lessons
+
+* [Point plots](/lessons/point_plot)
+* [Jittering and violins](/lessons/jittering/)
+* [Summary intervals](/lessons/summary-interval/)
+* [Response and explanatory variables](/lessons/response-and-explanatory/)
+
+
+# Orientation for instructors
+
+Showing the basic kinds of plots: data/density/interval
+
+## Role in statistical practice
+
+
+## Conceptual pitfalls
+
+
+
+## Learning objectives 
+
+
+
+
+## Student background
+
+
+## Background data knowledge
+
+## (If we had) the population
+
+
+
+## Student tasks and activities
+
+
+## Creating an active classroom
+
+
+
+## Assessment items
+
+## Pushing the envelope/advancing the field
+
+
+## Author info
+

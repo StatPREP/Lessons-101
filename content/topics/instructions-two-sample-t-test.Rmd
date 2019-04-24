@@ -1,6 +1,7 @@
 ---
-title: "The two-sample t test"
+title: "Two-sample t test"
 author: "Carol Howald"
+weight: 42
 date: "2019-04-22`"
 output:
   html_document:

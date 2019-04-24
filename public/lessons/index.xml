@@ -112,22 +112,22 @@ Another setting in which it’s helpful to express uncertainty involves a sample
     </item>
     
     <item>
+      <title>Sampling bias and the confidence interval</title>
+      <link>/lessons/sampling-bias/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lessons/sampling-bias/</guid>
+      <description>Orientation The lesson on What is a confidence interval? showed how confidence intervals are supposed to behave. Specifically, a 95% confidence interval should cover the corresponding population parameter for 95% of possible samples. Achieving this performance of course depends on the confidence interval being calculated with an appropriate procedure. But it also depends on the sample being unbiased.
+An unbiased sample is one where each member of the population has exactly the same probability of being included in a sample.</description>
+    </item>
+    
+    <item>
       <title>Comparing two groups</title>
       <link>/lessons/comparing-two-groups/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/lessons/comparing-two-groups/</guid>
       <description>Orientation A friend and I were discussing ways to measure poverty. Of course, there’s the so-called “poverty level” of income defined by the US government. But we were interested in whether it might be worthwhile to do a detailed interview with, say, 100 families, quantifying how much trouble they have paying for different things: food, housing, healthcare, transportation, emergencies etc. Then we’d look at easy things to measure so that we could have an index for these different things, food stress, housing stress, and so on.</description>
-    </item>
-    
-    <item>
-      <title>The square root of n</title>
-      <link>/lessons/sqrt-n/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/lessons/sqrt-n/</guid>
-      <description> Orientation  Activity Version 0.2, 2019-04-23, Danny Kaplan, Word version
- </description>
     </item>
     
     <item>
@@ -172,10 +172,10 @@ Models are useful when they serve a purpose. For instance, a toy plane can serve
     
     <item>
       <title>Data and Point Plots</title>
-      <link>/lessons/point_plot/</link>
+      <link>/lessons/point-plot/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/lessons/point_plot/</guid>
+      <guid>/lessons/point-plot/</guid>
       <description>Orientation Data can be many things, but one of the most common formats is a data frame, a kind of spreadsheet of rows and columns. We’ll work with the data frame Births_2014, which is based on data published by the US Centers for Disease Control. Births_2014 has 100,000 rows. Each row reports a live birth in the US in 2014. There are dozens of variables, a few of which are shown below.</description>
     </item>
     

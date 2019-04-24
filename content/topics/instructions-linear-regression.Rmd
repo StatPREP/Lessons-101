@@ -1,29 +1,21 @@
 ---
 title: "Linear regression"
 author: "Helen Burn"
+weight: 80
 date: "2019-04-15"
-output:
-  html_document:
-    theme: readable
-  rmarkdown::word_document: 
-  tufte::tufte_handout:
-    citation_package: natbib
-    latex_engine: xelatex
-  tufte::tufte_html: default
-  tufte::tufte_book:
-    citation_package: natbib
-    latex_engine: xelatex
-    includes:
-      in_header: header.tex
 ---
 
 ```{r setup, include=FALSE}
-library(tufte)
-# invalidate cache when the tufte version changes
 library(LittleApp)
-knitr::opts_chunk$set(tidy = FALSE, cache.extra = packageVersion('tufte'))
-options(htmltools.dir.version = FALSE)
+sumsquare_app <- get_app_info("sum")
 ```
+
+## Lessons
+
+* [Describing relationship patterns](/lessons/relationship-patterns/)
+* [How much is explained by regression?](/lessons/how-much-is-explained/)
+* NEED TO ADD a lesson about fitting regression lines, using the [`r sumsquare_app$name`](`r sumsquare_app$url`)
+
 
 ## Orientation for instructors
 

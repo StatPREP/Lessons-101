@@ -1,11 +1,8 @@
 ---
 title: "Confidence intervals"
 author: "Rona Axelrod  and Danny Kaplan"
+weight: 40
 date: "2019-04-15"
-output:
-  html_document:
-    theme: readable
-
 ---
 
 ```{r setup, include=FALSE}
@@ -16,9 +13,11 @@ options(htmltools.dir.version = FALSE)
 
 ## Lessons
 
-* [Variation and the 95% summary interval](/lessons/summary-interval)
+* [What is a confidence interval?](/lessons/what_is_a_confidence_interval/)
+* [Sampling bias and confidence intervals](/lessons/sampling-bias/)
 * [Comparing two groups](/lessons/comparing-two0groups)
-* [$\sqrt{n}$ and confidence intervals](/lessons/sqrt-n/)
+* [Comparing two confidence intervals](/lessons/comparing-confidence-intervals/)
+* [Two-sample t test](/lessons/two-sample-t-test/) 
 
 
 ## Orientation 

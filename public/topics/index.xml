@@ -12,12 +12,32 @@
     
     
     <item>
+      <title>Data basics</title>
+      <link>/topics/instructions-data/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/topics/instructions-data/</guid>
+      <description> Lessons  [Data frames and spreadsheets] Variable types Variables and units Response and explanatory variables   Orientation for instructors Explaining what is data and what are the forms of data.
+Role in statistical practice  Conceptual pitfalls  Learning objectives  Student background  Background data knowledge  (If we had) the population  Student tasks and activities  Creating an active classroom  Assessment items  Pushing the envelope/advancing the field  Author info   </description>
+    </item>
+    
+    <item>
+      <title>Graphing data</title>
+      <link>/topics/instructions-graphing/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/topics/instructions-graphing/</guid>
+      <description> Lessons  Point plots Jittering and violins Summary intervals Response and explanatory variables   Orientation for instructors Showing the basic kinds of plots: data/density/interval
+Role in statistical practice  Conceptual pitfalls  Learning objectives  Student background  Background data knowledge  (If we had) the population  Student tasks and activities  Creating an active classroom  Assessment items  Pushing the envelope/advancing the field  Author info   </description>
+    </item>
+    
+    <item>
       <title>Center &amp; spread</title>
       <link>/topics/instructions-center-spread/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/topics/instructions-center-spread/</guid>
-      <description>Orientation for instructors Early in most introductory statistics courses, students are taught ways to describe quantitative variables. As regards numerical descriptions, the mean and standard deviation are “normal.” (Pun intended.) The median and interquartile range offer an alternative when the variable is “skew.” The means and/or median are described as “representative” or “typical” values. The standard deviation describes how far “typical” values are from the mean, that is, how much “typical” values are spread out.</description>
+      <description>Lessons  Variables and their summary intervals The standard deviation and the summary interval Shapes of distributions The normal distribution   Orientation for instructors Early in most introductory statistics courses, students are taught ways to describe quantitative variables. As regards numerical descriptions, the mean and standard deviation are “normal.” (Pun intended.) The median and interquartile range offer an alternative when the variable is “skew.” The means and/or median are described as “representative” or “typical” values.</description>
     </item>
     
     <item>
@@ -36,8 +56,18 @@
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/topics/instructions-confidence-intervals/</guid>
-      <description>Lessons  Variation and the 95% summary interval Comparing two groups \(\sqrt{n}\) and confidence intervals   Orientation A fundamental aspect of statistical reasoning is recognizing that estimates computed from a sample are, to some extent, random. That is, another sample will likely produce a different estimate.
-Remarkably, we can estimate the amount of uncertainty due to the randomness of sampling from just a single sample. We quantify this uncertainty with a margin of error.</description>
+      <description>Lessons  What is a confidence interval? Sampling bias and confidence intervals Comparing two groups Comparing two confidence intervals Two-sample t test   Orientation A fundamental aspect of statistical reasoning is recognizing that estimates computed from a sample are, to some extent, random. That is, another sample will likely produce a different estimate.
+Remarkably, we can estimate the amount of uncertainty due to the randomness of sampling from just a single sample.</description>
+    </item>
+    
+    <item>
+      <title>Two-sample t test</title>
+      <link>/topics/instructions-two-sample-t-test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/topics/instructions-two-sample-t-test/</guid>
+      <description>Orientation for instructors The two-sample t-test is a staple of introductory statistics. In many courses, it is the most advanced topic taught. In others, it is followed by linear regression and/or ANOVA. At Howard Community College, the t-test is taught in the last 2 weeks of our course.
+A t-test is part of the apparatus of statistical inference. The purpose of statistical inference is to guide valid conclusions about the population from a sample.</description>
     </item>
     
     <item>
@@ -46,18 +76,8 @@ Remarkably, we can estimate the amount of uncertainty due to the randomness of s
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/topics/instructions-linear-regression/</guid>
-      <description>Orientation for instructors Linear regression is one of the oldest and most widely used statistical techniques. It is used to describe or model a connection or relationship between a quantitative response variable and one or more explanatory variables.
+      <description>Lessons  Describing relationship patterns How much is explained by regression? NEED TO ADD a lesson about fitting regression lines, using the LA_sum_of_square_errors   Orientation for instructors Linear regression is one of the oldest and most widely used statistical techniques. It is used to describe or model a connection or relationship between a quantitative response variable and one or more explanatory variables.
 Many, perhaps most, introductory statistics courses cover simple regression, which is a special case of linear regression in which the response variable, \(y\) is modeled as a straight-line function of the explanatory variable \(x\), that is, \(y = f(x) = a x + b\).</description>
-    </item>
-    
-    <item>
-      <title>The two-sample t test</title>
-      <link>/topics/instructions-two-sample-t-test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/topics/instructions-two-sample-t-test/</guid>
-      <description>Orientation for instructors The two-sample t-test is a staple of introductory statistics. In many courses, it is the most advanced topic taught. In others, it is followed by linear regression and/or ANOVA. At Howard Community College, the t-test is taught in the last 2 weeks of our course.
-A t-test is part of the apparatus of statistical inference. The purpose of statistical inference is to guide valid conclusions about the population from a sample.</description>
     </item>
     
   </channel>

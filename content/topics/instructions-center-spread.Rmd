@@ -1,14 +1,8 @@
 ---
 title: "Center & spread"
 author: "Joseph Roith"
+weight: 30
 date: "2019-04-22"
-output:
-  html_document:
-    rmdformats::material
-  rmarkdown::word_document: 
-  tufte::tufte_handout:
-    citation_package: natbib
-    latex_engine: xelatex
 ---
 
 ```{r setup, include=FALSE}
@@ -17,6 +11,14 @@ library(tufte)
 knitr::opts_chunk$set(tidy = FALSE, cache.extra = packageVersion('tufte'))
 options(htmltools.dir.version = FALSE)
 ```
+
+## Lessons
+
+* [Variables and their summary intervals](/lessons/summary-interval/)
+* [The standard deviation and the summary interval](/lessons/sd_and_summary_interval/)
+* [Shapes of distributions](/lessons/distribution-shapes/)
+* [The normal distribution](/lessons/normal-parameters/)
+
 
 # Orientation for instructors
 

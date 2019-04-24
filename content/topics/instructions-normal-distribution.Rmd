@@ -1,14 +1,8 @@
 ---
 title: "Introduction to the normal distribution"
 author: "Thomas Kinzeler"
+weight: 32
 date: "2019-04-20"
-output:
-  html_document:
-    rmdformats::material
-  rmarkdown::word_document: 
-  tufte::tufte_handout:
-    citation_package: natbib
-    latex_engine: xelatex
 ---
 
 
@@ -22,7 +16,7 @@ library(LittleApp)
 It would be hard to overstate the centrality of the normal distribution to statistics and to the introductory statistics course. It's even got a cult following; for instance, you can buy a [normal pillow](https://www.etsy.com/listing/46573630/normal-distribution-fleece-pillow-made?ref=shop_home_active_3) or a [t-shirt](https://www.redbubble.com/people/mbibtyb/works/31787965-normal?cat_context=u-tees&grid_pos=17&p=t-shirt&rbs=50ea3cca-752f-41a5-b2e8-e36e9b31b7ba&ref=shop_grid&style=mens&searchTerm=normal%20distribution%20t-shirts).
 
 
-![](normal-pillow.jpg){ width=30% } ![](t-shirt3.jpg){ width=25% }
+![](/images/normal-pillow.jpg){ width=30% } ![](/images/t-shirt3.jpg){ width=25% }
 
 
 # Role in statistical practice
@@ -41,7 +35,7 @@ It's almost impossible to untangle the mathematical object that is the normal/ga
 
 It's easy for students to come away from a statistics course with the misconception that the the normal/gaussian distribution is what's to be expected for a well-behaved variable, e.g. the message of the t-shirt shown below.
 
-![](t-shirt4.jpg){ width=40% }
+![](/images/t-shirt4.jpg){ width=40% }
 
 Of course variables  are what they are.  Some of them have a distribution close to normal, others have  a distribution far from normal. It's important to demonstrate to students that legitimate variables often have a non-normal distribution. (Many of the data sets in the Little Apps have variables with skew distributions.)
 

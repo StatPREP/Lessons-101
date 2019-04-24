@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Data basics</title>
+      <link>/topics/instructions-data/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/topics/instructions-data/</guid>
+      <description> Lessons  [Data frames and spreadsheets] Variable types Variables and units Response and explanatory variables   Orientation for instructors Explaining what is data and what are the forms of data.
+Role in statistical practice  Conceptual pitfalls  Learning objectives  Student background  Background data knowledge  (If we had) the population  Student tasks and activities  Creating an active classroom  Assessment items  Pushing the envelope/advancing the field  Author info   </description>
+    </item>
+    
+    <item>
       <title>Jittering</title>
       <link>/lessons/jittering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -20,6 +30,16 @@
       <description>Orientation Graphical displays are effective when they connect well with human visual and cognitive faculties. Humans are extremely good at some visual tasks and surprisingly poor at others. To illustrate, consider the task of identifying how many 3’s there are in the following list:
 The task is difficult because recognizing shapes is a tough cognitive task.
 The task becomes much simpler if we take advantage of color, which our visual systems can process very quickly.</description>
+    </item>
+    
+    <item>
+      <title>Graphing data</title>
+      <link>/topics/instructions-graphing/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/topics/instructions-graphing/</guid>
+      <description> Lessons  Point plots Jittering and violins Summary intervals Response and explanatory variables   Orientation for instructors Showing the basic kinds of plots: data/density/interval
+Role in statistical practice  Conceptual pitfalls  Learning objectives  Student background  Background data knowledge  (If we had) the population  Student tasks and activities  Creating an active classroom  Assessment items  Pushing the envelope/advancing the field  Author info   </description>
     </item>
     
     <item>
@@ -112,6 +132,25 @@ Another setting in which it’s helpful to express uncertainty involves a sample
     </item>
     
     <item>
+      <title>Sampling bias and the confidence interval</title>
+      <link>/lessons/sampling-bias/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lessons/sampling-bias/</guid>
+      <description>Orientation The lesson on What is a confidence interval? showed how confidence intervals are supposed to behave. Specifically, a 95% confidence interval should cover the corresponding population parameter for 95% of possible samples. Achieving this performance of course depends on the confidence interval being calculated with an appropriate procedure. But it also depends on the sample being unbiased.
+An unbiased sample is one where each member of the population has exactly the same probability of being included in a sample.</description>
+    </item>
+    
+    <item>
+      <title>Center &amp; spread</title>
+      <link>/topics/instructions-center-spread/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/topics/instructions-center-spread/</guid>
+      <description>Lessons  Variables and their summary intervals The standard deviation and the summary interval Shapes of distributions The normal distribution   Orientation for instructors Early in most introductory statistics courses, students are taught ways to describe quantitative variables. As regards numerical descriptions, the mean and standard deviation are “normal.” (Pun intended.) The median and interquartile range offer an alternative when the variable is “skew.” The means and/or median are described as “representative” or “typical” values.</description>
+    </item>
+    
+    <item>
       <title>Comparing two groups</title>
       <link>/lessons/comparing-two-groups/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -121,13 +160,13 @@ Another setting in which it’s helpful to express uncertainty involves a sample
     </item>
     
     <item>
-      <title>The square root of n</title>
-      <link>/lessons/sqrt-n/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Introduction to the normal distribution</title>
+      <link>/topics/instructions-normal-distribution/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/lessons/sqrt-n/</guid>
-      <description> Orientation  Activity Version 0.2, 2019-04-23, Danny Kaplan, Word version
- </description>
+      <guid>/topics/instructions-normal-distribution/</guid>
+      <description>Orientation for instructors It would be hard to overstate the centrality of the normal distribution to statistics and to the introductory statistics course. It’s even got a cult following; for instance, you can buy a normal pillow or a t-shirt.
+ Role in statistical practice Fundamentally, the normal distribution provides a standard for defining “extreme” and “middle.” We measure distance from the mean in terms of the standard deviation. A value two or more standard deviations from the mean is practically the definition of “exteme.</description>
     </item>
     
     <item>
@@ -150,6 +189,16 @@ A possible explanation for the observed difference in the two means is that it i
     </item>
     
     <item>
+      <title>Confidence intervals</title>
+      <link>/topics/instructions-confidence-intervals/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/topics/instructions-confidence-intervals/</guid>
+      <description>Lessons  What is a confidence interval? Sampling bias and confidence intervals Comparing two groups Comparing two confidence intervals Two-sample t test   Orientation A fundamental aspect of statistical reasoning is recognizing that estimates computed from a sample are, to some extent, random. That is, another sample will likely produce a different estimate.
+Remarkably, we can estimate the amount of uncertainty due to the randomness of sampling from just a single sample.</description>
+    </item>
+    
+    <item>
       <title>Describing relationship patterns in words and numbers</title>
       <link>/lessons/relationship-patterns/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -158,6 +207,16 @@ A possible explanation for the observed difference in the two means is that it i
       <description>Orientation It’s natural to display a linear regression as a graph modeling the response variable as a function of the explanatory variables. In the LA_linear_regression Little App, that function is shown as a line laid on top of the data.
 Graphics are important, but it’s also a good practice to summarize the relationship using words and numbers.
 This lesson introduces the conventions for such a summary. Some of them may already be familiar to you.</description>
+    </item>
+    
+    <item>
+      <title>Two-sample t test</title>
+      <link>/topics/instructions-two-sample-t-test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/topics/instructions-two-sample-t-test/</guid>
+      <description>Orientation for instructors The two-sample t-test is a staple of introductory statistics. In many courses, it is the most advanced topic taught. In others, it is followed by linear regression and/or ANOVA. At Howard Community College, the t-test is taught in the last 2 weeks of our course.
+A t-test is part of the apparatus of statistical inference. The purpose of statistical inference is to guide valid conclusions about the population from a sample.</description>
     </item>
     
     <item>
@@ -171,51 +230,22 @@ Models are useful when they serve a purpose. For instance, a toy plane can serve
     </item>
     
     <item>
-      <title>Data and Point Plots</title>
-      <link>/lessons/point_plot/</link>
-      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/lessons/point_plot/</guid>
-      <description>Orientation Data can be many things, but one of the most common formats is a data frame, a kind of spreadsheet of rows and columns. We’ll work with the data frame Births_2014, which is based on data published by the US Centers for Disease Control. Births_2014 has 100,000 rows. Each row reports a live birth in the US in 2014. There are dozens of variables, a few of which are shown below.</description>
-    </item>
-    
-    <item>
-      <title>Center &amp; spread</title>
-      <link>/topics/instructions-center-spread/</link>
-      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/topics/instructions-center-spread/</guid>
-      <description>Orientation for instructors Early in most introductory statistics courses, students are taught ways to describe quantitative variables. As regards numerical descriptions, the mean and standard deviation are “normal.” (Pun intended.) The median and interquartile range offer an alternative when the variable is “skew.” The means and/or median are described as “representative” or “typical” values. The standard deviation describes how far “typical” values are from the mean, that is, how much “typical” values are spread out.</description>
-    </item>
-    
-    <item>
-      <title>Introduction to the normal distribution</title>
-      <link>/topics/instructions-normal-distribution/</link>
-      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/topics/instructions-normal-distribution/</guid>
-      <description>Orientation for instructors It would be hard to overstate the centrality of the normal distribution to statistics and to the introductory statistics course. It’s even got a cult following; for instance, you can buy a normal pillow or a t-shirt.
- Role in statistical practice Fundamentally, the normal distribution provides a standard for defining “extreme” and “middle.” We measure distance from the mean in terms of the standard deviation. A value two or more standard deviations from the mean is practically the definition of “exteme.</description>
-    </item>
-    
-    <item>
-      <title>Confidence intervals</title>
-      <link>/topics/instructions-confidence-intervals/</link>
-      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/topics/instructions-confidence-intervals/</guid>
-      <description>Lessons  Variation and the 95% summary interval Comparing two groups \(\sqrt{n}\) and confidence intervals   Orientation A fundamental aspect of statistical reasoning is recognizing that estimates computed from a sample are, to some extent, random. That is, another sample will likely produce a different estimate.
-Remarkably, we can estimate the amount of uncertainty due to the randomness of sampling from just a single sample. We quantify this uncertainty with a margin of error.</description>
-    </item>
-    
-    <item>
       <title>Linear regression</title>
       <link>/topics/instructions-linear-regression/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/topics/instructions-linear-regression/</guid>
-      <description>Orientation for instructors Linear regression is one of the oldest and most widely used statistical techniques. It is used to describe or model a connection or relationship between a quantitative response variable and one or more explanatory variables.
+      <description>Lessons  Describing relationship patterns How much is explained by regression? NEED TO ADD a lesson about fitting regression lines, using the LA_sum_of_square_errors   Orientation for instructors Linear regression is one of the oldest and most widely used statistical techniques. It is used to describe or model a connection or relationship between a quantitative response variable and one or more explanatory variables.
 Many, perhaps most, introductory statistics courses cover simple regression, which is a special case of linear regression in which the response variable, \(y\) is modeled as a straight-line function of the explanatory variable \(x\), that is, \(y = f(x) = a x + b\).</description>
+    </item>
+    
+    <item>
+      <title>Data and Point Plots</title>
+      <link>/lessons/point-plot/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/lessons/point-plot/</guid>
+      <description>Orientation Data can be many things, but one of the most common formats is a data frame, a kind of spreadsheet of rows and columns. We’ll work with the data frame Births_2014, which is based on data published by the US Centers for Disease Control. Births_2014 has 100,000 rows. Each row reports a live birth in the US in 2014. There are dozens of variables, a few of which are shown below.</description>
     </item>
     
     <item>
@@ -312,16 +342,6 @@ What’s key is to constantly look for opportunities to force students to make a
       <guid>/etc/blogdown-changes/</guid>
       <description>  Added an index.html under hugo-lithium/ to set homepage content.
  Added word-versions directory under static.  Used blogdown::build_dir(&amp;quot;.&amp;quot;) in lessons directory to build word versions of all lessons. Used OS tools to copy .docx files to the static/word-versions directory. Added a link at the bottom of each lesson .Rmd file to point to the word version.   </description>
-    </item>
-    
-    <item>
-      <title>The two-sample t test</title>
-      <link>/topics/instructions-two-sample-t-test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/topics/instructions-two-sample-t-test/</guid>
-      <description>Orientation for instructors The two-sample t-test is a staple of introductory statistics. In many courses, it is the most advanced topic taught. In others, it is followed by linear regression and/or ANOVA. At Howard Community College, the t-test is taught in the last 2 weeks of our course.
-A t-test is part of the apparatus of statistical inference. The purpose of statistical inference is to guide valid conclusions about the population from a sample.</description>
     </item>
     
   </channel>
