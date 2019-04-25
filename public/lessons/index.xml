@@ -179,5 +179,15 @@ Models are useful when they serve a purpose. For instance, a toy plane can serve
       <description>Orientation Data can be many things, but one of the most common formats is a data frame, a kind of spreadsheet of rows and columns. We’ll work with the data frame Births_2014, which is based on data published by the US Centers for Disease Control. Births_2014 has 100,000 rows. Each row reports a live birth in the US in 2014. There are dozens of variables, a few of which are shown below.</description>
     </item>
     
+    <item>
+      <title>Flexibility</title>
+      <link>/lessons/flexibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lessons/flexibility/</guid>
+      <description> Orientation  Activity Version 0.2, 2019-04-25, Daniel Kaplan, Word version
+ </description>
+    </item>
+    
   </channel>
 </rss>

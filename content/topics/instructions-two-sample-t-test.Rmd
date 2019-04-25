@@ -59,7 +59,7 @@ The "t" component of a t-test is relevant only for small data sets, say $n < 20$
 
 The t statistic is the square root of the more general F statistic, but applies only for situations where the degree of freedom in the denominator is 1. 
 
-One place where statistics instructors make use of t differently from F is that t can be handled as either a one-tailed or a two-tailed test, while F is always the equivalent of the two-tailed test. But keep in mind that one should always be suspicious of one-tailed tests. The *only* justification for a one-tailed test is to increase power, but since power is not usually a subject in intro stats, there is no meaningful way to explain what the potential  benefit of doing one would be. And, there are large potential costs. Often one-tailed tests are used as a form of p-hacking. The New England Journal of Medicine has a [nice explanation]((https://www.bmj.com/content/309/6949/248) of why to avoid one-tailed test:
+One place where statistics instructors make use of t differently from F is that t can be handled as either a one-tailed or a two-tailed test, while F is always the equivalent of the two-tailed test. But keep in mind that one should always be suspicious of one-tailed tests. The *only* justification for a one-tailed test is to increase power, but since power is not usually a subject in intro stats, there is no meaningful way to explain what the potential  benefit of doing one would be. And, there are large potential costs. Often one-tailed tests are used as a form of p-hacking. The New England Journal of Medicine has a [nice explanation](https://www.bmj.com/content/309/6949/248) of why to avoid one-tailed test:
 
 > Expectation of a difference in a particular direction is not adequate justification. In medicine, things do not always work out as expected, and researchers may be surprised by their results. For example, Galloe et al found that oral magnesium significantly increased the risk of cardiac events, rather than decreasing it as they had hoped. If a new treatment kills a lot of patients we should not simply abandon it; we should ask why this happened.
 
@@ -93,14 +93,14 @@ Typical course  objectives relating to the t-based test and confidence interval 
 Students will need some background statistical knowledge to be able to follow lessons on the t-test.
 
 * Basic:
-    - Know the difference between a quantitative variable and a categorical variable. For a  categorical variable, know the number of *levels* of the variable. Resources: [Little App on  jitter plots](https://dtkaplan.shinyapps.io/LA_center_spread/) and the lessons on [point plots](../Lesson-guide.html#point_plot) and [variable types](../Lesson-guide.html#variable_types)
-    - Be comfortable with graphical presentations showing a quantitative variable versus a two-level categorical variable. In this lesson, we use jitter plots. Helpful resources: [Little App on  jitter plots](https://dtkaplan.shinyapps.io/LA_center_spread/)
-    - Understand the distinction between "center" and  "spread" of  a distribution of values. Resources: [Little App on center and spread](https://dtkaplan.shinyapps.io/LA_center_spread/) and lessons on [describing spread](../Lesson-guide.html#summary_interval) and the [standard deviation](../Lesson-guide.html#normal_parameters).
+    - Know the difference between a quantitative variable and a categorical variable. For a  categorical variable, know the number of *levels* of the variable. Resources: [Little App on  jitter plots](`r LittleApp::get_app_info("jitter")$url`) and the lessons on [point plots](/lessons/point-plot) and [variable types](/lessons/variable-types/)
+    - Be comfortable with graphical presentations showing a quantitative variable versus a two-level categorical variable. In this lesson, we use jitter plots. Helpful resources: [Little App on  jitter plots](`r LittleApp::get_app_info("jitter")$url`)
+    - Understand the distinction between "center" and  "spread" of  a distribution of values. Resources: [Little App on center and spread](`r LittleApp::get_app_info("center")$url`) and lessons on [describing spread](/lessons/summary-interval/) and the [standard deviation](/lessons/normal-parameters/).
     - Understand the process of sampling and the distinction between a population and a sample, and, correspondingly, a "parameter" and a "statistic".
     - Understand how a descriptive statistic is a summary of a *group* and combines many individual observations.
 * Intermediate
     - Be aware central purpose of *statistical inference*, namely to draw  valid  conclusions about the *population*  from a *sample*.
-    - Understand that confidence intervals describe the uncertainty in a sample statistic due to  sampling variation. Resources: [Little App on resampling](https://dtkaplan.shinyapps.io/LA_bootstrap) 
+    - Understand that confidence intervals describe the uncertainty in a sample statistic due to  sampling variation. Resources: [Little App on resampling](`r LittleApp::get_app_info("bootstrap")$url`) 
     - Be familiar with the basic nomenclature and logic of hypothesis testing: null-hypothesis, test-statistic, sampling distribution under the null, observed value from the  sample, p-value.
 
 

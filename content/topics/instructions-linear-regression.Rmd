@@ -80,8 +80,8 @@ The F statistic also generalizes to nonlinear formulas $y = f(x)$. Roughly speak
 
 ## Learning objectives connected to linear regression
 
-* Create scatterplots for bivariate data using graphing technology where appropriate. Lesson: [point plots](../Lesson-guide.html#point_plot)
-* Sensibly choose which variable should be the response and which the explanatory variable, and know when it does and doesn't matter. (Other nomenclature for explanatory/response:  predictor/response or independent/dependent.) Lesson: [response and explanatory variables](../Lesson-guide.html#response_explanatory)
+* Create scatterplots for bivariate data using graphing technology where appropriate. Lesson: [point plots](/lessons/point-plot/)
+* Sensibly choose which variable should be the response and which the explanatory variable, and know when it does and doesn't matter. (Other nomenclature for explanatory/response:  predictor/response or independent/dependent.) Lesson: [response and explanatory variables](/lessons/response-and-explanatory/)
     - External evidence of which  direction  causation goes, e.g. hours work explains total pay.
     - Why are you making a prediction:
         - Deduce from something easy to measure, something that would be hard to measure. Future.
@@ -103,7 +103,7 @@ The F statistic also generalizes to nonlinear formulas $y = f(x)$. Roughly speak
     - plug in an input to get an output
     - recognize extrapolation as unsafe
     - proper prediction includes the residual variation around the model.
-* Use technology to find linear regression models and correlation coefficients for a pair of variables Lesson: [relationship-patterns](../Lesson-guide.html#relationship_patterns)
+* Use technology to find linear regression models and correlation coefficients for a pair of variables Lesson: [relationship-patterns](/lessons/relationship-patterns/)
 * Understand the pitfalls of extrapolation
 * Be able to make a point plot using technology and to relate the location of each point to the corresponding row in a data table.
 * Develop an intuition for how a mathematical function can describe the pattern in a point-plot cloud.
@@ -117,8 +117,8 @@ The F statistic also generalizes to nonlinear formulas $y = f(x)$. Roughly speak
 
 Students will need some background knowledge in order to follow lessons  on simple regression.
 
-- Variable types: quantitative and categorical Lesson: [variable types](../Lesson-guide.html#variable_types)
-- Point plot: (The term "scatter plot" has traditionally been used.) Lesson: [point plots](../Lesson-guide.html#point_plots)
+- Variable types: quantitative and categorical Lesson: [variable types](/lessons/variable-types/)
+- Point plot: (The term "scatter plot" has traditionally been used.) Lesson: [point plots](/lessons/point-plots)
     * each axis corresponds to a variable
     * each row is one dot. 
 - Mathematical functions:
@@ -127,7 +127,7 @@ Students will need some background knowledge in order to follow lessons  on simp
     * the straight-line function
         - slope (primary importance here)
         - intercept
-- Understand distinctions between various reasons for examining relationship. Lesson: [response and explanatory variables](../Lesson-guide.html#response_explanatory)
+- Understand distinctions between various reasons for examining relationship. Lesson: [response and explanatory variables](/lessons/response-and-explanatory/)
     * to make a prediction of the unknown value of a variable given the known values of other variables
     * to anticipate the result of an intervention (This is a form of prediction that assumes a specific causal relationship)
     * to demonstrate that two variables are connected in some way.
