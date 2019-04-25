@@ -47,6 +47,8 @@ Showing the basic kinds of plots: data/density/interval
 
 ## Creating an active classroom
 
+See the document on [general tips for creating an active classroom](/etc/tips-for-active-classroom.html). 
+
 
 
 ## Assessment items

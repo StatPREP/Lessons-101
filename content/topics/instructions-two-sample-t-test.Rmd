@@ -106,7 +106,7 @@ Students will need some background statistical knowledge to be able to follow le
 
 # Creating an active classroom
 
-See the document on [general tips for creating an active classroom](../General/tips-for-active-classroom.html). 
+See the document on [general tips for creating an active classroom](/etc/tips-for-active-classroom.html). 
 
 Some specific discussion topics/themes for t-tests.
 

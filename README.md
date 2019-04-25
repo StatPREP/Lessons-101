@@ -1,8 +1,12 @@
 # Lessons-101 Repository
 
-This is the repository for StatPREP lessons created for the "Six-topics" project launched in September 2018.
+This is the underlying repository for StatPREP lessons created for the "Six-topics" project launched in September 2018.
 
 The purpose of the Six-topics project was to provide content where *conventional topics* in introductory statistics can be taught using data, particularly drawing on the Little Apps.
+
+
+The  public-facing version of this is available at the [web site](https://angry-mclean-54c866.netlify.com/lessons/summary-interval/). This repo is what's used to generate the web site.
+
 
 ## Organization
 

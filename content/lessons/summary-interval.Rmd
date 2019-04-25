@@ -21,21 +21,6 @@ library(DT)
 center_app <- get_app_info("spread")
 ```
 
-
-One | 20mm | 75mm
-:----|:------:|:------:
-Two | ![](/images/20mm-blank.png) | ![](/images/75mm-blank.png)
-Three | a | b
-| ![](/images/20mm-blank.png)
-Five | c | d
-
-
-
-
-![](/images/100mm-space.png)
-
-
-
 # Orientation
 
 Why is the word *variable* used to describe a column of a data frame? In mathematics, a variable is an *unknown* quantity. In math class, when they say "solve for x," they mean figure out what the value of unknown x is. 

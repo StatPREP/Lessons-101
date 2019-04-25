@@ -85,6 +85,9 @@ If you teach calculus as well as statistics, you might be tempted to point to th
 
 # Creating an active classroom
 
+See the document on [general tips for creating an active classroom](/etc/tips-for-active-classroom.html). 
+
+
 * Directly engage the matter  of  how the meaning of "normal" in statistics is different from the everyday meaning. 
     - Ask students to think about the word "normal" means outside the statistics class.
 
