@@ -20,8 +20,8 @@ library(DT)
 
 There are two major types of variables:
 
-* Quantitative, where the *value* of the variable is a number.
-* Categorical,  where the value of the variable is one of a set of labels. That is, the value tells which *category* or *group* the row falls into.
+* **Quantitative**, where the *value* of the variable is a number.
+* **Categorical**,  where the value of the variable is one of a set of labels. That is, the value tells which *category* or *group* the row falls into.
 
 It's usually easy to tell what type a variable is by looking at the variable's column in the data frame. But it's also easy to tell from a point plot what are the types of the response and explanatory variables.
 
@@ -63,4 +63,4 @@ Open the [Point Plot Little App](`r point_plot_app$url`). Set the data frame to 
 
 ----------------------
 
-Version 0.1, `r Sys.Date()`, Daniel Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 
+Version 0.2, `r Sys.Date()`, Daniel Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 

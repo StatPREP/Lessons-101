@@ -36,7 +36,7 @@ In this lesson, your're going to work on steps (1) and (2).
 
 ## Activity
 
-You'll use the  [`r point_plot_app$name`](`r point_plot_app$url`) Little App for this lesson. Open the  little app and select the `NHANES` data.
+You'll use the  [variables-and-units  Little App](`r point_plot_app$url`) for this lesson. Open the  little app and select the `NHANES` data.
 
 
 Steps (1)  and (2) are to find  out about the data frame: What is the unit of analysis  and what are the variables. A standard  place to get  information about a data frame is the *codebook* for the data frame, which is the descriptive documentation about the data.
@@ -55,4 +55,4 @@ The *unit of observation* is the kind of "thing" each row of the data is about. 
 
 ----------------------
 
-Version 0.1, `r Sys.Date()`, Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 
+Version 0.2, `r Sys.Date()`, Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 

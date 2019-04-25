@@ -56,13 +56,9 @@ Regrettably, when one or both of the variables in a point plot are categorical, 
 
 *Jittering* and *transparency* are techniques to modify point plots so that we can see the relative density for different values of the variable.
 
-
-The relationship shown in the [`r jitter_app$name`](`r jitter_app$url`) Little App is (by default) a straight line. (If there is a covariate, there will be multiple lines, one for each level of the covariate.) There are two important ways you can describe such lines:
-
-
 # Activity
 
-1. Open up the [`r jitter_app$name`](`r jitter_app$url`) Little App. Select `NHANES` as the data frame,  with `sex` as the response variable and `education` as the explanatory variable.  Leave the sample size a n = 50.
+1. Open up the [jittering Little App`](`r jitter_app$url`). Select `NHANES` as the data frame,  with `sex` as the response variable and `education` as the explanatory variable.  Leave the sample size a n = 50.
 
     * Count the points in the image. Are there n = 50 dots visible? 
 
@@ -100,4 +96,4 @@ The relationship shown in the [`r jitter_app$name`](`r jitter_app$url`) Little A
 
 ----------------------
 
-Version 0.1, `r Sys.Date()`, Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 
+Version 0.2, `r Sys.Date()`, Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 

@@ -35,7 +35,9 @@ gf_point(baby_wt ~ gestation,
 
 ```
 
-# Activity
+# Exercise
+
+Referring to the graph in the previous section ...
 
 1. Find in the graph the dot corresponding to the first row in the data table above, the one for a male baby delivered spontaneously to a 28 year-old mother.
 2. Describe the overall pattern shown in the graph as a whole. Use whatever form of description you think is appropriate.
@@ -43,7 +45,7 @@ gf_point(baby_wt ~ gestation,
 4. Describe how much *variation* there is in gestation length.
 5. At which length of gestation are the heaviest babies born?
 
-## Activity
+# Activity
 
 ```{r echo = FALSE}
 point_plot_app <- get_app_info("point_plot")
@@ -76,4 +78,4 @@ Open the [Point Plot Little App](`r point_plot_app$url`).
 
 ----------------------
 
-Version 0.1, `r Sys.Date()`, Daniel Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 
+Version 0.2, `r Sys.Date()`, Daniel Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 

@@ -58,17 +58,17 @@ rare_app <- get_app_info("rare")
 
 Response     | Explanatory  | Statistical technique   | Little App
 -------------|--------------|-------------------------|-------------
-Quantitative | Quantitative |  linear regression      | [`r LR$name`](`r LR$url`)
-Quantitative | Categorical  |  group-wise means       | [`r TT$name`](`r TT$url`)
-Categorical  | Quantitative |  proportion regression  | [`r PR$name`](`r PR$url`)
-Categorical  | Categorical  |  group-wise proportions | [`r PR$name`](`r PR$url`)
+Quantitative | Quantitative |  linear regression      | [linear regression](`r LR$url`)
+Quantitative | Categorical  |  group-wise means       | [t-test](`r TT$url`)
+Categorical  | Quantitative |  proportion regression  | [proportions](`r PR$url`)
+Categorical  | Categorical  |  group-wise proportions | [proportions](`r PR$url`)
 
 
 Depending on where you are in you statistics course, you might have not yet encountered one of these techniques or the other.
 
 We're going to give you a few pairs of variables. For each pair, you are to:
 
-1. View the data with a point plot, using the [`r point_plot_app$name`](`r point_plot_app$url`) Little App. This will let you readily see which type each variable is. (The choice of one variable as response and one as explanatory isn't critical here, since the reverse choice would generate the same plot but turned around the diagonal to reverse the axes.)
+1. View the data with a point plot, using the [point-plot Little App](`r point_plot_app$url`). This will let you readily see which type each variable is. (The choice of one variable as response and one as explanatory isn't critical here, since the reverse choice would generate the same plot but turned around the diagonal to reverse the axes.)
 
 2. Use the point-plot Little App to visualize  the relationship. Characterize it as "strong",  "moderate", "weak" or  "none". You don't need to give a more detailed description. We just want you to decide whether you can see a clear relationship or not.
 
@@ -81,16 +81,15 @@ We're going to give you a few pairs of variables. For each pair, you are to:
     
 5. Say whether the relationship (is any) shown by the statistics in the Little App is clearly than the relationship you discerned in step (2) from the point plot. 
 
-6. Consider causation. Sometimes causation is a matter of common sense (the rising sun causes the rooster to crow), and sometimes it can be subtle or is a matter of your beliefs about how things work in the world. No matter, it is always one of these five possibilities. The simplest to understand are these three:
+6. Consider causation. Sometimes causation is a matter of common sense (the rising sun causes the rooster to crow), and sometimes it can be subtle or is a matter of your beliefs about how things work in the world. No matter, it is always one of a small set of possibilities. The simplest to understand are these three:
 
     a. A causes B.
     b. B causes A.
-    c. A & B are both caused in common by another factor, C.
+    c. A & B are both caused in common by another factor, C. (This is called a "common cause" relationship.)
      
-    More subtle, and harder to understand even for professionals, are these two:
-
-    d. There is  no relationship between A and B, implying there is no causation involved or that the causation is being hidden by some other variables.
-    e. A & B both cause another factor C, and the data include only some of the possible range of values of C.
+    More subtle, and harder to understand even for professionals, is this  one:
+    
+    d. A & B both cause another factor C, and the data include only some of the possible range of values of C. (This is called a "collider" relationship.)
      
      Tasks
      
@@ -129,4 +128,4 @@ These variables are found in the data available through the Little App. For simp
 
 ----------------------
 
-Version 0.1, `r Sys.Date()`, Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 
+Version 0.2, `r Sys.Date()`, Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 
