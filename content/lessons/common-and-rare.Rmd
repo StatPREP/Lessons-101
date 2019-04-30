@@ -15,7 +15,7 @@ library(DT)
 rare_app <- get_app_info("rare")
 ```
 
-# Orientation
+# Orientation 
 
 English has many words to describe what statistician's call *frequency*: common, unusual, rare, infrequent, uncommon, and so on. There's no precise, numerical meaning to these words; they are used to create an impression.
 
