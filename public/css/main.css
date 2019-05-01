@@ -50,7 +50,11 @@ code {
 
 .nav-logo {
   float: left;
+  font-weight: bold;
+  color: blue;
+  font: 24px arial, sans-serif;
   margin-top: -11px;
+  margin-left: 10px;
   transition: transform 150ms ease-out;
 }
 
