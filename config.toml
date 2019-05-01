@@ -23,7 +23,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "/littleapps/"
     weight = 10
 [[menu.main]]
-    name = "Misc."
+    name = "+"
     url = "/etc/" 
     weight = 20
 
