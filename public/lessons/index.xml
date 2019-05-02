@@ -63,10 +63,10 @@ In statistics, a variable is different. It’s a known quantity – known becaus
     
     <item>
       <title>The standard deviation and the 95% summary interval</title>
-      <link>/lessons/sd_and_summary_interval/</link>
+      <link>/lessons/sd-and-summary-interval/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/lessons/sd_and_summary_interval/</guid>
+      <guid>/lessons/sd-and-summary-interval/</guid>
       <description>Orientation The length of the 95% summary interval is a pretty good way to describe the amount of variation in a variable. Yet statisticians tend to prefer using the standard deviation. This makes sense, since statisticians are interested in confusing the poor student by using obscure names (“Deviation?”. Really?) and formulas that can be hard to understand. … Not really!! Even though the standard deviation has an odd name and seems complicated, the actual reason it’s used so much by statisticians is that it has some nice mathematical properties.</description>
     </item>
     
@@ -207,7 +207,8 @@ Version 0.2, 2019-05-01, Daniel Kaplan, Word version
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/lessons/flexibility/</guid>
-      <description> Orientation  Activity Version 0.2, 2019-05-01, Daniel Kaplan, Word version
+      <description> Orientation  Activity Systolic versus diastolic in NHANES. A stiff line is too strongly influenced by the people with very low diastolic blood pressure. Adding some flexibility allows the relationship for those with normal pressure to be more evident. I’m guessing very low diastolic pressure is OK, but you can’t lower systolic pressure accordingly and stay alive.
+Version 0.2, 2019-05-02, Daniel Kaplan, Word version
  </description>
     </item>
     

@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Little Apps: Orientation</title>
+      <link>/littleapps/orientation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/littleapps/orientation/</guid>
+      <description>Little Apps provide interactive computing with no coding to calculate statistics, fit models, and display statistical concepts.
+Every Little App is built around a common framework:
+ At the core is a data graphic. The vertical axis is the response variable and the horizontal axis is the explanatory variable. Controls enable you to select a data set and variables. Set the sample size and easily display a new sample. Statistics are shown as annotations, always with respect to the data.</description>
+    </item>
+    
+    <item>
       <title>Data basics</title>
       <link>/topics/instructions-data/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
@@ -105,6 +116,17 @@ There’s another distinction to be made about variables, which is not about the
     </item>
     
     <item>
+      <title>Center and spread</title>
+      <link>/littleapps/center-spread/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/littleapps/center-spread/</guid>
+      <description>Center-and-spread Little App: Household income (as a multiplier of the poverty level) versus whether the household owns or rents their home. Note the skew distribution for renters. Click here to launch.   
+The Center-and-spread Little App displays a jittered point plot of the response variable, which can be annotated with a variety of statistics often used to quantify “center” and “spread.”
+ Standard deviation “ruler” helps clarify that the sd is a distance rather than a value of the variable.</description>
+    </item>
+    
+    <item>
       <title>Variation and the 95% summary interval</title>
       <link>/lessons/summary-interval/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -116,10 +138,10 @@ In statistics, a variable is different. It’s a known quantity – known becaus
     
     <item>
       <title>The standard deviation and the 95% summary interval</title>
-      <link>/lessons/sd_and_summary_interval/</link>
+      <link>/lessons/sd-and-summary-interval/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/lessons/sd_and_summary_interval/</guid>
+      <guid>/lessons/sd-and-summary-interval/</guid>
       <description>Orientation The length of the 95% summary interval is a pretty good way to describe the amount of variation in a variable. Yet statisticians tend to prefer using the standard deviation. This makes sense, since statisticians are interested in confusing the poor student by using obscure names (“Deviation?”. Really?) and formulas that can be hard to understand. … Not really!! Even though the standard deviation has an odd name and seems complicated, the actual reason it’s used so much by statisticians is that it has some nice mathematical properties.</description>
     </item>
     
@@ -142,6 +164,17 @@ The t-test Little App connects the t-interval to the .
       <guid>/lessons/common-and-rare/</guid>
       <description>Orientation English has many words to describe what statistician’s call frequency: common, unusual, rare, infrequent, uncommon, and so on. There’s no precise, numerical meaning to these words; they are used to create an impression.
 In statistics, it’s helpful to have standard ways to refer to frequency. The standard deviation provides a widely accepted measure of commonality or rareness. It’s not just statisticians who use this measure. They are used in psychology and social science, in physical science (where the standard deviation is often called “sigma”).</description>
+    </item>
+    
+    <item>
+      <title>Linear regression</title>
+      <link>/littleapps/linear-regression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/littleapps/linear-regression/</guid>
+      <description>Regression Little App: Systolic versus diastolic blood pressure from the National Health and Nutrition Evaluation Survey. Click here to launch.   
+The linear regression Little App displays a jittered point plot of two quantitative variables. Upon this is layered two annotations:
+A regression model. By default this is simple linear regression, but you can also incorporate a covariate and add curvature to the model. Two sets of short horizontal bars to the right of the graph, together with an interval showing the standard deviation.</description>
     </item>
     
     <item>
@@ -320,7 +353,8 @@ Version 0.2, 2019-05-01, Daniel Kaplan, Word version
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/lessons/flexibility/</guid>
-      <description> Orientation  Activity Version 0.2, 2019-05-01, Daniel Kaplan, Word version
+      <description> Orientation  Activity Systolic versus diastolic in NHANES. A stiff line is too strongly influenced by the people with very low diastolic blood pressure. Adding some flexibility allows the relationship for those with normal pressure to be more evident. I’m guessing very low diastolic pressure is OK, but you can’t lower systolic pressure accordingly and stay alive.
+Version 0.2, 2019-05-02, Daniel Kaplan, Word version
  </description>
     </item>
     

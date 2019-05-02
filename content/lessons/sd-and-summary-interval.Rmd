@@ -6,20 +6,18 @@ description: "Relating the 95% summary interval to a traditional measure of spre
 output:
   word_document:
     reference_docx: lesson-style.docx
-  html_document:
-    rmdformats::material
-  pdf_document: tint::tintPdf
 ---
 
 
 ```{r include = FALSE}
-SDSdata::sds_setup()
+library(SDSdata)
+library(knitr)
 library(LittleApp)
 library(DT)
 center_app <- get_app_info("spread")
 ```
 
-# Orientation
+# Orientation 
 
 The length of the *95% summary interval* is a pretty good way to describe the amount of variation in a variable. Yet statisticians tend to prefer using the *standard deviation*. This makes sense, since statisticians are interested in confusing the poor student by using obscure names ("Deviation?". Really?) and formulas that can be hard to understand. ... Not really!! Even though the standard deviation has an odd name and seems complicated, the actual reason it's used so much by statisticians is that it has some nice mathematical properties.
 

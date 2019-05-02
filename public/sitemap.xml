@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/littleapps/orientation/</loc>
+  </url>
+  
+  <url>
     <loc>/topics/instructions-data/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
   </url>
@@ -41,11 +45,15 @@
   </url>
   
   <url>
+    <loc>/littleapps/center-spread/</loc>
+  </url>
+  
+  <url>
     <loc>/lessons/summary-interval/</loc>
   </url>
   
   <url>
-    <loc>/lessons/sd_and_summary_interval/</loc>
+    <loc>/lessons/sd-and-summary-interval/</loc>
   </url>
   
   <url>
@@ -54,6 +62,10 @@
   
   <url>
     <loc>/lessons/common-and-rare/</loc>
+  </url>
+  
+  <url>
+    <loc>/littleapps/linear-regression/</loc>
   </url>
   
   <url>
@@ -250,7 +262,22 @@
   </url>
   
   <url>
+    <loc>/tags/mean/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/median/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/proportions/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/summary-interval/</loc>
     <priority>0</priority>
   </url>
   

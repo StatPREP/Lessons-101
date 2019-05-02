@@ -48,11 +48,38 @@
     </item>
     
     <item>
+      <title>mean</title>
+      <link>/tags/mean/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mean/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>median</title>
+      <link>/tags/median/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/median/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>proportions</title>
       <link>/tags/proportions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tags/proportions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>summary interval</title>
+      <link>/tags/summary-interval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/summary-interval/</guid>
       <description></description>
     </item>
     

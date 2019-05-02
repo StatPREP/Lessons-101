@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>Little Apps: Orientation</title>
+      <link>/littleapps/orientation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/littleapps/orientation/</guid>
+      <description>Little Apps provide interactive computing with no coding to calculate statistics, fit models, and display statistical concepts.
+Every Little App is built around a common framework:
+ At the core is a data graphic. The vertical axis is the response variable and the horizontal axis is the explanatory variable. Controls enable you to select a data set and variables. Set the sample size and easily display a new sample. Statistics are shown as annotations, always with respect to the data.</description>
+    </item>
+    
+    <item>
       <title>Introduction to data graphics</title>
       <link>/littleapps/point-plot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -44,6 +55,17 @@ The Proportions Little App allows you to explore how the probability of a catego
     </item>
     
     <item>
+      <title>Center and spread</title>
+      <link>/littleapps/center-spread/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/littleapps/center-spread/</guid>
+      <description>Center-and-spread Little App: Household income (as a multiplier of the poverty level) versus whether the household owns or rents their home. Note the skew distribution for renters. Click here to launch.   
+The Center-and-spread Little App displays a jittered point plot of the response variable, which can be annotated with a variety of statistics often used to quantify “center” and “spread.”
+ Standard deviation “ruler” helps clarify that the sd is a distance rather than a value of the variable.</description>
+    </item>
+    
+    <item>
       <title>Two-sample t-test</title>
       <link>/littleapps/two-sample-t/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -52,6 +74,17 @@ The Proportions Little App allows you to explore how the probability of a catego
       <description>T-test Little App: Weight versus self-described level of activity in the National Health and Nutrition Evaluation Survey. Click here to launch.   
 The t-test Little App connects the t-interval to the .
  Length of confidence intervals as a function of n. Examine variation in the means and intervals by taking new samples from the population. Use the measuring stick to look at differences in means, lengths of confidence intervals, overlaps between confidence intervals, etc.</description>
+    </item>
+    
+    <item>
+      <title>Linear regression</title>
+      <link>/littleapps/linear-regression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/littleapps/linear-regression/</guid>
+      <description>Regression Little App: Systolic versus diastolic blood pressure from the National Health and Nutrition Evaluation Survey. Click here to launch.   
+The linear regression Little App displays a jittered point plot of two quantitative variables. Upon this is layered two annotations:
+A regression model. By default this is simple linear regression, but you can also incorporate a covariate and add curvature to the model. Two sets of short horizontal bars to the right of the graph, together with an interval showing the standard deviation.</description>
     </item>
     
   </channel>
