@@ -69,4 +69,4 @@ Open up the [rare-and-common](`r rare_app$url`) Little App.  Set the response va
 
 ----------------------
 
-Version 0.1, `r Sys.Date()`, Thomas Kinzeler and Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`)
+Version 0.1, `r Sys.Date()`, Thomas Kinzeler and Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)

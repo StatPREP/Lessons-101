@@ -59,4 +59,4 @@ In  this activity, you're going to create sampling bias by ...
 
 ----------------------
 
-Version 0.1, `r Sys.Date()`, Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`)
+Version 0.1, `r Sys.Date()`, Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)

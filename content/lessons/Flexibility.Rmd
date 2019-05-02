@@ -31,4 +31,4 @@ Systolic versus diastolic in NHANES. A stiff line is too strongly influenced by 
 
 ----------------------
 
-Version 0.2, `r Sys.Date()`, Daniel Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 
+Version 0.2, `r Sys.Date()`, Daniel Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 

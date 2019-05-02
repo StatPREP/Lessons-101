@@ -76,4 +76,4 @@ You've already looked at how the max-to-min interval and the 95% summary interva
 
 ----------------------
 
-Version 0.2, `r Sys.Date()`, Daniel Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 
+Version 0.2, `r Sys.Date()`, Daniel Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 

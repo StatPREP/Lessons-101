@@ -96,4 +96,4 @@ Regrettably, when one or both of the variables in a point plot are categorical, 
 
 ----------------------
 
-Version 0.2, `r Sys.Date()`, Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 
+Version 0.2, `r Sys.Date()`, Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 

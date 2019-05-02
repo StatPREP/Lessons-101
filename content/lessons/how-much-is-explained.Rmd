@@ -88,4 +88,4 @@ smoother_plot(the_formula, the_formula, This_data, color = "black",
 
 ----------------------
 
-Version 0.1, `r Sys.Date()`, Helen Burn & Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`)
+Version 0.1, `r Sys.Date()`, Helen Burn & Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
