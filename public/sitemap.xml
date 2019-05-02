@@ -17,6 +17,18 @@
   </url>
   
   <url>
+    <loc>/littleapps/point-plot/</loc>
+  </url>
+  
+  <url>
+    <loc>/littleapps/jittering/</loc>
+  </url>
+  
+  <url>
+    <loc>/littleapps/proportions/</loc>
+  </url>
+  
+  <url>
     <loc>/lessons/variable-types/</loc>
   </url>
   
@@ -34,6 +46,10 @@
   
   <url>
     <loc>/lessons/sd_and_summary_interval/</loc>
+  </url>
+  
+  <url>
+    <loc>/littleapps/two-sample-t/</loc>
   </url>
   
   <url>
@@ -106,6 +122,14 @@
   </url>
   
   <url>
+    <loc>/lessons/changes-in-risk/</loc>
+  </url>
+  
+  <url>
+    <loc>/lessons/proportions/</loc>
+  </url>
+  
+  <url>
     <loc>/lessons/flexibility/</loc>
   </url>
   
@@ -128,53 +152,6 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2017-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/littleapps/</loc>
-    <lastmod>2017-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2017-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/r-markdown/</loc>
-    <lastmod>2017-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2017-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/littleapps/app3/</loc>
-    <lastmod>2017-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/plot/</loc>
-    <lastmod>2017-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/regression/</loc>
-    <lastmod>2017-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/2016/12/30/a-plain-markdown-post/</loc>
     <lastmod>2016-12-30T21:49:57-07:00</lastmod>
   </url>
@@ -191,18 +168,44 @@
   </url>
   
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/2015/07/23/hello-r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/littleapps/app2/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/littleapps/app1/</loc>
+    <loc>/tags/r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/plot/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/regression/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -229,6 +232,26 @@
   <url>
     <loc>/etc/blogdown-changes/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/little-app/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/littleapps/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/graphics/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/proportions/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>

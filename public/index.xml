@@ -43,6 +43,39 @@ Role in statistical practice  Conceptual pitfalls  Learning objectives  Student 
     </item>
     
     <item>
+      <title>Introduction to data graphics</title>
+      <link>/littleapps/point-plot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/littleapps/point-plot/</guid>
+      <description>Point plot Little App: Baby weight versus gestation in Births_2014. Click here to launch.   
+The point-plot Little App provides a quick path to making data graphics. Select the data set, the response and explanatory variables, and you’re there.
+ You can map color to a covariate and can facet the graph (as shown above) by another covariate. Works with both quantitative and categorical variables on either or both axes, for color, and for faceting.</description>
+    </item>
+    
+    <item>
+      <title>Jittering</title>
+      <link>/littleapps/jittering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/littleapps/jittering/</guid>
+      <description>   Jittering Little App: Self-described level of health versus frequency of feeling depressed in the National Health and Nutrition Evaluation Survey. Click here to launch.   
+The Jittering Little App shows how the general point-plot can be effective even when variables are categorical.
+ Students can adjust the amount of jittering and transparency. Can stratify sampling by the explanatory variable.  Suggested StatPREP 101 activities  Jittering activity   </description>
+    </item>
+    
+    <item>
+      <title>Proportions</title>
+      <link>/littleapps/proportions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/littleapps/proportions/</guid>
+      <description>Proportions Little App: Among births in the US, does the probability of an induced delivery vary with the length of gestation? Click here to launch.   
+The Proportions Little App allows you to explore how the probability of a categorical outcome varies with either categorical or quantitative variables.
+ Choose the level of the response variable for which you want to know the proportion. Display confidence intervals/bands.</description>
+    </item>
+    
+    <item>
       <title>Types of variables</title>
       <link>/lessons/variable-types/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -88,6 +121,17 @@ In statistics, a variable is different. It’s a known quantity – known becaus
       
       <guid>/lessons/sd_and_summary_interval/</guid>
       <description>Orientation The length of the 95% summary interval is a pretty good way to describe the amount of variation in a variable. Yet statisticians tend to prefer using the standard deviation. This makes sense, since statisticians are interested in confusing the poor student by using obscure names (“Deviation?”. Really?) and formulas that can be hard to understand. … Not really!! Even though the standard deviation has an odd name and seems complicated, the actual reason it’s used so much by statisticians is that it has some nice mathematical properties.</description>
+    </item>
+    
+    <item>
+      <title>Two-sample t-test</title>
+      <link>/littleapps/two-sample-t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/littleapps/two-sample-t/</guid>
+      <description>T-test Little App: Weight versus self-described level of activity in the National Health and Nutrition Evaluation Survey. Click here to launch.   
+The t-test Little App connects the t-interval to the .
+ Length of confidence intervals as a function of n. Examine variation in the means and intervals by taking new samples from the population. Use the measuring stick to look at differences in means, lengths of confidence intervals, overlaps between confidence intervals, etc.</description>
     </item>
     
     <item>
@@ -249,22 +293,35 @@ Many, perhaps most, introductory statistics courses cover simple regression, whi
     </item>
     
     <item>
+      <title>Changes in risk</title>
+      <link>/lessons/changes-in-risk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lessons/changes-in-risk/</guid>
+      <description> Orientation  Activity proportions little app
+Version 0.2, 2019-05-01, Daniel Kaplan, Word version
+ </description>
+    </item>
+    
+    <item>
+      <title>Comparing two proportions</title>
+      <link>/lessons/proportions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lessons/proportions/</guid>
+      <description> Orientation  Activity proportions little app
+Version 0.2, 2019-05-01, Daniel Kaplan, Word version
+ </description>
+    </item>
+    
+    <item>
       <title>Flexibility</title>
       <link>/lessons/flexibility/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/lessons/flexibility/</guid>
-      <description> Orientation  Activity Version 0.2, 2019-04-25, Daniel Kaplan, Word version
+      <description> Orientation  Activity Version 0.2, 2019-05-01, Daniel Kaplan, Word version
  </description>
-    </item>
-    
-    <item>
-      <title>Third Little App</title>
-      <link>/littleapps/app3/</link>
-      <pubDate>Sun, 23 Jul 2017 21:13:14 -0500</pubDate>
-      
-      <guid>/littleapps/app3/</guid>
-      <description>This will be THE SECOND little app file.</description>
     </item>
     
     <item>
@@ -295,24 +352,6 @@ Many, perhaps most, introductory statistics courses cover simple regression, whi
       <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
-    </item>
-    
-    <item>
-      <title>Second Little App</title>
-      <link>/littleapps/app2/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/littleapps/app2/</guid>
-      <description>This will be THE SECOND little app file.</description>
-    </item>
-    
-    <item>
-      <title>The very first Little App</title>
-      <link>/littleapps/app1/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/littleapps/app1/</guid>
-      <description>This will be a little app file.</description>
     </item>
     
     <item>

@@ -6,18 +6,20 @@
     <description>Recent content in regression on StatPREP 101</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Jul 2017 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
     
 	<atom:link href="/tags/regression/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Third Little App</title>
-      <link>/littleapps/app3/</link>
-      <pubDate>Sun, 23 Jul 2017 21:13:14 -0500</pubDate>
+      <title>Introduction to data graphics</title>
+      <link>/littleapps/point-plot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/littleapps/app3/</guid>
-      <description>This will be THE SECOND little app file.</description>
+      <guid>/littleapps/point-plot/</guid>
+      <description>Point plot Little App: Baby weight versus gestation in Births_2014. Click here to launch.   
+The point-plot Little App provides a quick path to making data graphics. Select the data set, the response and explanatory variables, and you’re there.
+ You can map color to a covariate and can facet the graph (as shown above) by another covariate. Works with both quantitative and categorical variables on either or both axes, for color, and for faceting.</description>
     </item>
     
     <item>
@@ -29,24 +31,6 @@
       <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
-    </item>
-    
-    <item>
-      <title>Second Little App</title>
-      <link>/littleapps/app2/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/littleapps/app2/</guid>
-      <description>This will be THE SECOND little app file.</description>
-    </item>
-    
-    <item>
-      <title>The very first Little App</title>
-      <link>/littleapps/app1/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/littleapps/app1/</guid>
-      <description>This will be a little app file.</description>
     </item>
     
   </channel>

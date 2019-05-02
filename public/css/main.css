@@ -315,6 +315,10 @@ code {
   }
 }
 
+.thumbnail:hover {
+  transform: scale(1.8);
+}
+
 @media print {
   .header, .footer {
     display: none;

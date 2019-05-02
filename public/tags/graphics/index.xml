@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Littleapps on StatPREP 101</title>
-    <link>/littleapps/</link>
-    <description>Recent content in Littleapps on StatPREP 101</description>
+    <title>graphics on StatPREP 101</title>
+    <link>/tags/graphics/</link>
+    <description>Recent content in graphics on StatPREP 101</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/littleapps/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/graphics/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Introduction to data graphics</title>
-      <link>/littleapps/point-plot/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/littleapps/point-plot/</guid>
-      <description>Point plot Little App: Baby weight versus gestation in Births_2014. Click here to launch.   
-The point-plot Little App provides a quick path to making data graphics. Select the data set, the response and explanatory variables, and you’re there.
- You can map color to a covariate and can facet the graph (as shown above) by another covariate. Works with both quantitative and categorical variables on either or both axes, for color, and for faceting.</description>
-    </item>
     
     <item>
       <title>Jittering</title>

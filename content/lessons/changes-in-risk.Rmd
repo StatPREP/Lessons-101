@@ -1,0 +1,31 @@
+---
+title: "Changes in risk"
+date: "StatPREP Class Lesson"
+weight: 500
+description: "NOT YET AVAILABLE. Risk is not a yes/no proposition."
+output:
+  word_document:
+    reference_docx: lesson-style.docx
+---
+
+
+
+```{r include = FALSE}
+SDSdata::sds_setup()
+library(LittleApp)
+library(DT)
+```
+
+# Orientation
+
+
+ 
+# Activity
+
+proportions little app
+
+
+
+----------------------
+
+Version 0.2, `r Sys.Date()`, Daniel Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(current_input()), ".docx")`) 
