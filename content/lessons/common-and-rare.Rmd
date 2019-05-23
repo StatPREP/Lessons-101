@@ -44,29 +44,45 @@ Open up the [rare-and-common](`r rare_app$url`) Little App.  Set the response va
 
 3. Turn on `sex` as an explanatory variable. 
 
-    * What fraction of women are marked as either uncommon or rare on the tall side? What fraction of men?
+    `r question_blank("*What fraction of women are marked as either uncommon or rare on the tall side? What fraction of men?*", length = 15, breaks = 1)`
     
-    * Similarly, what fraction of women are marked as uncommon or rare on the short side? Of men?
+    `r question_blank("*Similarly, what fraction of women are marked as uncommon or rare on the short side? Of men?*", length = 15, breaks = 1)`
     
-    * Adjust the sliders so that about 2.5% of women are marked as uncommon or rare on the tall side, and another 2.5% on the short side. Consequently,  about 95% of women will be marked with a "common" height. 
-        - Applying that standard for men, what fraction lie outside the common range on  the short and on the tall side? Are those fractions roughly the same?  
+    * Adjust the sliders so that about 2.5% of women are marked as uncommon or rare on the tall side, and another 2.5% on the short side. Consequently,  about 95% of women will be marked with a "common" height. Using those slider settings,  answer these questions for men:
     
-4. Now think about the age of mothers of newborn. Write down young and old thresholds for "uncommon." 
-
-    * Set the explanatory variable to `.none.` and switch to the `Births_2014` data frame with `age_mother` as the response variable. According to the data, what fraction of mothers giving birth are uncommonly young? Uncommonly old?
-
-    * Let's turn things around. Adjust the sliders so that the "common" range includes the central 95% of the data. 
-        - Do the ages that define the "common" region look reasonable?
-        - On the top of the graph is a scale marked in terms of standard deviations from the mean. How well does the 95% common range correspond to the theoretical cut-offs for a normal distribution?
-    * Look for an explanatory variable that will split up the data into groups such that one group has a much higher fraction of uncommonly young births than another group.
+    `r question_blank("*What fraction lie outside the common range on  the short and on the tall side?*",  breaks = 1)` 
     
-5. Consider blood pressure. A high systolic blood pressure is generally defined to be at or above 130 mmHg.
+    `r question_blank("*For  the women, you set the slider so that the short and tall fractions are roughly equal. Are those fractions roughly the same for men?*",  breaks = 1)`  
+    
+4. Switch to the `Births_2014` data frame with `age_mother` as the response variable. Set the explanatory variable to `.none.` Arrange the sliders so that about 10% of the distribution is to the left of common and 10% is to the right.  
 
-    * Switch back to the `NHANES` data frame and select `systolic` as the response variable. What fraction of the  people in `NHANES` have a systolic pressure above 130 mmHg?
-    * Set the explanatory variable to be `diabetes`. (You will also have to set the slider back to 130 mmHg.) Is there a difference in the fraction of people with diabetes who have high blood pressure compared to the fraction of people without diabetes with high blood pressure?
+    `r question_blank("* *At what age is the leftmost boundary of 'common'?*")`
+    
+    `r question_blank("* *At what age is the rightmost boundary of 'common'?*")`
 
 
+5. As set in  (4), common covers about 80% of the distribution. On the top of the graph is a scale marked in terms of standard deviations from the mean. 
+
+    `r question_blank("* *At what standard deviation measure is the leftmost boundary of 'common'?*")`
+    
+    `r question_blank("* *At what standard deviation measure is the rightmost boundary of 'common'?*")`
+
+6. Look for an explanatory variable that will split up the data into groups such that one group has a much higher fraction of uncommonly young births than another group.
+    
+    `r question_blank("*What explanatory variable did you find that satisfies the criterion?*", breaks = 1)`
+    
+7. Consider blood pressure. A high systolic blood pressure is generally defined to be at or above 130 mmHg. Switch back to the `NHANES` data frame and select `systolic` as the response variable with `.none.` as the explanatory variable. 
+
+    `r question_blank("* *What fraction of the  people in NHANES have a systolic pressure above 130 mmHg?")`
+
+     
+    Set the explanatory variable to be `diabetes`. Is there a difference in the fraction of people with diabetes who have high blood pressure compared to the fraction of people without diabetes with high blood pressure?
+    
+    `r question_blank("* *What is the fraction of people with  diabetes who  have high blood pressure?*" )`
+
+
+    `r question_blank("* *What is the fraction of people who do not have  diabetes who  have high blood pressure?*" )`
 
 ----------------------
 
-Version 0.1, `r Sys.Date()`, Thomas Kinzeler and Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+Version 0.2, `r Sys.Date()`, Thomas Kinzeler and Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)

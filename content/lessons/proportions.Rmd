@@ -8,16 +8,15 @@ output:
     reference_docx: lesson-style.docx
 ---
 
-
-
 ```{r include = FALSE}
 SDSdata::sds_setup()
 library(LittleApp)
 library(DT)
 ```
 
-# Orientation
+STILL IN DEVELOPMENT ....
 
+# Orientation
 
  
 # Activity
@@ -28,4 +27,4 @@ proportions little app
 
 ----------------------
 
-Version 0.2, `r Sys.Date()`, Daniel Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 
+Version 0.1, `r Sys.Date()`, Daniel Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 

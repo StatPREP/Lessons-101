@@ -69,16 +69,24 @@ Open up the [center-and-spread](`r center_app$url`) Little App.  Using the NHANE
 
 1. Check the "Density violin" box to turn on the violin plot.
 
-2. Pick one of the three rules of thumb and draw the appropriate interval to estimate the mean and standard deviation. Use the measuring stick built into the app to mark your interval.
+2. Pick one of the three rules of thumb to estimate the mean and standard deviation. 
 
-3. Check the "Std. deviation" box to turn on a ruler calibrated in units of the standard deviation. How close was your interval to the one defined by the ruler?
+    `r question_blank("*Write down your estimates of the mean and the standard deviation.*")`
+
+3. Check the "Std. deviation" box to turn on a ruler calibrated in units of the standard deviation. 
+
+    `r question_blank("*How close were your estimates in (2)  to the actual values displayed by the ruler?*")`
 
 4. Turn off the standard deviation ruler and repeat the above for several variables from the various data 
 frames that come with the Little App. You might want to practice several times to get a hang for how to eyeball each of the intervals in the three rules of thumb.
 
 5. As you work through different variables, note which ones have a violin corresponding to the bell-shaped normal curve. The rules of thumb work best for variables that have a normal-like distribution.
 
+    `r question_blank("*Write down two variables with a bell-shaped distribution.*", breaks = 2)`
+
+
+    `r question_blank("*Write down at least one variable that **does not have** a bell-shaped distribution.*", breaks = 2)`
 
 ----------------------
 
-Version 0.1, `r Sys.Date()`, Thomas Kinzeler and Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 
+Version 0.2, `r Sys.Date()`, Thomas Kinzeler and Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 

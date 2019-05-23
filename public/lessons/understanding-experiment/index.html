@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.55.2" />
+
+
+<title>Experiments and causality - StatPREP 101</title>
+<meta property="og:title" content="Experiments and causality - StatPREP 101">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+  <meta property="description" content="Why an experiment reveals causality">
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">Little App Activities
+    
+  </a>  <span class="nav-logo"></span>
+
+  <ul class="nav-links">
+    
+    <li><a href="/topics/">Topics</a></li>
+    
+    <li><a href="/lessons/">Activities</a></li>
+    
+    <li><a href="/littleapps/">LittleApps</a></li>
+    
+    <li><a href="/etc/">&#43;</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+
+    <h1 class="article-title">Experiments and causality</h1>
+
+    
+
+    <div class="article-content">
+      
+
+
+<div id="orientation" class="section level1">
+<h1>Orientation</h1>
+<p>Consider a situation where you have three variables: X, Y, and C. Your understanding of how the world works is telling you that X <em>causes</em> Y. And, indeed, when you collect data, you see an <em>association</em> between X and Y. But all an association does is to tell you that X and Y are connected somehow, not what that connection is.</p>
+<p>If you’re trying to convince a skeptic that X causes Y, you have some work to do.</p>
+<p>The most powerful and compelling way to show whether or not X causes Y is to do an <em>experiment</em>. In an experiment, <strong>you</strong> set the values for X and observed the corresponding values for Y. For example, in a clinical trial, you would give a drug or placebo to each of the trial subjects and observe the outcome Y.</p>
+<p>Let’s see how this works in terms of the possible causal relationships among variables X, Y, and C. Many of these are drawn out in the figure below, with each network labelled (a), (b), (c), and so on.</p>
+<p><img src="/images/many-dags.png" /></p>
+<p>When you do an experiment by setting X, you change the world. That is, before you did the experiment, X was influenced by whatever variables are causally connected to it, that is, with an arrow leading <strong>into* X. When you do an experiment, you take over completely (at least, in the ideal experiment). In terms of the diagrams, this means that you erase all arrows leading </strong>into** X. The outbound arrows, if any, remain.</p>
+</div>
+<div id="activity" class="section level1">
+<h1>Activity</h1>
+<p>There are two main types of variables: quantitative and categorical. Strickly as a matter of logic, there are four possible ways that these two types can be arranged as the response and explanatory variables. It’s important to know this, since the choice of an appropriate statistical technique should be shaped by the types of the response and explanatory variables.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Response</th>
+<th>Explanatory</th>
+<th>Statistical technique</th>
+<th>Little App</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Quantitative</td>
+<td>Quantitative</td>
+<td>linear regression</td>
+<td><a href="https://dtkaplan.shinyapps.io/LA_linear_regression/">linear regression</a></td>
+</tr>
+<tr class="even">
+<td>Quantitative</td>
+<td>Categorical</td>
+<td>group-wise means</td>
+<td><a href="https://dtkaplan.shinyapps.io/LA_t_test/">t-test</a></td>
+</tr>
+<tr class="odd">
+<td>Categorical</td>
+<td>Quantitative</td>
+<td>proportion regression</td>
+<td><a href="https://dtkaplan.shinyapps.io/LA_proportions/">proportions</a></td>
+</tr>
+<tr class="even">
+<td>Categorical</td>
+<td>Categorical</td>
+<td>group-wise proportions</td>
+<td><a href="https://dtkaplan.shinyapps.io/LA_proportions/">proportions</a></td>
+</tr>
+</tbody>
+</table>
+<p>Depending on where you are in you statistics course, you might have not yet encountered one of these techniques or the other.</p>
+<p>Here are a few pairs of variables:</p>
+<div id="some-pairs-of-variables" class="section level2">
+<h2>Some pairs of variables</h2>
+<p>These variables are found in the data available through the Little App. For simplicity, we’re using only those categorical variables that have just two levels.</p>
+<ul>
+<li><code>Births_2014</code>
+<ol style="list-style-type: decimal">
+<li>Whether the mother is covered by the WIC program and the age of mother.</li>
+<li>The age of the mother and of the father.</li>
+<li>The length of gestation and the baby’s weight at birth.</li>
+</ol></li>
+<li><code>NHANES</code>
+<ol start="4" style="list-style-type: decimal">
+<li>Systolic blood pressure and sex.</li>
+<li>Diabetes and age</li>
+<li>Weight and body mass index (BMI)</li>
+<li>Income and <code>home_type</code></li>
+</ol></li>
+<li><code>diamonds</code>
+<ol start="8" style="list-style-type: decimal">
+<li>The price of a diamond and its weight in carats.</li>
+<li>The weight of a diamond and its clarity.</li>
+</ol></li>
+</ul>
+<p>Answer the following questions for each of the 9 pairs of variables listed.</p>
+<ol style="list-style-type: decimal">
+<li><p>View the data with a point plot, using the <a href="https://dtkaplan.shinyapps.io/LA_point_plot/">point-plot Little App</a>. This will let you readily see which type each variable is. (The choice of one variable as response and one as explanatory isn’t critical here, since the reverse choice would generate the same plot but turned around the diagonal to reverse the axes.)</p>
+<p>Use the point-plot Little App to visualize the relationship. Characterize it as “strong”, “moderate”, “weak” or “none”. You don’t need to give a more detailed description. We just want you to decide whether you can see a clear relationship or not.</p>
+<p><em>For each of the nine variable pairs, characterize the relationship as ‘strong’, ‘moderate’, and so on.</em>   .  .  .  </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p></li>
+<li><p>In order to give a detailed description of the relationship, or sometimes in order to detect any relationship at all, you need to calculate appropriate statistics on the data. For this, you have to pick the appropriate Little App, which often means that you need to designate one variable as the response and the other one as the explanatory variable. (You can refer to the table above.)</p>
+<p>For each of the nine pairs of variables, make an appropriate choice of response and explanatory variables using the rules of thumb above. Since some of these depend on the shape of your particular interest in the variables, your choice might be different from a classmate’s.</p>
+<p><em>For each of the nine pairs of variables, write down your choices for response and explanatory variables here, along with the appropriate LittleApp from the table above.</em>   .  .  .  </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p></li>
+<li><p>Now you are going to try to describe the relationships using statistics. Just like a forest can be obscured by the trees, so a relationship can be obscured by the scatter of data. Often, the appropriate statistic makes clearer the relationship.</p>
+<p>Open up the appropriate Little App from step (3) and turn on whatever statistics you can use to describe the relationship. (You can choose the sample size to be whatever you want, but generally a larger sample size makes it easier to see a relationship. You may also choose to <em>stratify</em> the sample.)</p>
+<p>Give an appropriate English-language description of the relationship. Some of the terms you might use are “upward sloping function,” “downward sloping function”, “difference of means,” “difference of proportions,” “no relationship.”</p>
+<p><em>For each of the nine pairs of variables, write down your English-language description of the relationship.</em>   .  .  .  </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p></li>
+</ol>
+<hr />
+<p>Version 0.3, 2019-05-23, Danny Kaplan, <a href="/word-versions/understanding-experiment.docx">Word version</a></p>
+</div>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="https://statprep.org" target="_blank">StatPREP.org</a>
+          </li>
+          <li>
+            <a href="https://www.maa.org/node/779540/" target="_blank">MAA</a>          </li>
+          <li>
+            <a href="https://www.amstat.org/ASA/Education/Undergraduate-Educators.aspx#communities" target="_blank">ASA</a>
+          </li>
+          <li>
+            <a href="https://amatyc.site-ym.com/page/StatsResources?" target="_blank">AMATYC</a>
+          </li>
+          <li>
+            <a href="https://statprep-workshops-2019.netlify.com/">Workshops 2019</a>
+          </li>
+          <br>
+          Support provided by the National Science Foundation (grant DUE-1626337).
+        </ul>
+        
+        </ul> 
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

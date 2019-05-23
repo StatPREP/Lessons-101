@@ -18,6 +18,8 @@ output:
 SDSdata::sds_setup()
 library(LittleApp)
 library(DT)
+library(knitr)
+library(kableExtra)
 center_app <- get_app_info("spread")
 ```
 
@@ -41,22 +43,35 @@ Open up the [Center and spread](`r center_app$url`) Little App, and select the `
 
 2. Perhaps the most natural way to measure the amount of variation is the length of the interval between the smallest value and the largest value. 
 
-    * Use the measuring stick built in to the app to find the length of the interval from smallest to largest age. How much is it? What are the units?
+    * Use the measuring stick built in to the app to find the length of the interval from smallest to largest age. 
+    
+`r  SDSdata:::question_blank(c("*How long is it?*", "*What are the units?*"), breaks = 1)`
+
+
     
 3. Leaving the measuring stick from (2) on the display, press the New Sample button. For the new sample, are the maximum and minimum values the same as in the original sample? 
 
     * Press New Sample several times to get an idea of how much the maximum and minimum value vary from sample to sample.
-    * Do that again 10 times, but each time you do so use the measuring stick to find the length of the max-to-min interval for that sample. Write it down. In the end, you'll have 10 values for the length of the interval. You can get an idea for how much they  vary.
+    * Do that again 10 times, but each time you do so use the measuring stick to find the length of the max-to-min interval for that sample. Write it down. In the end, you'll have 10 values for the length of the interval. You can get an idea for how much they vary.
+    
+    `r question_blank("*List your 10 values here:*",  breaks = 3, length = 0)`
     
 4. Sometimes variables are such that the values of the maximum and minimum depend strongly on the sample. Sometimes not. One at a time, set each of these variables to be the response variable: mother's weight, baby's weight, APGAR score.
 
     * For each of the variables, press New Sample several times to get a quick idea of how much the length of the max-to-min interval changes from sample to sample.
     
+    `r question_blank("*What's the range of interval lengths?*", length = 0, breaks = 1)`
+    
 5. You might have noticed that only two of the points in each sample determine the max-to-min interval. For this reason, there is a lot of variation in the interval length from sample to sample. To avoid this, statisticians have invented another kind of interval to describe variation called the "95% summary interval." The idea is to avoid making the interval depend on just two points and instead let several points contribute. The 95% interval is designed to cover *almost all* of the data points, where "almost all" means 95%.
 
-    * Turn on the "summary interval" display and make sure the "interval level" is set to 95%. Keep the sample size  at n = 200. How many of the data points are *outside* the summary interval?  Explain why this number makes sense. (Hint: Think how the 95% interval is defined.)
+    * Turn on the "summary interval" display and make sure the "interval level" is set to 95%. Keep the sample size  at n = 200. 
+    
+    `r question_blank("*How many of the data points are **outside** the summary interval?*", length = 15, breaks = 1)`
+    `r question_blank("*Explain why this number makes sense.* (Hint: Think how the 95% interval is defined.)", breaks = 3, length = 15)` 
     
     * Press New Sample many times to get a sense for whether the 95% interval or the max-to-min interval varies more from sample to sample.
+    
+    `r question_blank("*Which interval varies more?*", length = 15, breaks = 3)`
 
 6. In statistics, you're almost always working with a sample but your real interest is not that particular sample, but the broader population from which the sample was taken. Statisticians like to work with summaries that are informative but which also behave "nicely" with respect to sampling. In particular,
     * The summary shouldn't vary excessively from sample to sample.
@@ -64,12 +79,25 @@ Open up the [Center and spread](`r center_app$url`) Little App, and select the `
 You've already looked at how the max-to-min interval and the 95% summary interval  vary from one sample to another, holding the sample size constant. (We used n = 200.) Now you're going to see what happens as the sample size get's bigger and bigger.
 
     a. Set the sample size to n = 200 and turn on the display of the 95% summary interval. Quickly press New Sample several times to get an idea of a typical value for the maximum and minimum value of the variable in the sample. Then, use the measuring stick to mark out roughly the range from the typical maximum to the typical minimum.
+    
+        `r question_blank("*What's a typical range of the max-to-min interval?*", length = 5, breaks = 1)`
+    
     b. Similarly, find the typical length of the 95% summary interval over many samples. We only have one measuring stick in the app, so use your finger widths to record  that typical length. (E.g. the interval is 3 fingers wide, or whatever.)
+    
+        `r question_blank("*What's a typical range of the 95% interval?*", length = 5, breaks = 1)`
+        
     c. Now increase the sample size to n = 1000. Press New Sample several times and keep track of how often the max-to-min interval is shorter than the one shown by the measuring stick for n = 200, and how often it is longer.
+    
+        `r question_blank("What's a typical range of the max-to-min interval?", length = 5, breaks = 1)`
+        
     d. Similarly compare the length of the 95% summary interval when n = 1000  to the length of the interval you recorded with your fingers in step (b). 
+    
+        `r question_blank("*Compared to the n = 200 interval, the n = 1000 interval is about ...* the same length ... twice as long ... half as long", length = 0)`
+    
+    
     e. Do the same with a sample size of n = 5000. 
     
-    * Which is more consistent across sample sizes, the 95% interval or the max-to-min interval?
+        `r question_blank("*Which is more consistent across sample sizes, the 95% interval or the max-to-min interval?*", length  = 10)`
 
 
 

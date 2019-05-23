@@ -106,6 +106,16 @@ The Proportions Little App allows you to explore how the probability of a catego
     </item>
     
     <item>
+      <title>Experiments and causality</title>
+      <link>/lessons/understanding-experiment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lessons/understanding-experiment/</guid>
+      <description>Orientation Consider a situation where you have three variables: X, Y, and C. Your understanding of how the world works is telling you that X causes Y. And, indeed, when you collect data, you see an association between X and Y. But all an association does is to tell you that X and Y are connected somehow, not what that connection is.
+If you’re trying to convince a skeptic that X causes Y, you have some work to do.</description>
+    </item>
+    
+    <item>
       <title>Response and explanatory variables</title>
       <link>/lessons/response-and-explanatory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -134,6 +144,28 @@ The Center-and-spread Little App displays a jittered point plot of the response 
       <guid>/lessons/summary-interval/</guid>
       <description>Orientation Why is the word variable used to describe a column of a data frame? In mathematics, a variable is an unknown quantity. In math class, when they say “solve for x,” they mean figure out what the value of unknown x is.
 In statistics, a variable is different. It’s a known quantity – known because you measured it, known because there it is, right in the data frame. This known quantity is called a variable because it takes on various different values in one row or another of the data frame.</description>
+    </item>
+    
+    <item>
+      <title>Intervention and prediction</title>
+      <link>/lessons/experiment-and-causality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lessons/experiment-and-causality/</guid>
+      <description>Orientation The appropriate choice of one variable as the response and other variables as the explanatory depends on the purpose for which you want to describe the relationship.
+Consider these two distinct purposes:
+“I plan to intervene to change the value of variable B, and I want to know how A will change in response.” (Example: “I’m going to turn down the thermostat setting, and I want to know whether water will condense on my windows.</description>
+    </item>
+    
+    <item>
+      <title>Intervention and prediction</title>
+      <link>/lessons/intervention-and-prediction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lessons/intervention-and-prediction/</guid>
+      <description>Orientation The appropriate choice of one variable as the response and other variables as the explanatory depends on the purpose for which you want to describe the relationship.
+Consider these two distinct purposes:
+“I plan to intervene to change the value of variable B, and I want to know how A will change in response.” (Example: “I’m going to turn down the thermostat setting, and I want to know whether water will condense on my windows.</description>
     </item>
     
     <item>
@@ -352,8 +384,9 @@ Version 0.2, 2019-05-02, Daniel Kaplan, Word version
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/lessons/proportions/</guid>
-      <description> Orientation  Activity proportions little app
-Version 0.2, 2019-05-02, Daniel Kaplan, Word version
+      <description> STILL IN DEVELOPMENT ….
+Orientation  Activity proportions little app
+Version 0.1, 2019-05-23, Daniel Kaplan, Word version
  </description>
     </item>
     
@@ -435,6 +468,16 @@ What’s key is to constantly look for opportunities to force students to make a
       <guid>/etc/blogdown-changes/</guid>
       <description>  Added an index.html under hugo-lithium/ to set homepage content.
  Added word-versions directory under static.  Used blogdown::build_dir(&amp;quot;.&amp;quot;) in lessons directory to build word versions of all lessons. Used OS tools to copy .docx files to the static/word-versions directory. Added a link at the bottom of each lesson .Rmd file to point to the word version.   </description>
+    </item>
+    
+    <item>
+      <title>A Workbook for Statistical Inference</title>
+      <link>/etc/inference-workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/etc/inference-workbook/</guid>
+      <description>A key concept in statistics is variability. This concept is really nothing more than the idea that individual objects or events differ from one another. For instance, the monthly cost of personal transportation (car, bus, biking, etc.) obvious varies from one person to another; some people spend a lot on transportation, some very little.
+Common sense says that some of the variability can be explained or accounted for by factors that can themselves be measured.</description>
     </item>
     
   </channel>

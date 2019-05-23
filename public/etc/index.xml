@@ -31,5 +31,15 @@ What’s key is to constantly look for opportunities to force students to make a
  Added word-versions directory under static.  Used blogdown::build_dir(&amp;quot;.&amp;quot;) in lessons directory to build word versions of all lessons. Used OS tools to copy .docx files to the static/word-versions directory. Added a link at the bottom of each lesson .Rmd file to point to the word version.   </description>
     </item>
     
+    <item>
+      <title>A Workbook for Statistical Inference</title>
+      <link>/etc/inference-workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/etc/inference-workbook/</guid>
+      <description>A key concept in statistics is variability. This concept is really nothing more than the idea that individual objects or events differ from one another. For instance, the monthly cost of personal transportation (car, bus, biking, etc.) obvious varies from one person to another; some people spend a lot on transportation, some very little.
+Common sense says that some of the variability can be explained or accounted for by factors that can themselves be measured.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -34,25 +34,39 @@ When we got to the coffee shop, you opened up a statistics app, called the  [t-t
 
 1. You set the response variable in the app to a variable called "income_poverty." We could see at a glance that this variable ranged from 0 to 5. That didn't make sense to us.
 
-    * Explain what the `income_poverty` variable measures and how it's related to income.
+    `r question_blank("*Explain what the income_poverty variable measures and how it's related to income.*", 
+    breaks = 4, length = 3)`
     
 2.  We decided to start with home ownership, so you set the explanatory variable to "home_type". 
 
-    * Describe the pattern shown by the data in the graph. Do you think that you can say much about the poverty variable based on home ownership?
+    `r question_blank("*Describe the pattern shown by the data in the graph.*", breaks = 3, length = 3)` 
+    
+    `r question_blank("*Do you think that you can say much about an individual person's level for the poverty variable based on their home ownership?*", breaks = 3, length = 3)`
     
 3. The dots were all over the place. You  told us  that it can be helpful to look at  the mean poverty level separately for people who own and who rent their home. You turned on  a display of the mean. Exciting! The mean was different for the two groups.
 
-    * "Slow down," you said to your friends. Explain to them why any meaningful comparison of the means has to take into account the random nature of sampling.
-    * Use the app's measuring stick to quantify the difference "Own" mean versus "Rent" mean. (Or, you could read it off the scale for the vertical axis.) Write down the distance you measured. 
+    "Slow down," you said to your friends. 
+    
+    `r question_blank("*Explain to them why any meaningful comparison of the means has to take into account the random nature of sampling.*", breaks = 3, length = 3)`
+    
+    Use the app's measuring stick to quantify the difference "Own" mean versus "Rent" mean. (Or, you could read it off the scale for the vertical axis.) 
+    
+    `r question_blank("*What was the distance you measured?*", length = 10) `
     
 4. Next you told us to watch the two means while you pressed over and over the New Sample button. You told us to watch whether there was a consistent pattern, from sample to sample, of one of the means being higher than the others.
 
-    * Each time you press New Sample, measure the difference between the two means. Take care to record which  mean is higher than which.
-    * Is there a consistent pattern or is the mean for "Own" sometimes above and sometimes below the mean for "Rent?"
+    Each time you press New Sample, look at the difference between the two means. Record "Own" when the mean for "Own" is higher than the mean for "Rent," and vice versa.
+    
+    `r question_blank("*Write down 20 new-sample trials (each with an \"Own\" or an \"Rent\") in this space.*",
+    breaks = 3, length = 3)`
+    
+    `r question_blank("*Is there a consistent pattern or is the mean for \"Own\" sometimes above and sometimes below the mean for \"Rent?\"*",   breaks = 3, length = 3)`
     
 5. To show what pattern appears in the difference between the two means *when there is no meaningful difference*, check the "Shuffle groups" box. This will show the same data, but the explanatory variable will be randomly shuffled. This eliminates any possible systematic relationship between the response and explanatory  variables.
 
-    * Press the New Sample button many times and observe which mean is higher than the other. Give a simple description of the pattern you see.
+    * Press the New Sample button 20 times and observe  on each trial which mean is higher than the other. 
+    
+    `r question_blank("*Give a simple description of the pattern you see.*", length = 3, breaks = 3)`
     
     
     
@@ -60,4 +74,4 @@ When we got to the coffee shop, you opened up a statistics app, called the  [t-t
 
 ----------------------
 
-Version 0.2, `r Sys.Date()`, Carol Howald, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 
+Version 0.3, `r Sys.Date()`, Carol Howald, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 

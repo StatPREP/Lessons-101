@@ -37,11 +37,11 @@ The relationship shown in the [`r linear_app$name`](`r linear_app$url`) Little A
 
 1. Open up the [`r linear_app$name`](`r linear_app$url`) Little App. Select `NHANES` as the data frame and systolic blood pressure as the response variable. 
 
-    * Find an explanatory variable that produces a regression line that slopes up.
-    * Find another explanatory variable where the regression line slopes down. 
-    * For each of those two variables, find the numerical value of the slope of the line. Then summarize the relationship in this way:
+    `r question_blank("*Find an explanatory variable that produces a regression line that slopes up. What is it?*")`
+    `r question_blank("*Find another explanatory variable where the regression line slopes down. What is it?*")`
+    `r question_blank("*For each of those two variables, find the numerical value of the slope of the line. Then summarize the relationship in this way*:", length = 0)`
 
-    > As _______ (the explanatory variable) increases by ____, the response variable _____ will go ___up_or_down___ by _____.
+    > *As _______ (the explanatory variable) increases by ____, the response variable _____ will go ___up_or_down___ by _____.*
     
     In filling in the two blanks following "by", make sure to give the units of the variables. You can find the units by looking at the codebook.
 

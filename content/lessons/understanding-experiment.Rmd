@@ -1,0 +1,111 @@
+---
+title: "Experiments and causality"
+date: "StatPREP Class Lesson"
+description: "Why an experiment reveals causality"
+weight: 4
+output:
+  word_document:
+    reference_docx: lesson-style.docx
+  pdf_document: tint::tintPdf
+  html_document:
+    rmdformats::material
+---
+
+
+
+```{r include = FALSE}
+SDSdata::sds_setup()
+library(LittleApp)
+library(DT)
+rare_app <- get_app_info("rare")
+```
+
+# Orientation
+
+Consider a situation where you have three variables: X, Y, and C. Your understanding of how the world works is telling you that X *causes* Y. And, indeed, when you collect data, you see an *association* between X and Y. But all an  association  does is to tell you that  X and  Y are connected somehow, not what that connection is.
+
+If you're trying to convince a skeptic that X causes Y, you have some work to do. 
+
+The most powerful and compelling way to show whether or not X causes Y is to do an *experiment*. In an experiment, **you** set the values for X and  observed the corresponding values for Y. For example, in a clinical trial, you would give a drug or placebo to  each of the trial subjects and observe the outcome Y. 
+
+Let's see how this works in terms of the possible causal relationships among variables X, Y, and C. Many of these  are drawn out in the figure below, with each network labelled (a),  (b), (c), and so on.
+
+![](/images/many-dags.png)
+
+When you do an experiment by setting X, you change the world. That is, before you did the experiment, X was influenced by whatever variables are causally connected to it, that is, with  an arrow  leading **into* X. When you do an experiment, you take over completely (at least, in the ideal experiment). In terms of the diagrams, this means that you erase all arrows leading **into**  X. The outbound arrows, if any, remain. 
+
+
+# Activity
+
+There are two main types of variables: quantitative and categorical. Strickly as a matter of logic, there are four possible ways that these two types can be arranged as the response and explanatory variables. It's important to know this, since the choice of an appropriate statistical  technique should be shaped by the types of the response and explanatory variables.
+
+```{r echo = FALSE}
+point_plot_app <- get_app_info("point_plot")
+jitter_app <- get_app_info("jitter")
+LR <- get_app_info("linear_regression") 
+center_app <- get_app_info("spread")
+TT <- get_app_info("t_test")
+PR <-    get_app_info("proportions")
+
+rare_app <- get_app_info("rare")
+```
+
+
+Response     | Explanatory  | Statistical technique   | Little App
+-------------|--------------|-------------------------|-------------
+Quantitative | Quantitative |  linear regression      | [linear regression](`r LR$url`)
+Quantitative | Categorical  |  group-wise means       | [t-test](`r TT$url`)
+Categorical  | Quantitative |  proportion regression  | [proportions](`r PR$url`)
+Categorical  | Categorical  |  group-wise proportions | [proportions](`r PR$url`)
+
+
+Depending on where you are in you statistics course, you might have not yet encountered one of these techniques or the other.
+
+Here are a few pairs of variables:
+
+## Some pairs of variables
+
+These variables are found in the data available through the Little App. For simplicity, we're using only those categorical variables that have just two levels.
+
+* `Births_2014`
+    1. Whether the mother is covered by the WIC program and the age of mother.
+    2. The age of the mother and of the father.
+    3. The length of gestation and the baby's weight at birth.
+    
+* `NHANES`
+    4. Systolic blood pressure and sex.
+    5. Diabetes and age
+    6. Weight and body mass index (BMI)
+    7. Income and `home_type`
+    
+* `diamonds`
+    8. The price of a diamond and its weight in carats.
+    9. The weight of a diamond and its clarity.
+
+
+Answer the following questions for each of the 9 pairs of variables listed. 
+
+1. View the data with a point plot, using the [point-plot Little App](`r point_plot_app$url`). This will let you readily see which type each variable is. (The choice of one variable as response and one as explanatory isn't critical here, since the reverse choice would generate the same plot but turned around the diagonal to reverse the axes.)
+
+    Use the point-plot Little App to visualize  the relationship. Characterize it as "strong",  "moderate", "weak" or  "none". You don't need to give a more detailed description. We just want you to decide whether you can see a clear relationship or not.
+
+    `r question_blank("*For each  of the nine variable pairs, characterize the relationship as 'strong', 'moderate', and so on.*", breaks = 5, length = 3)`
+
+3. In order to give a detailed description of the relationship, or sometimes in order to detect any relationship at all, you need to calculate appropriate statistics on the data. For this, you have to pick the appropriate Little App, which often means that you need to designate one variable as the response and the other one as the explanatory variable. (You can refer to the table above.)
+
+    For each of the nine pairs of variables, make an appropriate choice of response and explanatory variables using  the rules of thumb above. Since  some of these depend on the shape of your particular interest in the variables, your choice might be different from a classmate's. 
+    
+    `r question_blank("*For each of the nine pairs of variables, write down your choices for response and explanatory variables here, along with the appropriate LittleApp from the table above.*", breaks = 5,  length = 3)`
+    
+4. Now you are going to try to describe the relationships using statistics. Just like a forest can be obscured by the trees, so a relationship can be obscured by the scatter of data. Often, the appropriate statistic makes clearer the relationship.
+
+    Open up the appropriate Little App from step (3) and turn on whatever statistics you can use to describe the relationship. (You can choose the sample size to be whatever you want, but generally a larger sample size makes it easier to see a relationship. You may also choose to *stratify* the sample.)
+
+    Give an appropriate English-language description of the relationship. Some of the terms you might use are "upward sloping function," "downward sloping function", "difference of means," "difference of proportions," "no relationship."
+    
+    `r question_blank("*For each of the nine pairs of variables, write down your English-language description of the relationship.*",  breaks = 5, length  = 3)`  
+
+
+----------------------
+
+Version 0.3, `r Sys.Date()`, Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 
