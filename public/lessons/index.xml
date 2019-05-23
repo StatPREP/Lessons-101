@@ -42,16 +42,6 @@ The task becomes much simpler if we take advantage of color, which our visual sy
     </item>
     
     <item>
-      <title>Experiments and causality</title>
-      <link>/lessons/understanding-experiment/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/lessons/understanding-experiment/</guid>
-      <description>Orientation Consider a situation where you have three variables: X, Y, and C. Your understanding of how the world works is telling you that X causes Y. And, indeed, when you collect data, you see an association between X and Y. But all an association does is to tell you that X and Y are connected somehow, not what that connection is.
-If you’re trying to convince a skeptic that X causes Y, you have some work to do.</description>
-    </item>
-    
-    <item>
       <title>Response and explanatory variables</title>
       <link>/lessons/response-and-explanatory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -72,14 +62,13 @@ In statistics, a variable is different. It’s a known quantity – known becaus
     </item>
     
     <item>
-      <title>Intervention and prediction</title>
+      <title>Experiment and causality</title>
       <link>/lessons/experiment-and-causality/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/lessons/experiment-and-causality/</guid>
-      <description>Orientation The appropriate choice of one variable as the response and other variables as the explanatory depends on the purpose for which you want to describe the relationship.
-Consider these two distinct purposes:
-“I plan to intervene to change the value of variable B, and I want to know how A will change in response.” (Example: “I’m going to turn down the thermostat setting, and I want to know whether water will condense on my windows.</description>
+      <description>Orientation Consider a situation where you have three variables: X, Y, and C. Your understanding of how the world works is telling you that X causes Y. And, indeed, when you collect data, you see an association between X and Y. But all an association does is to tell you that X and Y are connected somehow, not what that connection is.
+If you’re trying to convince a skeptic that X causes Y, you have some work to do.</description>
     </item>
     
     <item>
@@ -253,6 +242,15 @@ Version 0.1, 2019-05-23, Daniel Kaplan, Word version
       <description> Orientation  Activity Systolic versus diastolic in NHANES. A stiff line is too strongly influenced by the people with very low diastolic blood pressure. Adding some flexibility allows the relationship for those with normal pressure to be more evident. I’m guessing very low diastolic pressure is OK, but you can’t lower systolic pressure accordingly and stay alive.
 Version 0.2, 2019-05-02, Daniel Kaplan, Word version
  </description>
+    </item>
+    
+    <item>
+      <title>foobar</title>
+      <link>/lessons/foobar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lessons/foobar/</guid>
+      <description>Get this to change the lessons directory.</description>
     </item>
     
   </channel>

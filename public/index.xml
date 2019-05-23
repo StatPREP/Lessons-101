@@ -106,16 +106,6 @@ The Proportions Little App allows you to explore how the probability of a catego
     </item>
     
     <item>
-      <title>Experiments and causality</title>
-      <link>/lessons/understanding-experiment/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/lessons/understanding-experiment/</guid>
-      <description>Orientation Consider a situation where you have three variables: X, Y, and C. Your understanding of how the world works is telling you that X causes Y. And, indeed, when you collect data, you see an association between X and Y. But all an association does is to tell you that X and Y are connected somehow, not what that connection is.
-If you’re trying to convince a skeptic that X causes Y, you have some work to do.</description>
-    </item>
-    
-    <item>
       <title>Response and explanatory variables</title>
       <link>/lessons/response-and-explanatory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -147,14 +137,13 @@ In statistics, a variable is different. It’s a known quantity – known becaus
     </item>
     
     <item>
-      <title>Intervention and prediction</title>
+      <title>Experiment and causality</title>
       <link>/lessons/experiment-and-causality/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/lessons/experiment-and-causality/</guid>
-      <description>Orientation The appropriate choice of one variable as the response and other variables as the explanatory depends on the purpose for which you want to describe the relationship.
-Consider these two distinct purposes:
-“I plan to intervene to change the value of variable B, and I want to know how A will change in response.” (Example: “I’m going to turn down the thermostat setting, and I want to know whether water will condense on my windows.</description>
+      <description>Orientation Consider a situation where you have three variables: X, Y, and C. Your understanding of how the world works is telling you that X causes Y. And, indeed, when you collect data, you see an association between X and Y. But all an association does is to tell you that X and Y are connected somehow, not what that connection is.
+If you’re trying to convince a skeptic that X causes Y, you have some work to do.</description>
     </item>
     
     <item>
@@ -478,6 +467,15 @@ What’s key is to constantly look for opportunities to force students to make a
       <guid>/etc/inference-workbook/</guid>
       <description>A key concept in statistics is variability. This concept is really nothing more than the idea that individual objects or events differ from one another. For instance, the monthly cost of personal transportation (car, bus, biking, etc.) obvious varies from one person to another; some people spend a lot on transportation, some very little.
 Common sense says that some of the variability can be explained or accounted for by factors that can themselves be measured.</description>
+    </item>
+    
+    <item>
+      <title>foobar</title>
+      <link>/lessons/foobar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lessons/foobar/</guid>
+      <description>Get this to change the lessons directory.</description>
     </item>
     
   </channel>

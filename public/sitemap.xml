@@ -41,10 +41,6 @@
   </url>
   
   <url>
-    <loc>/lessons/understanding-experiment/</loc>
-  </url>
-  
-  <url>
     <loc>/lessons/response-and-explanatory/</loc>
   </url>
   
@@ -274,6 +270,10 @@
   <url>
     <loc>/littleapps/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/lessons/foobar/</loc>
   </url>
   
   <url>
