@@ -32,6 +32,21 @@ Role in statistical practice  Conceptual pitfalls  Learning objectives  Student 
     </item>
     
     <item>
+      <title>Causality</title>
+      <link>/topics/instructions-causality/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/topics/instructions-causality/</guid>
+      <description>Lessons  Intervention and prediction Experiment and causality   Orientation for instructors There is an epigram that is familiar to all statistics instructors:
+ Correlation is not causation.
+ Put on a more explicit logical footing, this is equivalent to:
+ Correlation does not imply causation.
+ But as familiar as this epigram is, it’s wrong. We legitimately can say this:
+ No causation implies no correlation.
+ The “no correlation” part of this is pretty easy.</description>
+    </item>
+    
+    <item>
       <title>Center &amp; spread</title>
       <link>/topics/instructions-center-spread/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>

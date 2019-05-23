@@ -209,6 +209,21 @@ In the early 1800s, it was discovered that many different variables have a patte
     </item>
     
     <item>
+      <title>Causality</title>
+      <link>/topics/instructions-causality/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/topics/instructions-causality/</guid>
+      <description>Lessons  Intervention and prediction Experiment and causality   Orientation for instructors There is an epigram that is familiar to all statistics instructors:
+ Correlation is not causation.
+ Put on a more explicit logical footing, this is equivalent to:
+ Correlation does not imply causation.
+ But as familiar as this epigram is, it’s wrong. We legitimately can say this:
+ No causation implies no correlation.
+ The “no correlation” part of this is pretty easy.</description>
+    </item>
+    
+    <item>
       <title>Parameters of the normal distribution</title>
       <link>/lessons/normal-parameters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -467,15 +482,6 @@ What’s key is to constantly look for opportunities to force students to make a
       <guid>/etc/inference-workbook/</guid>
       <description>A key concept in statistics is variability. This concept is really nothing more than the idea that individual objects or events differ from one another. For instance, the monthly cost of personal transportation (car, bus, biking, etc.) obvious varies from one person to another; some people spend a lot on transportation, some very little.
 Common sense says that some of the variability can be explained or accounted for by factors that can themselves be measured.</description>
-    </item>
-    
-    <item>
-      <title>foobar</title>
-      <link>/lessons/foobar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/lessons/foobar/</guid>
-      <description>Get this to change the lessons directory.</description>
     </item>
     
   </channel>

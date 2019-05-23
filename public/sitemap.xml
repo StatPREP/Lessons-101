@@ -81,6 +81,11 @@
   </url>
   
   <url>
+    <loc>/topics/instructions-causality/</loc>
+    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/lessons/normal-parameters/</loc>
   </url>
   
@@ -270,10 +275,6 @@
   <url>
     <loc>/littleapps/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/lessons/foobar/</loc>
   </url>
   
   <url>
