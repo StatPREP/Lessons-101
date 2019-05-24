@@ -9,12 +9,26 @@ date: "2019-04-22"
 
 ```
 
-## Lessons
+## Activities
 
 * [Point plots](/lessons/point_plot)
 * [Jittering and violins](/lessons/jittering/)
 * [Summary intervals](/lessons/summary-interval/)
 * [Response and explanatory variables](/lessons/response-and-explanatory/)
+
+
+## Learning objectives 
+
+## Additional resources
+
+- [Word version of this document](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+- [Instructor orientation](#orientation)
+- [Role in statistical practice](#role)
+- [Classroom discussion](#discussion)
+- [Assessment](#assessment)
+- [Tips for an active classroom](#active)
+- [Student pre-requisites](#prereqs)
+- [Pitfalls](#pitfalls)
 
 
 # Orientation for instructors

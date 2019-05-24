@@ -9,48 +9,55 @@ date: "2019-04-22"
 
 ```
 
-## Lessons
+## Activities
 
 * [Data frames and spreadsheets]
 * [Variable types](/lessons/variable-types/)
 * [Variables and units](/lessons/variables-and-units/)
 * [Response and explanatory variables](/lessons/response-and-explanatory/)
 
-
-# Orientation for instructors
-
-Explaining what is data and what are the forms of data.
-
-## Role in statistical practice
-
-
-## Conceptual pitfalls
-
-
-
 ## Learning objectives 
 
 
 
 
-## Student background
+## Additional resources
+
+- [Word version of this document](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+- [Instructor orientation](#orientation)
+- [Role in statistical practice](#role)
+- [Classroom discussion](#discussion)
+- [Assessment](#assessment)
+- [Tips for an active classroom](#active)
+- [Student pre-requisites](#prereqs)
+- [Pitfalls](#pitfalls)
+
+# Orientation for instructors {#orientation}
+
+Explaining what is data and what are the forms of data.
+
+## Role in statistical practice {#role}
 
 
-## Background data knowledge
+## Conceptual pitfalls {#pitfalls}
 
-## (If we had) the population
 
+
+
+
+
+## Student pre-requisites {#prereqs}
 
 
 ## Student tasks and activities
 
 
-## Creating an active classroom
+## Creating an active classroom {#active}
 
 See the document on [general tips for creating an active classroom](/etc/tips-for-active-classroom.html). 
 
 
-## Assessment items
+## Assessment items {#assessment}
 
 ## Pushing the envelope/advancing the field
 

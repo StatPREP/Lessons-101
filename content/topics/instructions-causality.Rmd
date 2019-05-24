@@ -9,12 +9,22 @@ date: "2019-04-22"
 
 ```
 
-## Lessons
+## Activities
 
 * [Intervention and prediction](/lessons/intervention-and-prediction/)
 * [Experiment and causality](/lessons/experiment-and-causality/)
 
+## Learning objectives
 
+## Additional sections
+
+- [Word version of this document](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+- [Instructor orientation](#orientation)
+- [Role in statistical practice](#role)
+- [Classroom discussion](#discussion)
+- [Tips for an active classroom](#active)
+- [Student pre-requisites](#prereqs)
+- [Pitfalls](#pitfalls)
 
 # Orientation for instructors
 

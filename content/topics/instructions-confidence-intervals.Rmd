@@ -11,7 +11,7 @@ knitr::opts_chunk$set(tidy = FALSE, cache.extra = packageVersion('tufte'))
 options(htmltools.dir.version = FALSE)
 ```
 
-## Lessons
+## Activities
 
 * [What is a confidence interval?](/lessons/what_is_a_confidence_interval/)
 * [Sampling bias and confidence intervals](/lessons/sampling-bias/)
@@ -19,6 +19,30 @@ options(htmltools.dir.version = FALSE)
 * [Comparing two confidence intervals](/lessons/comparing-confidence-intervals/)
 * [Two-sample t test](/lessons/two-sample-t-test/) 
 
+## Learning objectives connected to confidence intervals
+
+#. Master the relevant vocabulary ... population, sample, sample statistic, point estimate, margin of error, confidence interval, confidence level.
+#. Recognize the estimation process that leads to a confidence interval: 
+    1. a sample is selected randomly from a population
+    2. a statistic is calculated from that sample
+    3. the margin of error and, correspondingly, the confidence interval are calculated from that sample.
+#. Understand that each time that estimation process is carried out, a new confidence interval will be created.
+#. Appropriately compare confidence intervals not by whether their endpoints are approximately the same but by whether or not they overlap.
+#. Interpret a lack of overlap as an indication that the two estimation processes did not each sample at random from the same population.
+#. Recognize and appropriately make use of the confidence interval as an presentation of uncertainty due to sampling.
+#. Be able to translate the width of a confidence interval from a preliminary study of size n into a reasonable guess for the margin of error for a study of size N.
+#. Recognize common sources of sampling bias -- e.g. self-selection, pre-screening, survival -- and that the possible existence of sampling bias is not incorporated into the confidence interval. 
+
+## Additional resources
+
+- [Word version of this document](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+- [Instructor orientation](#orientation)
+- [Role in statistical practice](#role)
+- [Classroom discussion](#discussion)
+- [Assessment](#assessment)
+- [Tips for an active classroom](#active)
+- [Student pre-requisites](#prereqs)
+- [Pitfalls](#pitfalls)
 
 ## Orientation 
 
@@ -62,25 +86,13 @@ We often forget that confidence intervals are an expression of *uncertainty* and
 
 The confidence interval can be calculated from data and is a reliable measure of the amount of uncertainty created by a random sample of size n. There are other sources of uncertainty -- biases -- which can be important but which are not captured by a confidence interval. In particular, the canonical example used for teaching confidence intervals, survey or poll results, are in today's world so heavily influenced by self-selection bias to the extent that the confidence interval itself does not  provide a valid indication of the reliability of results.  
 
-## Learning objectives connected to confidence intervals
 
-#. Master the relevant vocabulary ... population, sample, sample statistic, point estimate, margin of error, confidence interval, confidence level.
-#. Recognize the estimation process that leads to a confidence interval: 
-    1. a sample is selected randomly from a population
-    2. a statistic is calculated from that sample
-    3. the margin of error and, correspondingly, the confidence interval are calculated from that sample.
-#. Understand that each time that estimation process is carried out, a new confidence interval will be created.
-#. Appropriately compare confidence intervals not by whether their endpoints are approximately the same but by whether or not they overlap.
-#. Interpret a lack of overlap as an indication that the two estimation processes did not each sample at random from the same population.
-#. Recognize and appropriately make use of the confidence interval as an presentation of uncertainty due to sampling.
-#. Be able to translate the width of a confidence interval from a preliminary study of size n into a reasonable guess for the margin of error for a study of size N.
-#. Recognize common sources of sampling bias -- e.g. self-selection, pre-screening, survival -- and that the possible existence of sampling bias is not incorporated into the confidence interval. 
 
-## Student background
+## Student prerequisites {#prereqs}
 
 
 
-## Creating an active classroom
+## Creating an active classroom {#active}
 
 See the document on [general tips for creating an active classroom](/etc/tips-for-active-classroom.html). 
 
@@ -90,7 +102,7 @@ GET EXAMPLES FROM RONA's DOCUMENT
 
 
 
-## Assessment items
+## Assessment items {#assessment}
 
 - Given a population parameter and a single confidence interval for a sample of size n ...
     1. Draw 20 plausible confidence intervals for new samples of size n

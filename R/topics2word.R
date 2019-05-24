@@ -5,17 +5,16 @@
 library(knitr)
 library(rmarkdown)
 
-source_files <- dir("content/lessons", pattern  = ".Rmd$", full.names = FALSE)
+source_files <- dir("content/topics", pattern  = ".Rmd$", full.names = FALSE)
 
-#this_file <- source_files <- "what-is-a-confidence-interval.Rmd"
 for (this_file  in source_files[]) {
-  text <- readLines(paste0("content/lessons/",this_file))
+  text <- readLines(paste0("content/topics/",this_file))
   text <- gsub("/images/", "../../static/images/", text)
   text <- paste0(text, collapse = "\n")
-  writeLines(text, con  = "content/lessons/foo.Rmd")
-  render("content/lessons/foo.Rmd",  
+  writeLines(text, con  = "content/topics/foo.Rmd")
+  render("content/topics/foo.Rmd",  
          output_file = gsub(".Rmd$", ".docx", this_file), 
          output_format = "word_document", 
          output_dir = "static/word-versions")
 }
-file.remove("content/lessons/foo.Rmd")
+file.remove("content/topics/foo.Rmd")

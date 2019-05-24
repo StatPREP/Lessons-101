@@ -13,8 +13,48 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-library(LittleApp)
+library(LittleApp) 
 ```
+
+## Activities
+
+* [Comparing two groups](/lessons/comparing-two-groups/)
+* [Comparing confidence intervals](/lessons/comparing-confidence-intervals/)
+* [Two sample t-test](/lessons/two-sample-t-test/)
+
+## Learning objectives
+
+Typical course  objectives relating to the t-based test and confidence interval are:
+
+- Confidence interval:
+    - Compute from data the confidence interval on the difference of means.
+    - Interpret the confidence interval in the context of the question intended to be addressed with the data. 
+- p-value: 
+    - State an appropriate null hypothesis
+    - Draw a sketch relating the sampling distribution under the null to the observed difference between sample means, and marking the region of the distribution corresponding to the p-value. [NOTE IN DRAFT: TO  POINT OUT AT WORKSHOP: We  can add pedagogical displays as needed.]
+    - FOR THE NEW DIAGRAM: Parametric diagram. Show the t-distribution. Variable versus probability density.
+    - Compute the  numerical p-value
+    - Appropriately frame the result as "reject the null" or "fail to reject the null" (the only two valid outcomes of the test).
+    - State a valid interpretation of result in the context of the question intended to be addressed with the data.
+- Additional objectives:
+    - Be able to  translate  a confidence interval into a simple, approximate statement about the p-value  (e.g. $p > 0.05$ or $p < 0.05)$.
+    - Identify situations such  as outliers that may call into question whether  the results can be taken at face value. Know how to deal with such situtations.
+    
+    NOTE: One-tailed versus two-tailed tests. 
+    ARTICULATION AGREEMENT: State of MD affinity group but no mechanism for organizing them or making sure they are consistent. 
+
+## Additional resources
+
+- [Word version of this document](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+- [Instructor orientation](#orientation)
+- [Role in statistical practice](#role)
+- [Classroom discussion](#discussion)
+- [Assessment](#assessment)
+- [Tips for an active classroom](#active)
+- [Student pre-requisites](#prereqs)
+- [Looking forward](#forward)
+- [Pitfalls](#pitfalls)
+
 
 # Orientation for instructors
 
@@ -67,28 +107,7 @@ One place where statistics instructors make use of t differently from F is that 
 
 It's irresponsible to teach one-tailed tests as a purely mathematical topic without engaging their negative impact on research integrity. And the one-tailed test is of so little benefit even in legitimate settings that a much more reliable instruction would  be to always use two-tailed tests. 
 
-# Learning objectives for studying the t-test
-
-Typical course  objectives relating to the t-based test and confidence interval are:
-
-- Confidence interval:
-    - Compute from data the confidence interval on the difference of means.
-    - Interpret the confidence interval in the context of the question intended to be addressed with the data. 
-- p-value: 
-    - State an appropriate null hypothesis
-    - Draw a sketch relating the sampling distribution under the null to the observed difference between sample means, and marking the region of the distribution corresponding to the p-value. [NOTE IN DRAFT: TO  POINT OUT AT WORKSHOP: We  can add pedagogical displays as needed.]
-    - FOR THE NEW DIAGRAM: Parametric diagram. Show the t-distribution. Variable versus probability density.
-    - Compute the  numerical p-value
-    - Appropriately frame the result as "reject the null" or "fail to reject the null" (the only two valid outcomes of the test).
-    - State a valid interpretation of result in the context of the question intended to be addressed with the data.
-- Additional objectives:
-    - Be able to  translate  a confidence interval into a simple, approximate statement about the p-value  (e.g. $p > 0.05$ or $p < 0.05)$.
-    - Identify situations such  as outliers that may call into question whether  the results can be taken at face value. Know how to deal with such situtations.
-    
-    NOTE: One-tailed versus two-tailed tests. 
-    ARTICULATION AGREEMENT: State of MD affinity group but no mechanism for organizing them or making sure they are consistent. 
-
-# Student background
+# Student pre-requisites {#prereqs}
 
 Students will need some background statistical knowledge to be able to follow lessons on the t-test.
 
@@ -104,7 +123,7 @@ Students will need some background statistical knowledge to be able to follow le
     - Be familiar with the basic nomenclature and logic of hypothesis testing: null-hypothesis, test-statistic, sampling distribution under the null, observed value from the  sample, p-value.
 
 
-# Creating an active classroom
+# Creating an active classroom {#active}
 
 See the document on [general tips for creating an active classroom](/etc/tips-for-active-classroom.html). 
 
@@ -116,7 +135,7 @@ See Carol's tasks 3 and 4 for wording.
 #. After completing each lesson, form students into small groups to explore a new set of variables. This gives me the chance to circulate among the groups to provide feedback.  After letting each group explore and analyze 15-20 minutes, I will give the groups a few minutes each to present their results.  Their goal will be to incorporate the language correctly as they present their results.
     - Students often want to spend too much time just choosing variables.  I need to give them a signal when it is time to commit and move on!  I also need to assure them that finding out that the variables do not relate in the way they thought is still a valid investigation.
 
-# Assessment Items 
+# Assessment Items {#assessment}
 
 `r t_test_app <- get_app_info("t_test")`
 
@@ -126,8 +145,7 @@ See Carol's tasks 3 and 4 for wording.
 4. Use static graphics showing the data, confidence intervals on the means, and the t-interval, but where sometimes one or another of the intervals doesn't match with the data  or where a mis-matched t-interval suggests a very different conclusion than the confidence intervals.  Ask which graphs are self consistent.  [NOTE IN DRAFT:  We should create a set of these.]
 5. Give students a picture of the graph in the Little App and the corresponding t-test report (in the "statistics"  tab.)  Draw arrows from each element of the report to the corresponding glyph in the graphic.  
 
-# Pushing the envelope
-
+# Looking forward {#forward}
 
 * Useful approximations
     - Checking whether the 95% confidence intervals on the individual means overlap with each other is a valid equivalent. When the intervals don't overlap,  the p-value will be $p < 0.03$. 

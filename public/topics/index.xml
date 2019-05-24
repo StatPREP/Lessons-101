@@ -17,8 +17,8 @@
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/topics/instructions-data/</guid>
-      <description>Lessons  [Data frames and spreadsheets] Variable types Variables and units Response and explanatory variables   Orientation for instructors Explaining what is data and what are the forms of data.
-Role in statistical practice  Conceptual pitfalls  Learning objectives  Student background  Background data knowledge  (If we had) the population  Student tasks and activities  Creating an active classroom See the document on general tips for creating an active classroom.</description>
+      <description>Activities  [Data frames and spreadsheets] Variable types Variables and units Response and explanatory variables   Learning objectives  Additional resources  Word version of this document Instructor orientation Role in statistical practice Classroom discussion Assessment Tips for an active classroom Student pre-requisites Pitfalls   Orientation for instructors Explaining what is data and what are the forms of data.
+Role in statistical practice  Conceptual pitfalls  Student pre-requisites  Student tasks and activities  Creating an active classroom See the document on general tips for creating an active classroom.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@ Role in statistical practice  Conceptual pitfalls  Learning objectives  Student 
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/topics/instructions-graphing/</guid>
-      <description>Lessons  Point plots Jittering and violins Summary intervals Response and explanatory variables   Orientation for instructors Showing the basic kinds of plots: data/density/interval
+      <description>Activities  Point plots Jittering and violins Summary intervals Response and explanatory variables   Learning objectives  Additional resources  Word version of this document Instructor orientation Role in statistical practice Classroom discussion Assessment Tips for an active classroom Student pre-requisites Pitfalls   Orientation for instructors Showing the basic kinds of plots: data/density/interval
 Role in statistical practice  Conceptual pitfalls  Learning objectives  Student background  Background data knowledge  (If we had) the population  Student tasks and activities  Creating an active classroom See the document on general tips for creating an active classroom.</description>
     </item>
     
@@ -37,13 +37,9 @@ Role in statistical practice  Conceptual pitfalls  Learning objectives  Student 
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/topics/instructions-causality/</guid>
-      <description>Lessons  Intervention and prediction Experiment and causality   Orientation for instructors There is an epigram that is familiar to all statistics instructors:
+      <description>Activities  Intervention and prediction Experiment and causality   Learning objectives  Additional sections  Word version of this document Instructor orientation Role in statistical practice Classroom discussion Tips for an active classroom Student pre-requisites Pitfalls   Orientation for instructors There is an epigram that is familiar to all statistics instructors:
  Correlation is not causation.
- Put on a more explicit logical footing, this is equivalent to:
- Correlation does not imply causation.
- But as familiar as this epigram is, it’s wrong. We legitimately can say this:
- No causation implies no correlation.
- The “no correlation” part of this is pretty easy.</description>
+ Put on a more explicit logical footing, this is equivalent to:</description>
     </item>
     
     <item>
@@ -52,7 +48,7 @@ Role in statistical practice  Conceptual pitfalls  Learning objectives  Student 
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/topics/instructions-center-spread/</guid>
-      <description>Lessons  Variables and their summary intervals The standard deviation and the summary interval Shapes of distributions The normal distribution   Orientation for instructors Early in most introductory statistics courses, students are taught ways to describe quantitative variables. As regards numerical descriptions, the mean and standard deviation are “normal.” (Pun intended.) The median and interquartile range offer an alternative when the variable is “skew.” The means and/or median are described as “representative” or “typical” values.</description>
+      <description>Activities  Variables and their summary intervals The standard deviation and the summary interval Shapes of distributions The normal distribution   Learning objectives Frame the prediction of an unknown quantity using an interval. Choose the prediction interval endpoints to convey a range of likely outcomes. Understand that predictions are more likely to be right when the interval is constructed to be long. Understand, in contrast to (3), that predictions are more likely to be informative when the interval is short.</description>
     </item>
     
     <item>
@@ -61,8 +57,7 @@ Role in statistical practice  Conceptual pitfalls  Learning objectives  Student 
       <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/topics/instructions-normal-distribution/</guid>
-      <description>Orientation for instructors It would be hard to overstate the centrality of the normal distribution to statistics and to the introductory statistics course. It’s even got a cult following; for instance, you can buy a normal pillow or a t-shirt.
- Role in statistical practice Fundamentally, the normal distribution provides a standard for defining “extreme” and “middle.” We measure distance from the mean in terms of the standard deviation. A value two or more standard deviations from the mean is practically the definition of “exteme.</description>
+      <description>Activities  Distribution shapes Normal parameters Common and rare   Learning objectives  Understand how a distribution summarizes the properties of a collection of individual values. Be able to translate between major forms of representing distributions graphically, e.g.  the density of points in a (jittered) point plot the presentation of such density as a height or width as in a violin or density plot  Be able to eyeball the standard deviation of a close-to-normal distribution and, similarly, a 95% summary interval (that is, mean ± two standard deviations ) Be able to identify common characteristics of skew or long-tailed distributions, by comparison to a normal distribution.</description>
     </item>
     
     <item>
@@ -71,8 +66,17 @@ Role in statistical practice  Conceptual pitfalls  Learning objectives  Student 
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/topics/instructions-confidence-intervals/</guid>
-      <description>Lessons  What is a confidence interval? Sampling bias and confidence intervals Comparing two groups Comparing two confidence intervals Two-sample t test   Orientation A fundamental aspect of statistical reasoning is recognizing that estimates computed from a sample are, to some extent, random. That is, another sample will likely produce a different estimate.
-Remarkably, we can estimate the amount of uncertainty due to the randomness of sampling from just a single sample.</description>
+      <description>Activities  What is a confidence interval? Sampling bias and confidence intervals Comparing two groups Comparing two confidence intervals Two-sample t test   Learning objectives connected to confidence intervals  Master the relevant vocabulary … population, sample, sample statistic, point estimate, margin of error, confidence interval, confidence level. Recognize the estimation process that leads to a confidence interval: a sample is selected randomly from a population a statistic is calculated from that sample the margin of error and, correspondingly, the confidence interval are calculated from that sample.</description>
+    </item>
+    
+    <item>
+      <title>Two-sample t test</title>
+      <link>/topics/foo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/topics/foo/</guid>
+      <description>Activities  Comparing two groups Comparing confidence intervals Two sample t-test   Learning objectives Typical course objectives relating to the t-based test and confidence interval are:
+ Confidence interval:  Compute from data the confidence interval on the difference of means. Interpret the confidence interval in the context of the question intended to be addressed with the data.  p-value:  State an appropriate null hypothesis Draw a sketch relating the sampling distribution under the null to the observed difference between sample means, and marking the region of the distribution corresponding to the p-value.</description>
     </item>
     
     <item>
@@ -81,8 +85,8 @@ Remarkably, we can estimate the amount of uncertainty due to the randomness of s
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/topics/instructions-two-sample-t-test/</guid>
-      <description>Orientation for instructors The two-sample t-test is a staple of introductory statistics. In many courses, it is the most advanced topic taught. In others, it is followed by linear regression and/or ANOVA. At Howard Community College, the t-test is taught in the last 2 weeks of our course.
-A t-test is part of the apparatus of statistical inference. The purpose of statistical inference is to guide valid conclusions about the population from a sample.</description>
+      <description>Activities  Comparing two groups Comparing confidence intervals Two sample t-test   Learning objectives Typical course objectives relating to the t-based test and confidence interval are:
+ Confidence interval:  Compute from data the confidence interval on the difference of means. Interpret the confidence interval in the context of the question intended to be addressed with the data.  p-value:  State an appropriate null hypothesis Draw a sketch relating the sampling distribution under the null to the observed difference between sample means, and marking the region of the distribution corresponding to the p-value.</description>
     </item>
     
     <item>
@@ -91,8 +95,7 @@ A t-test is part of the apparatus of statistical inference. The purpose of stati
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/topics/instructions-linear-regression/</guid>
-      <description>Lessons  Describing relationship patterns How much is explained by regression? NEED TO ADD a lesson about fitting regression lines, using the LA_sum_of_square_errors   Orientation for instructors Linear regression is one of the oldest and most widely used statistical techniques. It is used to describe or model a connection or relationship between a quantitative response variable and one or more explanatory variables.
-Many, perhaps most, introductory statistics courses cover simple regression, which is a special case of linear regression in which the response variable, \(y\) is modeled as a straight-line function of the explanatory variable \(x\), that is, \(y = f(x) = a x + b\).</description>
+      <description>Activities  Describing relationship patterns How much is explained by regression? NEED TO ADD a lesson about fitting regression lines, using the LA_sum_of_square_errors   Learning objectives connected to linear regression  Create scatterplots for bivariate data using graphing technology where appropriate. Lesson: point plots Sensibly choose which variable should be the response and which the explanatory variable, and know when it does and doesn’t matter. (Other nomenclature for explanatory/response: predictor/response or independent/dependent.</description>
     </item>
     
   </channel>

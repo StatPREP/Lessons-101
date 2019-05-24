@@ -65,6 +65,55 @@
       
 
 
+<div id="activities" class="section level2">
+<h2>Activities</h2>
+<ul>
+<li><a href="/lessons/comparing-two-groups/">Comparing two groups</a></li>
+<li><a href="/lessons/comparing-confidence-intervals/">Comparing confidence intervals</a></li>
+<li><a href="/lessons/two-sample-t-test/">Two sample t-test</a></li>
+</ul>
+</div>
+<div id="learning-objectives" class="section level2">
+<h2>Learning objectives</h2>
+<p>Typical course objectives relating to the t-based test and confidence interval are:</p>
+<ul>
+<li>Confidence interval:
+<ul>
+<li>Compute from data the confidence interval on the difference of means.</li>
+<li>Interpret the confidence interval in the context of the question intended to be addressed with the data.</li>
+</ul></li>
+<li>p-value:
+<ul>
+<li>State an appropriate null hypothesis</li>
+<li>Draw a sketch relating the sampling distribution under the null to the observed difference between sample means, and marking the region of the distribution corresponding to the p-value. [NOTE IN DRAFT: TO POINT OUT AT WORKSHOP: We can add pedagogical displays as needed.]</li>
+<li>FOR THE NEW DIAGRAM: Parametric diagram. Show the t-distribution. Variable versus probability density.</li>
+<li>Compute the numerical p-value</li>
+<li>Appropriately frame the result as “reject the null” or “fail to reject the null” (the only two valid outcomes of the test).</li>
+<li>State a valid interpretation of result in the context of the question intended to be addressed with the data.</li>
+</ul></li>
+<li>Additional objectives:
+<ul>
+<li>Be able to translate a confidence interval into a simple, approximate statement about the p-value (e.g. <span class="math inline">\(p &gt; 0.05\)</span> or <span class="math inline">\(p &lt; 0.05)\)</span>.</li>
+<li>Identify situations such as outliers that may call into question whether the results can be taken at face value. Know how to deal with such situtations.</li>
+</ul>
+NOTE: One-tailed versus two-tailed tests.
+ARTICULATION AGREEMENT: State of MD affinity group but no mechanism for organizing them or making sure they are consistent.</li>
+</ul>
+</div>
+<div id="additional-resources" class="section level2">
+<h2>Additional resources</h2>
+<ul>
+<li><a href="/word-versions/instructions-two-sample-t-test.docx">Word version of this document</a></li>
+<li><a href="#orientation">Instructor orientation</a></li>
+<li><a href="#role">Role in statistical practice</a></li>
+<li><a href="#discussion">Classroom discussion</a></li>
+<li><a href="#assessment">Assessment</a></li>
+<li><a href="#active">Tips for an active classroom</a></li>
+<li><a href="#prereqs">Student pre-requisites</a></li>
+<li><a href="#forward">Looking forward</a></li>
+<li><a href="#pitfalls">Pitfalls</a></li>
+</ul>
+</div>
 <div id="orientation-for-instructors" class="section level1">
 <h1>Orientation for instructors</h1>
 <p>The two-sample t-test is a staple of introductory statistics. In many courses, it is the most advanced topic taught. In others, it is followed by linear regression and/or ANOVA. At Howard Community College, the t-test is taught in the last 2 weeks of our course.</p>
@@ -108,35 +157,8 @@
 </blockquote>
 <p>It’s irresponsible to teach one-tailed tests as a purely mathematical topic without engaging their negative impact on research integrity. And the one-tailed test is of so little benefit even in legitimate settings that a much more reliable instruction would be to always use two-tailed tests.</p>
 </div>
-<div id="learning-objectives-for-studying-the-t-test" class="section level1">
-<h1>Learning objectives for studying the t-test</h1>
-<p>Typical course objectives relating to the t-based test and confidence interval are:</p>
-<ul>
-<li>Confidence interval:
-<ul>
-<li>Compute from data the confidence interval on the difference of means.</li>
-<li>Interpret the confidence interval in the context of the question intended to be addressed with the data.</li>
-</ul></li>
-<li>p-value:
-<ul>
-<li>State an appropriate null hypothesis</li>
-<li>Draw a sketch relating the sampling distribution under the null to the observed difference between sample means, and marking the region of the distribution corresponding to the p-value. [NOTE IN DRAFT: TO POINT OUT AT WORKSHOP: We can add pedagogical displays as needed.]</li>
-<li>FOR THE NEW DIAGRAM: Parametric diagram. Show the t-distribution. Variable versus probability density.</li>
-<li>Compute the numerical p-value</li>
-<li>Appropriately frame the result as “reject the null” or “fail to reject the null” (the only two valid outcomes of the test).</li>
-<li>State a valid interpretation of result in the context of the question intended to be addressed with the data.</li>
-</ul></li>
-<li>Additional objectives:
-<ul>
-<li>Be able to translate a confidence interval into a simple, approximate statement about the p-value (e.g. <span class="math inline">\(p &gt; 0.05\)</span> or <span class="math inline">\(p &lt; 0.05)\)</span>.</li>
-<li>Identify situations such as outliers that may call into question whether the results can be taken at face value. Know how to deal with such situtations.</li>
-</ul>
-NOTE: One-tailed versus two-tailed tests.
-ARTICULATION AGREEMENT: State of MD affinity group but no mechanism for organizing them or making sure they are consistent.</li>
-</ul>
-</div>
-<div id="student-background" class="section level1">
-<h1>Student background</h1>
+<div id="prereqs" class="section level1">
+<h1>Student pre-requisites</h1>
 <p>Students will need some background statistical knowledge to be able to follow lessons on the t-test.</p>
 <ul>
 <li>Basic:
@@ -155,7 +177,7 @@ ARTICULATION AGREEMENT: State of MD affinity group but no mechanism for organizi
 </ul></li>
 </ul>
 </div>
-<div id="creating-an-active-classroom" class="section level1">
+<div id="active" class="section level1">
 <h1>Creating an active classroom</h1>
 <p>See the document on <a href="/etc/tips-for-active-classroom.html">general tips for creating an active classroom</a>.</p>
 <p>Some specific discussion topics/themes for t-tests.</p>
@@ -169,7 +191,7 @@ See Carol’s tasks 3 and 4 for wording.</li>
 </ul></li>
 </ol>
 </div>
-<div id="assessment-items" class="section level1">
+<div id="assessment" class="section level1">
 <h1>Assessment Items</h1>
 <ol style="list-style-type: decimal">
 <li>Ask students to explore to use the <a href="https://dtkaplan.shinyapps.io/LA_t_test/">t-test Little App</a> to find variables that show a difference at p &lt; 0.05.</li>
@@ -179,8 +201,8 @@ See Carol’s tasks 3 and 4 for wording.</li>
 <li>Give students a picture of the graph in the Little App and the corresponding t-test report (in the “statistics” tab.) Draw arrows from each element of the report to the corresponding glyph in the graphic.</li>
 </ol>
 </div>
-<div id="pushing-the-envelope" class="section level1">
-<h1>Pushing the envelope</h1>
+<div id="forward" class="section level1">
+<h1>Looking forward</h1>
 <ul>
 <li>Useful approximations
 <ul>

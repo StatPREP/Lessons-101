@@ -133,6 +133,10 @@
   </url>
   
   <url>
+    <loc>/topics/foo/</loc>
+  </url>
+  
+  <url>
     <loc>/topics/instructions-two-sample-t-test/</loc>
   </url>
   
