@@ -14,6 +14,8 @@ library(LittleApp)
 library(DT)
 ```
 
+[Word format](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+
 # Orientation
 
 Data can be many things, but one of the most common formats is a data frame, a kind of spreadsheet of rows and columns. We'll work with the data frame `Births_2014`, which is based on data  published by the US Centers for Disease Control. `Births_2014` has 100,000 rows. Each row reports a live birth in the US in 2014. There are dozens of variables, a few of which are shown below.
@@ -52,7 +54,7 @@ point_plot_app <- get_app_info("point_plot")
 ```
 
 
-Open the [Point Plot Little App](`r point_plot_app$url`). 
+Open the [Point Plot Little App](`r point_plot_app$url`). (See footnote^[<`r point_plot_app$url`>]).
 
 1. Set the data source to `Births_2014`  and choose `baby_wt` as the response variable and `gestation` as the explanatory variable. The resulting  plot should look much like the graph seen in the introduction to this lesson.  But plot seen in the Little App will have many fewer points. Change the sample size to $n = 5$.
 

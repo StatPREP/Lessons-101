@@ -19,6 +19,8 @@ library(DT)
 t_test_app <- get_app_info("t_test")
 ```
 
+[Word format](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 
+
 # Orientation
 
 Suppose you have an explanatory variable that defines two, distinct groups, like the `home_type` variable in the `NHANES2` data. You  notice that the two groups have different mean values for the explanatory variable. 
@@ -35,7 +37,7 @@ This lesson introduces the t test.
 
 # Activity
 
-Open up the [t-test](`r t_test_app$url`) Little App.  Set the response variable to `income_poverty` and the explanatory variable to `home_type`. Set the sample size to n = 100. Check the box in the controls to show the mean values of the two groups.
+Open up the [t-test](`r t_test_app$url`) Little App. (See footnote^[<`r t_test_app$url`>]). Set the response variable to `income_poverty` and the explanatory variable to `home_type`. Set the sample size to n = 100. Check the box in the controls to show the mean values of the two groups.
 
 1. Check the box in the controls to show the *confidence interval* on the mean and the *t-interval*.  The t-interval is  displayed as a black, sideways-H shape. The t-interval is always *centered* on one of the two means. The t-test is based on whether the other mean falls inside the t-interval or outside.
 
@@ -57,4 +59,4 @@ Open up the [t-test](`r t_test_app$url`) Little App.  Set the response variable 
 
 ----------------------
 
-Version 0.2, `r Sys.Date()`, Carol Howald, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 
+Version 0.2, `r Sys.Date()`, Carol Howald, 

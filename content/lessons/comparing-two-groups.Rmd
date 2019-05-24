@@ -18,6 +18,9 @@ library(DT)
 t_test_app <- get_app_info("t_test")
 ```
 
+[Word format](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 
+
+
 # Orientation
 
 A friend and I were discussing ways to measure poverty. Of course,  there's the so-called "poverty level" of income defined by the US government. But we were interested in whether it might be worthwhile to do a detailed interview with, say, 100 families, quantifying how much trouble they have paying  for different things: food, housing, healthcare, transportation, emergencies etc. Then we'd look at easy things to measure so that we could have an index for these different things, food stress, housing stress, and so on.
@@ -30,7 +33,7 @@ We arranged to meet you in a local coffee shop, which has free internet.
  
 # Activity
 
-When we got to the coffee shop, you opened up a statistics app, called the  [t-test](`r t_test_app$url`) Little App. You set the app to work with  the `NHANES2` data. You explained that there is a lot of  data, but maybe it would be good to start with a sample of 100, so that we would get an idea of what things might work in our planned interviews of 100 families.
+When we got to the coffee shop, you opened up a statistics app, called the  [t-test](`r t_test_app$url`) Little App. (See footnote^[<`r t_test_app$url`>]) You set the app to work with  the `NHANES2` data. You explained that there is a lot of  data, but maybe it would be good to start with a sample of 100, so that we would get an idea of what things might work in our planned interviews of 100 families.
 
 1. You set the response variable in the app to a variable called "income_poverty." We could see at a glance that this variable ranged from 0 to 5. That didn't make sense to us.
 
@@ -74,4 +77,4 @@ When we got to the coffee shop, you opened up a statistics app, called the  [t-t
 
 ----------------------
 
-Version 0.3, `r Sys.Date()`, Carol Howald, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 
+Version 0.3, `r Sys.Date()`, Carol Howald 

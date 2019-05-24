@@ -18,7 +18,7 @@ regression_app <- get_app_info("regression")
 
 ## Showing various sorts of relationships for discussion
 
-Open up the [linear regression Little App](`r regression_app$url`) In this activity we'll explore three different data sets available through the app. For each data set, the variable indicated below plays the role of the response variable. Some explanatory variables are listed as sub-points.
+Open up the [linear regression Little App](`r regression_app$url`). (See footnote^[<`r regression_app$url`>]). In this activity we'll explore three different data sets available through the app. For each data set, the variable indicated below plays the role of the response variable. Some explanatory variables are listed as sub-points.
 
 1. Data set: `NHANES2`. Response variable: BMI. It’s important for students to know what BMI is. [Explanation from the CDC](https://www.cdc.gov/healthyweight/assessing/bmi/) & [BMI calculator for students](https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm).
      - age (r = 0.5 reasonable scatterplot to assume linearity)

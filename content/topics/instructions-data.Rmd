@@ -9,7 +9,7 @@ date: "2019-04-22"
 
 ```
 
-## Activities
+## Activities 
 
 * [Data frames and spreadsheets]
 * [Variable types](/lessons/variable-types/)

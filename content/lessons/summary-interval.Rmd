@@ -23,6 +23,8 @@ library(kableExtra)
 center_app <- get_app_info("spread")
 ```
 
+[Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 
+
 # Orientation
 
 Why is the word *variable* used to describe a column of a data frame? In mathematics, a variable is an *unknown* quantity. In math class, when they say "solve for x," they mean figure out what the value of unknown x is. 
@@ -37,7 +39,7 @@ The purpose of this lesson is to help you understand the 95% summary interval an
  
 # Activity
 
-Open up the [Center and spread](`r center_app$url`) Little App, and select the `Births_2014` data frame. Set the sample size to n = 200.
+Open up the [Center and spread](`r center_app$url`) Little App (see footnote^[<`r center_app$url`>])., and select the `Births_2014` data frame. Set the sample size to n = 200.
 
 1. Set the response variable to be `age_mother`, the age of the mother at the time of birth. You'll see that there is variability, that is, not every mother is exactly the same age.
 
@@ -104,4 +106,4 @@ You've already looked at how the max-to-min interval and the 95% summary interva
 
 ----------------------
 
-Version 0.2, `r Sys.Date()`, Daniel Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 
+Version 0.2, `r Sys.Date()`, Daniel Kaplan, 

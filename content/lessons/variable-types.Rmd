@@ -16,6 +16,8 @@ library(LittleApp)
 library(DT)
 ```
 
+[Word format](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 
+
 # Orientation
 
 There are two major types of variables:
@@ -44,7 +46,7 @@ point_plot_app <- get_app_info("point_plot")
 ```
 
 
-Open the [Point Plot Little App](`r point_plot_app$url`). Set the data frame to `NHANES` and the sample size to be several hundred.
+Open the [Point Plot Little App](`r point_plot_app$url`). (See footnote^[<`r point_plot_app$url`>]). Set the data frame to `NHANES` and the sample size to be several hundred.
 
 1. Pick a quantitative response variable and a categorical explanatory  variable. You might have to use trial and error to find such variables but once you do, it will be evident in the graph. Please don't use `ID` or `SurveyYr` -- stick to the variables that are about the individual being surveyed.
 
@@ -63,4 +65,4 @@ Open the [Point Plot Little App](`r point_plot_app$url`). Set the data frame to 
 
 ----------------------
 
-Version 0.2, `r Sys.Date()`, Daniel Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 
+Version 0.2, `r Sys.Date()`, Daniel Kaplan, 

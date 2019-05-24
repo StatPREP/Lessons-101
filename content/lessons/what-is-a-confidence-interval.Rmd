@@ -15,6 +15,8 @@ library(DT)
 CI_app <- get_app_info("bias")
 ```
 
+[Word format](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+
 # Orientation
 
 Statistics includes many forms and procedures for expressing uncertainty. A simple one is the assignment of a probability to a potential outcome. For instance, if we say the chance of rain  tomorrow is 50%, we are expressing a large amount of uncertainty. In contrast, if the probability is specified as 10%, we are expressing much more certainty.
@@ -37,7 +39,7 @@ In this activity, we're going to present you with an interval and ask you to con
 
 # Activity
 
-1. Open up the [Confidence intervals and sampling bias](`r CI_app$url`). The graph that will be displayed is very simple: A jittered point plot of the response variable from a random sample from the population. To keep the app simple, there is no explanatory variable. Just the response variable is shown with  the horizontal axis used for jittering so that you can see the distribution of response variable.    
+1. Open the [Confidence intervals and sampling bias](`r CI_app$url`). (See footnote^[<`r CI_app$url`>]). The graph that will be displayed is very simple: A jittered point plot of the response variable from a random sample from the population. To keep the app simple, there is no explanatory variable. Just the response variable is shown with  the horizontal axis used for jittering so that you can see the distribution of response variable.    
     
     Also shown in  the app is a horizontal line showing the *population mean*. Of course, ordinarily we don't know  the population mean, but this app uses the whole data set, typically many thousands of cases, as a stand-in for the population. 
     
@@ -101,6 +103,6 @@ Sample size | ![](/images/20mm-blank.png) | Interval length
 
 ----------------------
 
-Version 0.2, `r Sys.Date()`, Rona Axelrod and Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+Version 0.2, `r Sys.Date()`, Rona Axelrod and Danny Kaplan, 
 
 

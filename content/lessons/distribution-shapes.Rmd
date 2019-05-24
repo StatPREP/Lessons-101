@@ -19,6 +19,8 @@ library(DT)
 center_app <- get_app_info("center")
 ```
 
+[Word format](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+
 # Orientation
 
 As you've probably figured out already, the columns of data frames are called *variables* because the values in the column are not all the same, that is, they vary.
@@ -65,7 +67,7 @@ You might prefer one or the other of these three rules of thumb. Try them out an
 
 ## Activity
 
-Open up the [center-and-spread](`r center_app$url`) Little App.  Using the NHANES data, set the response variable to `pulse` and leave the explanatory variable at `.none.`. Set the sample size to n = 1000.
+Open up the [center-and-spread](`r center_app$url`) Little App. (See footnote^[<`r center_app$url`>]). Using the NHANES data, set the response variable to `pulse` and leave the explanatory variable at `.none.`. Set the sample size to n = 1000.
 
 1. Check the "Density violin" box to turn on the violin plot.
 

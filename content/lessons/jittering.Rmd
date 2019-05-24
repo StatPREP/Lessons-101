@@ -21,6 +21,8 @@ library(DT)
 jitter_app <- get_app_info("jitter")
 ```
 
+[Word format](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+
 # Orientation
 
 Graphical displays are effective when they connect well with human visual and cognitive  faculties. Humans are extremely good at some visual tasks and surprisingly poor at others. To illustrate,  consider the task of identifying how many 3's there are in the following list:
@@ -58,7 +60,7 @@ Regrettably, when one or both of the variables in a point plot are categorical, 
 
 # Activity
 
-Open up the [jittering Little App`](`r jitter_app$url`).  
+Open up the [jittering Little App`](`r jitter_app$url`). (See footnote^[<`r jitter_app$url`>]). 
 
 1. Select `NHANES` as the data frame,  with `sex` as the response variable and `education` as the explanatory variable.  Leave the sample size a n = 50.
 
