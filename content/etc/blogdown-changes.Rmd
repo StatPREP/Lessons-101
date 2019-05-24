@@ -14,6 +14,7 @@ output: html_document
      - Used OS tools to copy `.docx` files to the `static/word-versions` directory.
      - Added a link at the bottom of each lesson `.Rmd` file to point to the word version.
      
-     
+* Figured out how to have a separate style for each of the main directories: topics, lessons, littleapps.
+    - under layouts  in the theme, there is a directory with a matching name. The home page, which is mostly copied from `_default/list.html`  is in  that matching directory with the name `list.html`.
 
 
