@@ -95,7 +95,7 @@ Role in statistical practice  Conceptual pitfalls  Learning objectives  Student 
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/topics/instructions-linear-regression/</guid>
-      <description>Activities  Describing relationship patterns How much is explained by regression? NEED TO ADD a lesson about fitting regression lines, using the LA_sum_of_square_errors   Learning objectives connected to linear regression  Create scatterplots for bivariate data using graphing technology where appropriate. Lesson: point plots Sensibly choose which variable should be the response and which the explanatory variable, and know when it does and doesn’t matter. (Other nomenclature for explanatory/response: predictor/response or independent/dependent.</description>
+      <description>Activities  Introducing linear regression Describing relationship patterns How much is explained by regression?   Learning objectives connected to linear regression  Create scatterplots for bivariate data using graphing technology where appropriate. Lesson: point plots Sensibly choose which variable should be the response and which the explanatory variable, and know when it does and doesn’t matter. (Other nomenclature for explanatory/response: predictor/response or independent/dependent.) Lesson: response and explanatory variables  External evidence of which direction causation goes, e.</description>
     </item>
     
   </channel>

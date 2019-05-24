@@ -102,6 +102,16 @@ In statistics, it’s helpful to have standard ways to refer to frequency. The s
     </item>
     
     <item>
+      <title>Introducing linear regression</title>
+      <link>/lessons/introducing-linear-regression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lessons/introducing-linear-regression/</guid>
+      <description>Showing various sorts of relationships for discussion Open up the linear regression Little App In this activity we’ll explore three different data sets available through the app. For each data set, the variable indicated below plays the role of the response variable. Some explanatory variables are listed as sub-points.
+Data set: NHANES2. Response variable: BMI. It’s important for students to know what BMI is. Explanation from the CDC &amp;amp; BMI calculator for students.</description>
+    </item>
+    
+    <item>
       <title>Common shapes of distributions</title>
       <link>/lessons/distribution-shapes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -120,16 +130,6 @@ In the early 1800s, it was discovered that many different variables have a patte
       <description>Orientation The bell-shaped distribution is often a good description of the distribution of a variable, so often that it’s called the “normal” distribution.
 Actually, there is not just one normal distribution but a whole family of them, all of which have the characteristic bell shape. To identify an individual member of this bell family, two numbers suffice:
  the mean: the location of the peak of the bell the standard deviation: the width of the bell  What’s potentially confusing here is that you may know about the mean in terms of a calculation you do on a variable: add up the n values and divide by n.</description>
-    </item>
-    
-    <item>
-      <title>What is a confidence interval?</title>
-      <link>/lessons/foo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/lessons/foo/</guid>
-      <description>Orientation Statistics includes many forms and procedures for expressing uncertainty. A simple one is the assignment of a probability to a potential outcome. For instance, if we say the chance of rain tomorrow is 50%, we are expressing a large amount of uncertainty. In contrast, if the probability is specified as 10%, we are expressing much more certainty.
-Another setting in which it’s helpful to express uncertainty involves a sample statistic such as the mean, standard deviation, median, correlation, regression slope, etc.</description>
     </item>
     
     <item>

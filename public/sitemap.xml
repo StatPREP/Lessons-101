@@ -73,6 +73,10 @@
   </url>
   
   <url>
+    <loc>/lessons/introducing-linear-regression/</loc>
+  </url>
+  
+  <url>
     <loc>/littleapps/linear-regression/</loc>
   </url>
   
@@ -87,10 +91,6 @@
   
   <url>
     <loc>/lessons/normal-parameters/</loc>
-  </url>
-  
-  <url>
-    <loc>/lessons/foo/</loc>
   </url>
   
   <url>

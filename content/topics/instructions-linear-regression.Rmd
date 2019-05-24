@@ -1,8 +1,9 @@
 ---
 title: "Linear regression"
 author: "Helen Burn"
+date: '2019-04-15'
+output: word_document
 weight: 80
-date: "2019-04-15"
 ---
 
 ```{r setup, include=FALSE}
@@ -12,9 +13,11 @@ sumsquare_app <- get_app_info("sum")
 
 ## Activities
 
+* [Introducing linear regression](/lessons/introducing-linear-regression/)
 * [Describing relationship patterns](/lessons/relationship-patterns/)
 * [How much is explained by regression?](/lessons/how-much-is-explained/)
-* NEED TO ADD a lesson about fitting regression lines, using the [`r sumsquare_app$name`](`r sumsquare_app$url`)
+
+<!-- * NEED TO ADD a lesson about fitting regression lines, using the [`r sumsquare_app$name`](`r sumsquare_app$url`) -->
 
 ## Learning objectives connected to linear regression
 
