@@ -1,6 +1,6 @@
 ---
 title: "Comparing two confidence intervals"
-date: "StatPREP Class Lesson"
+date: "StatPREP Class Activity"
 description: "Using plain confidence intervals on the mean to decide if there's good evidence that the means are different."
 weight: 32
 output:
@@ -18,7 +18,7 @@ library(DT)
 t_test_app <- get_app_info("t_test")
 ```
 
-[Word format](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+`r SDSdata::word_pdf_links()`
 
 # Orientation
 

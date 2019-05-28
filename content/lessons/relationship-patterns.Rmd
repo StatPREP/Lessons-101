@@ -1,6 +1,6 @@
 ---
 title: "Describing relationship patterns in words and numbers"
-date: "StatPREP Class Lesson"
+date: "StatPREP Class Activity"
 weight: 42
 description: "Translating a regression line into a description in everyday terms."
 output:
@@ -19,7 +19,7 @@ library(DT)
 linear_app <- get_app_info("linear")
 ```
 
-[Word format](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+`r SDSdata::word_pdf_links()`
 
 # Orientation
 

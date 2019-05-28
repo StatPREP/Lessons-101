@@ -30,7 +30,7 @@ date: "2019-04-22"
 
 ## Additional sections
 
-- [Word version of this document](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+- `r SDSdata::word_pdf_links()`
 - [Instructor orientation](#orientation)
 - [Role in statistical practice](#role)
 - [Classroom discussion](#discussion)
@@ -124,7 +124,7 @@ Standard deviation:
     
 * How do we answer questions like "about the same" or "very different". Or "two random people will be about this close together"
     
-* Let's play a little game.  Tell  me what the temperature is outside. You pay $5 to  play. You'll win $100 if  you guess  the exactly the right temperature. Would you play that game?
+* Let's play a little game.  Tell  me what the temperature is outside. You pay $5 to  play. You'll win $100 if  you guess  the exact right temperature. Would you play that game?
 
     Change the game. You give me a range of temperatures. You'll get $1,000,000 if the actual temperature is in that range.  
 

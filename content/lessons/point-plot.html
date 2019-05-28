@@ -1,6 +1,6 @@
 ---
 title: "Data and Point Plots"
-date: "2019-04-22"
+date: "StatPREP Class Activity"
 description: "Introduces the distinction between quantitative and categorical variables through their very different appearances in a point plot."
 output:
   word_document:
@@ -10,7 +10,7 @@ weight: 100
 
 
 
-<p><a href="/word-versions/point-plot.docx">Word format</a></p>
+<p>Get formatted versions: <a href="/word-versions/point-plot.docx">Word</a> : <a href="/pdf-versions/point-plot.pdf">PDF</a></p>
 <div id="orientation" class="section level1">
 <h1>Orientation</h1>
 <p>Data can be many things, but one of the most common formats is a data frame, a kind of spreadsheet of rows and columns. We’ll work with the data frame <code>Births_2014</code>, which is based on data published by the US Centers for Disease Control. <code>Births_2014</code> has 100,000 rows. Each row reports a live birth in the US in 2014. There are dozens of variables, a few of which are shown below.</p>
@@ -77,7 +77,7 @@ weight: 100
 </tbody>
 </table>
 <p>It’s hard to draw much of a conclusion by looking directly at a large data frame. But a graphical display of data can help.</p>
-<p>A <em>point plot</em> is a basic statistical graphic that displays two variables from a data frame. Point plots<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>. One variable is represented on the vertical axis, another variable on the horizontal axis. Like the following point plot of the baby’s weight (in grams) and the length (in weeks) of the pregnancy (<code>gestation</code>).</p>
+<p>A <em>point plot</em><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> is a basic statistical graphic that displays two variables from a data frame. One variable is represented on the vertical axis, another variable on the horizontal axis. Like the following point plot of the baby’s weight (in grams) and the length (in weeks) of the pregnancy (<code>gestation</code>).</p>
 <p><img src="/lessons/point-plot_files/figure-html/unnamed-chunk-3-1.png" width="80%" /></p>
 </div>
 <div id="exercise" class="section level1">
@@ -95,33 +95,43 @@ weight: 100
 <h1>Activity</h1>
 <p>Open the <a href="https://dtkaplan.shinyapps.io/LA_point_plot/">Point Plot Little App</a>. (See footnote<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>).</p>
 <ol style="list-style-type: decimal">
-<li><p>Set the data source to <code>Births_2014</code> and choose <code>baby_wt</code> as the response variable and <code>gestation</code> as the explanatory variable. The resulting plot should look much like the graph seen in the introduction to this lesson. But plot seen in the Little App will have many fewer points. Change the sample size to <span class="math inline">\(n = 5\)</span>.</p></li>
+<li><p>Set the data source to <code>Births_2014</code>. Choose <code>baby_wt</code> as the response variable and <code>gestation</code> as the explanatory variable. The resulting plot should look much like the graph seen in the introduction to this lesson. Change the sample size to <span class="math inline">\(n = 5\)</span>.</p></li>
 <li><p>Open the “Statistics” tab under the main graph. This tab displays the same data as in the plot, but in data-frame format.</p>
 <ul>
-<li>For each of the <span class="math inline">\(n=5\)</span> rows of the data frame, find the corresponding point in the graphic.</li>
+<li>For each of the <span class="math inline">\(n=5\)</span> rows of the data frame, find the corresponding point in the graphic.*</li>
 </ul></li>
 <li><p>Change the <em>explanatory</em> variable to <code>sex</code>.</p>
 <ul>
 <li><p>For each of the <span class="math inline">\(n=5\)</span> rows of the data frame displayed in the Statistics tab, find the corresponding point in the graphic.</p></li>
-<li><p>Change <span class="math inline">\(n\)</span> to 500. In the <code>baby_wt</code> versus <code>sex</code> graph, all the points are lined up in two columns. Explain why.</p></li>
-</ul></li>
+<li><p>Change <span class="math inline">\(n\)</span> to 500. In the <code>baby_wt</code> versus <code>sex</code> graph, all the points are lined up in two columns.</p></li>
+</ul>
+<p><em>Explain why.</em>   .  .  .  </p>
+<p> </p>
+<p> </p></li>
 <li><p>Change the <em>response</em> variable to <code>delivery</code>, keeping the explanatory variable as <code>sex</code>.</p>
 <ul>
 <li><p>For a few of the rows of the data frame shown in the Statistics tab, find the corresponding point in the graphic.</p></li>
-<li><p>Make sure that <span class="math inline">\(n\)</span> is something large, say <span class="math inline">\(n = 500\)</span>. There aren’t 500 points in the <code>delivery</code> versus <code>sex</code> graph. Explain why?</p></li>
-</ul></li>
+<li><p>Make sure that <span class="math inline">\(n\)</span> is something large, say <span class="math inline">\(n = 500\)</span>. There aren’t 500 points in the <code>delivery</code> versus <code>sex</code> graph.</p></li>
+</ul>
+<p><em>Explain why?</em>   .  .  .  .  .  </p>
+<p> </p>
+<p> </p></li>
 <li><p>Check the “jitter categorical variables” box in the controls. The display changes and now there are many more points in the plot.</p>
 <ul>
-<li>For a few of the rows in the data frame shown in the Statistics tab, find the corresponding point in the graphic. Are you able to uniquely identify in the graph the specific point corresponding to each row? Explain how you can do this or why it’s not possible.</li>
-</ul></li>
+<li>For a few of the rows in the data frame shown in the Statistics tab, find the corresponding point in the graphic.</li>
+</ul>
+<p><em>Are you able to uniquely identify in the graph the specific point corresponding to each row? Explain how you can do this or why it’s not possible.</em>   .  .  .  .  .  </p>
+<p> </p>
+<p> </p>
+<p> </p></li>
 </ol>
 <hr />
-<p>Version 0.2, 2019-05-24, Daniel Kaplan, <a href="/word-versions/point-plot.docx">Word version</a></p>
+<p>Version 0.3, 2019-05-28, Daniel Kaplan, <a href="/word-versions/point-plot.docx">Word version</a></p>
 </div>
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>Sometimes referred to as “scatterplots”<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn1"><p>The word “scatterplot” is also used.<a href="#fnref1" class="footnote-back">↩</a></p></li>
 <li id="fn2"><p><a href="https://dtkaplan.shinyapps.io/LA_point_plot/" class="uri">https://dtkaplan.shinyapps.io/LA_point_plot/</a><a href="#fnref2" class="footnote-back">↩</a></p></li>
 </ol>
 </div>

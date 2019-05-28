@@ -1,6 +1,6 @@
 ---
 title: "Sampling bias and the confidence interval"
-date: "StatPREP Class Lesson"
+date: "StatPREP Class Activity"
 description: "A confidence interval will cover the population parameter with the right frequency only if the sample is unbiased. This lesson explores sampling bias."
 weight: 13
 output:
@@ -15,7 +15,7 @@ library(DT)
 CI_app <- get_app_info("bias")
 ```
 
-[Word format](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+`r SDSdata::word_pdf_links()`
 
 # Orientation
 

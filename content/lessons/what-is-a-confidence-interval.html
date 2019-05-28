@@ -1,6 +1,6 @@
 ---
 title: "What is a confidence interval?"
-date: "StatPREP Class Lesson"
+date: "StatPREP Class Activity"
 description: "Describes the desired behavior of a confidence interval, that is, how to test whether a procedure produces a valid confidence interval."
 weight: 12
 output:
@@ -22,13 +22,13 @@ output:
 <p>Suppose somewhat presented a computer program as a legitimate way to calculate a confidence interval? How would you know that the claim is correct?</p>
 </blockquote>
 <p>The calculations for a legitimate confidence interval were designed by people, and usually there are different ways to calculate a legitimate interval on the same sample statistic.</p>
-<p>But you can’t just make up your own interval and expect it to be legitimate. By analogy, you can put water in a bottle, shake it, and call it wine. But it won’t be legitimate wine. You can cut out cardboard wheels, paste them to a box, and call it a car. But it won’t be a legitimate car. This is common sense, since we are all very familiar with cars and wine. But there’s no common sense to identify an interval as a legitimage confidence interval.</p>
+<p>But you can’t just make up your own interval and expect it to be legitimate. By analogy, you can put water in a bottle, shake it, and call it wine. But it won’t be legitimate wine. You can cut out cardboard wheels, paste them to a box, and call it a car. But it won’t be a legitimate car. This is common sense, since we are all very familiar with cars and wine. But there’s no common sense to identify an interval as a legitimate confidence interval.</p>
 <p>In this activity, we’re going to present you with an interval and ask you to confirm that it is a legitimate confidence interval.</p>
 </div>
 <div id="activity" class="section level1">
 <h1>Activity</h1>
 <ol style="list-style-type: decimal">
-<li><p>Open the <a href="https://dtkaplan.shinyapps.io/LA_sampling_bias/">Confidence intervals and sampling bias</a>. (See footnote<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>). The graph that will be displayed is very simple: A jittered point plot of the response variable from a random sample from the population. To keep the app simple, there is no explanatory variable. Just the response variable is shown with the horizontal axis used for jittering so that you can see the distribution of response variable.</p>
+<li><p>Open the Little App on <a href="https://dtkaplan.shinyapps.io/LA_sampling_bias/">Confidence intervals and sampling bias</a>. (See footnote<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>). The graph that will be displayed is very simple: A jittered point plot of the response variable from a random sample from the population. To keep the app simple, there is no explanatory variable. Just the response variable is shown with the horizontal axis used for jittering so that you can see the distribution of response variable.</p>
 <p>Also shown in the app is a horizontal line showing the <em>population mean</em>. Of course, ordinarily we don’t know the population mean, but this app uses the whole data set, typically many thousands of cases, as a stand-in for the population.</p>
 <p>There is also an interval shown. It was calculated using a standard technique for finding the confidence interval on the mean from the sample.</p>
 <p>Chances are, the confidence interval on your display includes the population parameter. The probability of that being the case is the meaning of the <em>confidence level</em>, which by default is 95%.</p>
@@ -96,15 +96,54 @@ output:
 </tr>
 </tbody>
 </table></li>
-<li><p>In order for confidence intervals to behave in the right way, that is, to cover the population parameter at a frequency specified by the confidence level, valid confidence intervals tend to change systematically with the sample size and with the confidence interval.</p>
-<ul>
-<li>Keeping on sample on the display, change the confidence level and measure (with the measuring stick) the length of the interval versus the confidence interval. Record this information and come up with a general statement about how the length of the confidence interval depends on the confidence level.</li>
-</ul>
+<li><p>In order for confidence intervals to behave in the right way, that is, to cover the population parameter at a frequency specified by the confidence level, valid confidence intervals tend to change systematically with the sample size and with the confidence level.</p>
+<ol style="list-style-type: lower-roman">
+<li>Keeping one sample on the display, change the confidence level. Use the measuring stick to find the length of the new interval and record this information in the table below.</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="right">Confidence level</th>
+<th><img src="/images/20mm-blank.png" /></th>
+<th>Interval length</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">50%</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td align="right">80%</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td align="right">95%</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td align="right">99%</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td align="right">99.99%</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ol start="2" style="list-style-type: lower-roman">
+<li>Come up with a general statement about how the length of the confidence interval depends on the confidence level.</li>
+</ol>
 <p>Your answer:</p>
 <p><img src="/images/50mm-space.png" /></p>
-<ul>
+<ol start="3" style="list-style-type: lower-roman">
 <li>Similarly, at a fixed confidence level, try several different sample sizes and measure the length of the confidence interval. Record this information and, again, come up with a general statement that describes well how the length of the confidence interval depends on the sample size.</li>
-</ul></li>
+</ol></li>
 </ol>
 <table>
 <thead>
@@ -143,7 +182,7 @@ output:
 </tbody>
 </table>
 <hr />
-<p>Version 0.2, 2019-05-24, Rona Axelrod and Danny Kaplan,</p>
+<p>Version 0.2, 2019-05-28, Rona Axelrod and Danny Kaplan,</p>
 </div>
 <div class="footnotes">
 <hr />

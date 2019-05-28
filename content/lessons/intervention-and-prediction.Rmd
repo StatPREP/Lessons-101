@@ -1,6 +1,6 @@
 ---
 title: "Intervention and prediction"
-date: "StatPREP Class Lesson"
+date: "StatPREP Class Activity"
 description: "Causality  as a reason to identify one variable as the response and another as the explanatory."
 weight: 6
 output:
@@ -17,6 +17,9 @@ library(DT)
 point_plot_app <- get_app_info("point_plot")
 ```
 
+`r SDSdata::word_pdf_links()`
+
+
 # Orientation
 
 The appropriate choice of one variable as the response and other variables as the explanatory depends on the purpose for which you want to describe the relationship.
@@ -28,7 +31,7 @@ Consider these two distinct purposes:
 
 In the case of (1), there's good reason to think that turning down the thermostat *causes* changes in the window condensation situation. The cause (thermostat) should be among the explanatory variables, the effect (condensation) should be the response variable.
 
-In (2), it still the case that thermostat causes condensation. But I know something about condensation and I want to figure out about the thermostat.  So condensation should be the explanatory variable and thermostat the response.
+In (2), it is still the case that thermostat causes condensation. But I know something about condensation and I want to figure out about the thermostat.  So condensation should be the explanatory variable and thermostat the response.
 
 Only when variable B *causes* A can we reasonably expect to anticipate the result on A of an *intervention* to change B. On the other hand, all we need is an *association* between A and B (regardless of the direction of causation) in order to be able to use knowledge of one variable to predict the other.
 

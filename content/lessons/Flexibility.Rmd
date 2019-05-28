@@ -1,6 +1,6 @@
 ---
 title: "Flexibility"
-date: "StatPREP Class Lesson"
+date: "StatPREP Class Activity"
 weight: 500
 description: "NOT YET AVAILABLE. Determine whether a curved or straight-line relationship is a better description of the relationship between two quantitative variables."
 output:
@@ -18,6 +18,8 @@ output:
 library(LittleApp)
 library(knitr)
 ```
+
+`r SDSdata::word_pdf_links()`
 
 # Orientation
 

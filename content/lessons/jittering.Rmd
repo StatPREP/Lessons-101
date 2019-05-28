@@ -1,6 +1,6 @@
 ---
 title: "Jittering"
-date: "StatPREP Class Lesson"
+date: "StatPREP Class Activity"
 weight: -10
 description: "Jittering is a graphical technique that extends point plots to make them more informative about categorical variables."
 output:
@@ -21,7 +21,7 @@ library(DT)
 jitter_app <- get_app_info("jitter")
 ```
 
-[Word format](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+`r SDSdata::word_pdf_links()`
 
 # Orientation
 

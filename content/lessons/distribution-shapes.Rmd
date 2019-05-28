@@ -1,6 +1,6 @@
 ---
 title: "Common shapes of distributions"
-date: "StatPREP Class Lesson"
+date: "StatPREP Class Activity"
 weight: 9
 description: "Introduces terms such as skew, bi-modal, and flat, by reference to the difference of the actual variable from a theoretical normal distribution."
 output: 
@@ -19,7 +19,7 @@ library(DT)
 center_app <- get_app_info("center")
 ```
 
-[Word format](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+`r SDSdata::word_pdf_links()`
 
 # Orientation
 
@@ -37,7 +37,7 @@ Here are three rules of thumb, each of which can be used to estimate the mean an
 
 3. If you have a display of the distribution such as a violin plot or a density plot, there's another way to find the interval from one standard deviation below the mean to one standard deviation above the mean. First, find the peak of the display of the distribution. Then come down half way from the peak and mark the two points where the display of the distribution touches the half-way line. Those points are pretty close to plus-and-minus one standard deviation from the mean.
 
-Explaining (3) is better done with a picture. The figure below shows values of a variable plotted along with a violin display. One line is drawn at the peak of the violin. The "half-way" line is drawn have of the way from the center of the violin to the peak. The two dots show the points whose vertical position is one standard deviation on either side of the mean.
+Explaining (3) is better done with a picture. The figure below shows values of a variable plotted along with a violin display. One line is drawn at the peak of the violin. The "half-way" line is drawn half of the way from the center of the violin to the peak. The two dots show the points whose vertical position is one standard deviation on either side of the mean.
 
 ```{r echo  = FALSE}
 Labels <- tibble::tribble(
@@ -73,21 +73,21 @@ Open up the [center-and-spread](`r center_app$url`) Little App. (See footnote^[<
 
 2. Pick one of the three rules of thumb to estimate the mean and standard deviation. 
 
-    `r question_blank("*Write down your estimates of the mean and the standard deviation.*")`
+    `r question_blank("*Write down your estimates of the mean and the standard deviation.*",length = 5)`
 
 3. Check the "Std. deviation" box to turn on a ruler calibrated in units of the standard deviation. 
 
-    `r question_blank("*How close were your estimates in (2)  to the actual values displayed by the ruler?*")`
+    `r question_blank("*How close were your estimates in (2)  to the actual values displayed by the ruler?*", length = 5)`
 
 4. Turn off the standard deviation ruler and repeat the above for several variables from the various data 
 frames that come with the Little App. You might want to practice several times to get a hang for how to eyeball each of the intervals in the three rules of thumb.
 
 5. As you work through different variables, note which ones have a violin corresponding to the bell-shaped normal curve. The rules of thumb work best for variables that have a normal-like distribution.
 
-    `r question_blank("*Write down two variables with a bell-shaped distribution.*", breaks = 2)`
+    `r question_blank("*Write down two variables with a bell-shaped distribution.*", breaks = 2, length = 3)`
 
 
-    `r question_blank("*Write down at least one variable that **does not have** a bell-shaped distribution.*", breaks = 2)`
+    `r question_blank("*Write down at least one variable that **does not have** a bell-shaped distribution.*", breaks = 2, length = 3)`
 
 ----------------------
 

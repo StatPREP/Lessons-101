@@ -56,7 +56,7 @@ sumsquare_app <- get_app_info("sum")
 
 ## Additional resources
 
-- [Word version of this document](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+- `r SDSdata::word_pdf_links()`
 - [Instructor orientation](#orientation)
 - [Role in statistical practice](#role)
 - [Classroom discussion](#discussion)

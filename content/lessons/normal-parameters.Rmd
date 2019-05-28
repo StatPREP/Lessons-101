@@ -1,6 +1,6 @@
 ---
 title: "Parameters of the normal distribution"
-date: "StatPREP Class Lesson"
+date: "StatPREP Class Activity"
 weight: 10
 description: "Normal distributions are a *family*. The specific members  of the family are identified by two parameters: the mean and the standard deviation."
 output:
@@ -18,7 +18,7 @@ library(DT)
 rare_app <- get_app_info("rare")
 ```
 
-[Word format](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+`r SDSdata::word_pdf_links()`
 
 # Orientation
 

@@ -1,6 +1,6 @@
 ---
 title: "Common, uncommon, and rare"
-date: "StatPREP Class Lesson"
+date: "StatPREP Class Activity"
 description: "Using the z-score to express everyday concepts of common and rare."
 weight: 8
 output:
@@ -15,7 +15,7 @@ library(DT)
 rare_app <- get_app_info("rare")
 ```
 
-[Word format](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+`r SDSdata::word_pdf_links()`
 
 # Orientation 
 
@@ -36,7 +36,7 @@ Since it's so long-winded to say "within 2 standard deviations of the mean," sta
 
 Open up the [rare-and-common](`r rare_app$url`)  Little App. (See footnote^[<`r rare_app$url`>]).  Set the response variable to `height_adults` and leave the explanatory variable at `.none.` 
 
-1. The graphic shows a traditional blot of the distribution of the response variable, called a *density plot*. If you're familiar with a histogram, you might like to think about a *density plot* as a kind of smoothed histogram without the jagged, abrupt changes from bar to var.
+1. The graphic shows a traditional blot of the distribution of the response variable, called a *density plot*. If you're familiar with a histogram, you might like to think about a *density plot* as a kind of smoothed histogram without the jagged, abrupt changes from bar to bar.
 
     * There are sliders in the app to let you define numerically what range of values are common, uncommon, or rare. 
     

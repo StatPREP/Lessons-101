@@ -1,6 +1,6 @@
 ---
 title: "How much is explained?"
-date: "StatPREP Class Lesson"
+date: "StatPREP Class Activity"
 weight: 43
 description: "Using R-squared to quantify how much of the variation in a response variable is accounted for by explanatory variables."
 output:
@@ -19,7 +19,7 @@ library(DT)
 linear_app <- get_app_info("linear")
 ```
 
-[Word format](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+`r SDSdata::word_pdf_links()`
 
 # Orientation
 

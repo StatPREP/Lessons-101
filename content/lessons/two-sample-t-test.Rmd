@@ -1,6 +1,6 @@
 ---
 title: "The two-sample t test"
-date: "StatPREP Class Lesson"
+date: "StatPREP Class Activity"
 weight: 32
 description: "Having already looked at the overlap of confidence intervals on  the means of two groups, formalizing the process as a t-test."
 output:
@@ -19,7 +19,7 @@ library(DT)
 t_test_app <- get_app_info("t_test")
 ```
 
-[Word format](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 
+`r SDSdata::word_pdf_links()`
 
 # Orientation
 

@@ -1,6 +1,6 @@
 ---
 title: "Comparing two proportions"
-date: "StatPREP Class Lesson"
+date: "StatPREP Class Activity"
 weight: 500
 description: "NOT YET AVAILABLE. Is there evidence that the proportion of a given outcome is different among explanatory groups?"
 output:
@@ -13,6 +13,8 @@ SDSdata::sds_setup()
 library(LittleApp)
 library(DT)
 ```
+
+`r SDSdata::word_pdf_links()`
 
 STILL IN DEVELOPMENT ....
 

@@ -20,7 +20,7 @@ library(DT)
 rare_app <- get_app_info("rare")
 ```
 
-[Word format](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 
+`r SDSdata::word_pdf_links()`
 
 # Orientation
 
@@ -38,13 +38,13 @@ How to decide which variable should play the role of the response and which the 
 * If you believe that one variable *causes* the other variable, call the variable being caused the *response* variable. Example: Risk of cervical cancer as explained by whether or not the person got a human papilloma virus (HPV) vaccine.
 * If there's an *outcome* you're interested in, make that the *response* variable. Example: Test scores as explained by socio-economic status.
 
-Most statistics books have traditionally been written without making much use of the concepts of response and explanatory variables. Mathematicians, in particular, seem to like to talk about "bivariate relationships" and to use statistics like the correlation coefficient that are the same whichever order you put the variables in. But most two-variable statistics -- for instance the slope of a regression line, or the difference between two proportions -- depend on the order of the variables. As such, it's helpful to be clear indicating the particular variable you want to predict or that's being caused, or that you have a particular interest in.
+Most statistics books have traditionally been written without making much use of the concepts of response and explanatory variables. Mathematicians, in particular, seem to like to talk about "bivariate relationships" and to use statistics like the correlation coefficient that are the same whichever order you put the variables in. But most two-variable statistics -- for instance the slope of a regression line, or the difference between two proportions -- depend on the order of the variables. As such, it's helpful to explicit in naming the particular variable you want to predict or that's being caused, or that you have a particular interest in.
 
 And, when there are more than two variables, it's particularly helpful to distinguish between the single response variable and the multiple explanatory variables (which are sometimes called *covariates* or *confounders*.)
 
 # Activity
 
-There are two main types of variables: quantitative and categorical. Strickly as a matter of logic, there are four possible ways that these two types can be arranged as the response and explanatory variables. It's important to know this, since the choice of an appropriate statistical  technique should be shaped by the types of the response and explanatory variables.
+There are two main types of variables: quantitative and categorical. Strictly as a matter of logic, there are four possible ways that these two types can be arranged as the response and explanatory variables. It's important to know this, since the choice of an appropriate statistical  technique should be shaped by the types of the response and explanatory variables.
 
 ```{r echo = FALSE}
 point_plot_app <- get_app_info("point_plot")

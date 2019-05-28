@@ -17,7 +17,7 @@
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/topics/instructions-data/</guid>
-      <description>Activities  [Data frames and spreadsheets] Variable types Variables and units Response and explanatory variables   Learning objectives  Additional resources  Word version of this document Instructor orientation Role in statistical practice Classroom discussion Assessment Tips for an active classroom Student pre-requisites Pitfalls   Orientation for instructors Explaining what is data and what are the forms of data.
+      <description>Activities  [Data frames and spreadsheets] Variable types Variables and units Response and explanatory variables   Learning objectives  Additional resources  Get formatted versions: Word : PDF Instructor orientation Role in statistical practice Classroom discussion Assessment Tips for an active classroom Student pre-requisites Pitfalls   Orientation for instructors Explaining what is data and what are the forms of data.
 Role in statistical practice  Conceptual pitfalls  Student pre-requisites  Student tasks and activities  Creating an active classroom See the document on general tips for creating an active classroom.</description>
     </item>
     
@@ -27,7 +27,7 @@ Role in statistical practice  Conceptual pitfalls  Student pre-requisites  Stude
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/topics/instructions-graphing/</guid>
-      <description>Activities  Point plots Jittering and violins Summary intervals Response and explanatory variables   Learning objectives  Additional resources  Word version of this document Instructor orientation Role in statistical practice Classroom discussion Assessment Tips for an active classroom Student pre-requisites Pitfalls   Orientation for instructors Showing the basic kinds of plots: data/density/interval
+      <description>Activities  Point plots Jittering and violins Summary intervals Response and explanatory variables   Learning objectives  Additional resources  Get formatted versions: Word : PDF Instructor orientation Role in statistical practice Classroom discussion Assessment Tips for an active classroom Student pre-requisites Pitfalls   Orientation for instructors Showing the basic kinds of plots: data/density/interval
 Role in statistical practice  Conceptual pitfalls  Learning objectives  Student background  Background data knowledge  (If we had) the population  Student tasks and activities  Creating an active classroom See the document on general tips for creating an active classroom.</description>
     </item>
     
@@ -37,7 +37,7 @@ Role in statistical practice  Conceptual pitfalls  Learning objectives  Student 
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/topics/instructions-causality/</guid>
-      <description>Activities  Intervention and prediction Experiment and causality   Learning objectives  Additional sections  Word version of this document Instructor orientation Role in statistical practice Classroom discussion Tips for an active classroom Student pre-requisites Pitfalls   Orientation for instructors There is an epigram that is familiar to all statistics instructors:
+      <description>Activities  Intervention and prediction Experiment and causality   Learning objectives  Additional sections  Get formatted versions: Word : PDF Instructor orientation Role in statistical practice Classroom discussion Tips for an active classroom Student pre-requisites Pitfalls   Orientation for instructors There is an epigram that is familiar to all statistics instructors:
  Correlation is not causation.
  Put on a more explicit logical footing, this is equivalent to:</description>
     </item>
@@ -67,16 +67,6 @@ Role in statistical practice  Conceptual pitfalls  Learning objectives  Student 
       
       <guid>/topics/instructions-confidence-intervals/</guid>
       <description>Activities  What is a confidence interval? Sampling bias and confidence intervals Comparing two groups Comparing two confidence intervals Two-sample t test   Learning objectives connected to confidence intervals  Master the relevant vocabulary … population, sample, sample statistic, point estimate, margin of error, confidence interval, confidence level. Recognize the estimation process that leads to a confidence interval: a sample is selected randomly from a population a statistic is calculated from that sample the margin of error and, correspondingly, the confidence interval are calculated from that sample.</description>
-    </item>
-    
-    <item>
-      <title>Two-sample t test</title>
-      <link>/topics/foo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/topics/foo/</guid>
-      <description>Activities  Comparing two groups Comparing confidence intervals Two sample t-test   Learning objectives Typical course objectives relating to the t-based test and confidence interval are:
- Confidence interval:  Compute from data the confidence interval on the difference of means. Interpret the confidence interval in the context of the question intended to be addressed with the data.  p-value:  State an appropriate null hypothesis Draw a sketch relating the sampling distribution under the null to the observed difference between sample means, and marking the region of the distribution corresponding to the p-value.</description>
     </item>
     
     <item>

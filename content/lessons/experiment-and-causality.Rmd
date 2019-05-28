@@ -1,6 +1,6 @@
 ---
 title: "Experiment and causality"
-date: "StatPREP Class Lesson"
+date: "StatPREP Class Activity"
 description: "Causality  as a reason to identify one variable as the response and another as the explanatory."
 weight: 6
 output:
@@ -16,6 +16,8 @@ library(LittleApp)
 library(DT)
 point_plot_app <- get_app_info("point_plot") 
 ```
+
+`r SDSdata::word_pdf_links()`
 
 # Orientation
 

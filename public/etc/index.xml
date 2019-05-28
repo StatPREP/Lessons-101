@@ -6,20 +6,10 @@
     <description>Recent content in Etcs on StatPREP 101</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Jan 2010 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Jan 2010 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/etc/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Tips for an active classroom</title>
-      <link>/etc/tips-for-active-classroom/</link>
-      <pubDate>Sat, 02 Jan 2010 00:00:00 +0000</pubDate>
-      
-      <guid>/etc/tips-for-active-classroom/</guid>
-      <description>Many instructors believe that learning is enhanced in a classroom where students are active participants rather than the passive recipients of a lecture. This document describes some general techniques for fostering an active classroom that can be used in a wide range of lesson topics. (There are also tips for specific topics included in the instructor guide for each topic.)
-What’s key is to constantly look for opportunities to force students to make a choice, offer a suggestion, or state an interpretation or an opinion.</description>
-    </item>
     
     <item>
       <title>Blogdown changes</title>
@@ -39,6 +29,16 @@ What’s key is to constantly look for opportunities to force students to make a
       <guid>/etc/inference-workbook/</guid>
       <description>A key concept in statistics is variability. This concept is really nothing more than the idea that individual objects or events differ from one another. For instance, the monthly cost of personal transportation (car, bus, biking, etc.) obvious varies from one person to another; some people spend a lot on transportation, some very little.
 Common sense says that some of the variability can be explained or accounted for by factors that can themselves be measured.</description>
+    </item>
+    
+    <item>
+      <title>Tips for an active classroom</title>
+      <link>/etc/tips-for-active-classroom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/etc/tips-for-active-classroom/</guid>
+      <description>Many instructors believe that learning is enhanced in a classroom where students are active participants rather than the passive recipients of a lecture. This document describes some general techniques for fostering an active classroom that can be used in a wide range of lesson topics. (There are also tips for specific topics included in the instructor guide for each topic.)
+What’s key is to constantly look for opportunities to force students to make a choice, offer a suggestion, or state an interpretation or an opinion.</description>
     </item>
     
   </channel>

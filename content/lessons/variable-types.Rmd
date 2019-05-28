@@ -1,6 +1,6 @@
 ---
 title: "Types of variables"
-date: "StatPREP Class Lesson"
+date: "StatPREP Class Activitty"
 description: "Introduces the distinction between quantitative and categorical variables, the *range* of a quantitative variable and the *levels* of a categorical variable."
 weight: 2
 output:
@@ -16,7 +16,7 @@ library(LittleApp)
 library(DT)
 ```
 
-[Word format](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 
+`r SDSdata::word_pdf_links()`
 
 # Orientation
 
@@ -25,7 +25,6 @@ There are two major types of variables:
 * **Quantitative**, where the *value* of the variable is a number.
 * **Categorical**,  where the value of the variable is one of a set of labels. That is, the value tells which *category* or *group* the row falls into.
 
-It's usually easy to tell what type a variable is by looking at the variable's column in the data frame. But it's also easy to tell from a point plot what are the types of the response and explanatory variables.
 
 Quantitative variables cover an *interval* of the number line. That interval is described by two numbers: the minimum value and the maximum value of the variable.
 
@@ -48,19 +47,26 @@ point_plot_app <- get_app_info("point_plot")
 
 Open the [Point Plot Little App](`r point_plot_app$url`). (See footnote^[<`r point_plot_app$url`>]). Set the data frame to `NHANES` and the sample size to be several hundred.
 
-1. Pick a quantitative response variable and a categorical explanatory  variable. You might have to use trial and error to find such variables but once you do, it will be evident in the graph. Please don't use `ID` or `SurveyYr` -- stick to the variables that are about the individual being surveyed.
+1. Pick a *quantitative response* variable and a *categorical explanatory* variable. You might have to use trial and error to find such variables but once you do, it will be evident in the graph. Please don't use `ID` or `SurveyYr` -- stick to the variables that are about the individual being surveyed.
 
-    **Tip**: When one or both of the response and explanatory variables is  categorical, it is often nice to *jitter* the point plot. Jittering doesn't change the values of the variable itself, it just changes how they are displayed in the point plot. Jittering moves each point a small random distance from the exact tick which marks the level of the variable along the axis.
+    `r question_blank("*Write down the names of the variables you selected. For the categorical variable, write down each of the levels.*", breaks = 3, length = 0)`
 
-    * Write down the names of the variables you selected. For the categorical variable, write down each of the levels.
-
-    * Measure the *interval* spanned by the quantitative variable for each group defined by  the categorical variable. You can use the measuring stick built into the app. (That is,  click at a point in the graphics frame and drag the mouse to select a vertical interval.) Write down the interval for each categorical level.
+    * Measure the *interval* spanned by the quantitative variable for each group defined by  the categorical variable. You can use the measuring stick built into the app. (That is,  click at a point in the graphics frame and drag the mouse to select a vertical interval.) 
+    
+    `r question_blank("*Write down the interval spaned by the values of the response variable for each categorical level of the explanatory variable.*", length = 0)`
+    
+    Level of explanatory variable | Interval spanned by response variable
+    -----------------------------------|-----------------------------------
+      |  
+      |  
+      |  
+      |  
 
     * Also, measure and record the *spread* of the quantitative variable for each categorical level. 
 
 2. Using the selector for the explanatory variable, find five more categorical variables in the `NHANES` data. At least two of your five should be *ordinal* variables.
 
-    * For each, write down the levels,  and whether the variable is unordered or ordinal.
+    `r question_blank("*For each, write down the levels,  and whether the variable is unordered or ordinal.*", breaks = 3)`
     
 
 ----------------------

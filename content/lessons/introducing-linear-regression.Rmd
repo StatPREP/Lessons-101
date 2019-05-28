@@ -1,6 +1,6 @@
 ---
 title: "Introducing linear regression"
-date: "StatPREP Class Lesson"
+date: "StatPREP Class Activity"
 description: "Discussion topics to introduce linear regression to your class."
 weight: 8
 output:
@@ -15,6 +15,7 @@ library(DT)
 regression_app <- get_app_info("regression")
 ```
 
+`r SDSdata::word_pdf_links()`
 
 ## Showing various sorts of relationships for discussion
 

@@ -137,10 +137,6 @@
   </url>
   
   <url>
-    <loc>/topics/foo/</loc>
-  </url>
-  
-  <url>
     <loc>/topics/instructions-two-sample-t-test/</loc>
   </url>
   
@@ -155,7 +151,6 @@
   
   <url>
     <loc>/lessons/point-plot/</loc>
-    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -168,12 +163,6 @@
   
   <url>
     <loc>/lessons/flexibility/</loc>
-  </url>
-  
-  <url>
-    <loc>/lessons/</loc>
-    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -256,23 +245,23 @@
   </url>
   
   <url>
-    <loc>/etc/</loc>
-    <lastmod>2010-01-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/etc/tips-for-active-classroom/</loc>
-    <lastmod>2010-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/etc/blogdown-changes/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>/etc/</loc>
+    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/etc/inference-workbook/</loc>
+  </url>
+  
+  <url>
+    <loc>/lessons/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -283,6 +272,10 @@
   <url>
     <loc>/littleapps/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/etc/tips-for-active-classroom/</loc>
   </url>
   
   <url>

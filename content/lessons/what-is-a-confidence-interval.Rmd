@@ -1,6 +1,6 @@
 ---
 title: "What is a confidence interval?"
-date: "StatPREP Class Lesson"
+date: "StatPREP Class Activity"
 description: "Describes the desired behavior of a confidence interval, that is, how to test whether a procedure produces a valid confidence interval."
 weight: 12
 output:
@@ -16,6 +16,7 @@ CI_app <- get_app_info("bias")
 ```
 
 [Word format](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+
 
 # Orientation
 
@@ -33,13 +34,13 @@ Often, statistics books devote  many pages to  how to calculate a confidence int
 
 The calculations for a legitimate confidence interval were designed by people, and usually there are different ways to calculate a legitimate interval on the same sample statistic.  
 
-But you can't just make up  your own interval and expect it to be legitimate. By analogy,  you can put water  in a bottle, shake it, and call it wine. But it won't be legitimate wine. You can cut  out cardboard wheels, paste them to a box, and call it a car. But it won't be a legitimate car. This is common sense, since we  are all very familiar with cars and wine. But there's  no common sense to identify an interval as a legitimage confidence interval.
+But you can't just make up  your own interval and expect it to be legitimate. By analogy,  you can put water  in a bottle, shake it, and call it wine. But it won't be legitimate wine. You can cut  out cardboard wheels, paste them to a box, and call it a car. But it won't be a legitimate car. This is common sense, since we  are all very familiar with cars and wine. But there's  no common sense to identify an interval as a legitimate confidence interval.
 
 In this activity, we're going to present you with an interval and ask you to confirm that it is a legitimate confidence interval. 
 
 # Activity
 
-1. Open the [Confidence intervals and sampling bias](`r CI_app$url`). (See footnote^[<`r CI_app$url`>]). The graph that will be displayed is very simple: A jittered point plot of the response variable from a random sample from the population. To keep the app simple, there is no explanatory variable. Just the response variable is shown with  the horizontal axis used for jittering so that you can see the distribution of response variable.    
+1. Open the Little App on [Confidence intervals and sampling bias](`r CI_app$url`). (See footnote^[<`r CI_app$url`>]). The graph that will be displayed is very simple: A jittered point plot of the response variable from a random sample from the population. To keep the app simple, there is no explanatory variable. Just the response variable is shown with  the horizontal axis used for jittering so that you can see the distribution of response variable.    
     
     Also shown in  the app is a horizontal line showing the *population mean*. Of course, ordinarily we don't know  the population mean, but this app uses the whole data set, typically many thousands of cases, as a stand-in for the population. 
     
@@ -80,15 +81,25 @@ ______    | | _________
           
           
     
-5. In  order for confidence intervals to behave in the right way, that is, to  cover the population parameter at a frequency specified by the confidence level,  valid confidence intervals tend to change systematically with the sample size and with the confidence interval.
+5. In  order for confidence intervals to behave in the right way, that is, to  cover the population parameter at a frequency specified by the confidence level,  valid confidence intervals tend to change systematically with the sample size and with the confidence level.
 
-    * Keeping on  sample on  the display, change the confidence level  and measure (with the measuring stick) the length of the interval versus the confidence interval. Record this information and come up  with  a general statement about how the length of the  confidence interval depends on the confidence level.
+    i. Keeping one sample on the display, change the confidence level. Use the measuring stick to find the length of the new interval and record this information in the table below. 
+    
+    Confidence level | ![](/images/20mm-blank.png) | Interval length
+    -----------:|----------------|------
+    50% | 
+    80% |
+    95% |
+    99% |
+    99.99% |
+    
+    ii. Come up  with  a general statement about how the length of the  confidence interval depends on the confidence level.
     
     Your answer: 
     
     ![](/images/50mm-space.png)
     
-    * Similarly, at a fixed confidence level, try several different sample sizes and measure the length of the confidence interval. Record this information and, again, come up with a general statement that describes well how the length of the confidence interval depends on  the sample size.
+    iii. Similarly, at a fixed confidence level, try several different sample sizes and measure the length of the confidence interval. Record this information and, again, come up with a general statement that describes well how the length of the confidence interval depends on  the sample size.
     
 Sample size | ![](/images/20mm-blank.png) | Interval length
 -----------:|----------------|------

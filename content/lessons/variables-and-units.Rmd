@@ -1,6 +1,6 @@
 ---
 title: "Variables and the unit of observation"
-date: "StatPREP Class Lesson"
+date: "StatPREP Class Activity"
 description:  "Gets students to think about what is the unit of observation in each data set and how to look up the meaning of each variable."
 weight: 3
 output:
@@ -18,11 +18,11 @@ library(DT)
 point_plot_app <- get_app_info("point")
 ```
 
-[Word format](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 
+`r SDSdata::word_pdf_links()`
 
 ## Orientation 
 
-There's an expression about how to accomplish a complex, confusing, and difficult task: *One step a at time.* The purpose of this lesson is to provide you with a step-by-step procedure for working  with data. Each step can be straightforward. Some steps involve informing yourself about the data at hand.  Some steps require creativity and insight about the real-world system the data represents. Some steps require application of a particular technical procedure.
+There's an expression about how to accomplish a complex, confusing, and difficult task: *One step at a time.* The purpose of this lesson is to provide you with a step-by-step procedure for working  with data. Each step can be straightforward. Some steps involve informing yourself about the data at hand.  Some steps require creativity and insight about the real-world system the data represents. Some steps require application of a particular technical procedure.
 
 Here are steps for getting started with a data frame that's already available to you.
 
@@ -33,7 +33,7 @@ Here are steps for getting started with a data frame that's already available to
 5. Examine *how much* of the variation in the response variable is accounted for by the explanatory variables.
 6. Describe in words and numbers the *pattern of the relationship* between the explanatory variables and the response variable. 
 
-In this lesson, your're going to work on steps (1) and (2).
+In this lesson, you're going to work on steps (1) and (2).
 
 
 ## Activity
@@ -44,14 +44,21 @@ You'll use the  [variables-and-units  Little App](`r point_plot_app$url`) for th
 Steps (1)  and (2) are to find  out about the data frame: What is the unit of analysis  and what are the variables. A standard  place to get  information about a data frame is the *codebook* for the data frame, which is the descriptive documentation about the data.
 
 1. Go to the ***Codebook*** tab in the app. The documentation will appear. 
-The *unit of observation* is the kind of "thing" each row of the data is about. Read the description section of the codebook. This often contains clues about  the unit of observation. Note the  words "survey," "individuals," "interviewed." 
+The *unit of observation* is the kind of "thing" each row of the data is about. 
 
-    * What do you think is the unit of observation? <!-- an individual person -->
+     * Read the description section of the codebook. This often contains clues about  the unit of observation. Note the  words "survey," "individuals," "interviewed." 
+
+    `r question_blank("*What do you think is the unit of observation?*", breaks = 2, length = 2)` <!-- an individual person -->
 
 2. The variables are described further on in the codebook.
 
-    * Find a few variables whose meaning is obvious to you.
-    * Some variables have simple names like `Age`. Some have names that are more like a codeword, like `BPSysAve`. Find a few variables with such names and see if the description  of the variable's meaning helps you understand what the variable is about.
+    * Some variables have simple names like `Age`. Find a few other variables whose meaning is obvious to you even without looking at the description in the codebook.
+    
+    `r question_blank("*Write down the names of a few obvious variables.*", breaks = 2, length = 2)`
+    
+    *  Some variables have names that are more like a codeword, like `BPSysAve`. Find a few variables with such names and see if the description  of the variable's meaning helps you understand what the variable is about.
+    
+    `r question_blank("*Are there any variables for which even the description in the codebook doesn't help you understand? Write down one and speculate what it might be about.*", breaks = 3, length = 2)`
 
 
 

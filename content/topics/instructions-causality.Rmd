@@ -9,6 +9,7 @@ date: "2019-04-22"
 
 ```
 
+
 ## Activities
 
 * [Intervention and prediction](/lessons/intervention-and-prediction/)
@@ -18,7 +19,7 @@ date: "2019-04-22"
 
 ## Additional sections
 
-- [Word version of this document](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`)
+- `r SDSdata::word_pdf_links()`
 - [Instructor orientation](#orientation)
 - [Role in statistical practice](#role)
 - [Classroom discussion](#discussion)
@@ -68,13 +69,13 @@ c. In a model, include the variable to  be held constant among the explanatory  
 
 (a) and (b) are the most compelling, because we can't really know if the model in (c) actually represents  the real-world system.
 
-What we miss out entirely in the canonical intro stats curriculum is the kind of experiment that involves holding variables constant. Such experiments can actually be used to reject hypotheses about causal networks. If we observe a correlation  when the hypothetical  network (augmented, perhaps, by holding variables constant) says we shouldn't, we can  reject the hypothesis. Or  if we see no correlation when the network says we should see one, we can reject the  hypothesis. This process of elimination, involving experiments we variables are held constant, can sometimes resolve a dispute between two rival hypotheses.
+What we miss out entirely in the canonical intro stats curriculum is the kind of experiment that involves holding variables constant. Such experiments can actually be used to reject hypotheses about causal networks. If we observe a correlation  when the hypothetical  network (augmented, perhaps, by holding variables constant) says we shouldn't, we can  reject the hypothesis. Or  if we see no correlation when the network says we should see one, we can reject the  hypothesis. This process of elimination, involving experiments where variables are held constant, can sometimes resolve a dispute between two rival hypotheses.
 
 Going back to the statement that "no causation implies no correlation," we can take the contrapositive to arrive at this, more meaningful statement:
 
 > *Correlation implies causation.*
 
-It's just that the correlation doesn't by itself distriguish between rival hypotheses, telling us, for example, whether X causes Y or the other way around, or whether there  is a common  cause  shaping  both X and  Y. But by doing hold-a-variable-constant experiments, we can distinguish between  different possible  arrangements of X, Y, and C.
+It's just that the correlation doesn't by itself distringuish between rival hypotheses, telling us, for example, whether X causes Y or the other way around, or whether there  is a common  cause  shaping  both X and  Y. But by doing hold-a-variable-constant experiments, we can distinguish between  different possible  arrangements of X, Y, and C.
 
 ## Role in statistical practice
 
