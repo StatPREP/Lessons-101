@@ -71,4 +71,5 @@ Open the [Point Plot Little App](`r point_plot_app$url`). (See footnote^[<`r poi
 
 ----------------------
 
-Version 0.2, `r Sys.Date()`, Daniel Kaplan, 
+Version 0.3, `r Sys.Date()`, Daniel Kaplan
+
