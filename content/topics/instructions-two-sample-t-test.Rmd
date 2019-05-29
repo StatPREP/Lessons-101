@@ -21,6 +21,8 @@ library(LittleApp)
 * [Comparing two groups](/lessons/comparing-two-groups/)
 * [Comparing confidence intervals](/lessons/comparing-confidence-intervals/)
 * [Two sample t-test](/lessons/two-sample-t-test/)
+* Instructor customizations:
+    - Ambika Silva: [Comparing two samples with confidence intervals](/derived-activities/two-sample-T-CI.pdf)
 
 ## Learning objectives
 
