@@ -31,7 +31,7 @@ Many of the models built by statisticians are for the purpose of summarizing the
 
 Another important purpose for a model is to help us gauge *how much* of the variation in the response variable is *accounted for* by the explanatory  variables. Knowing this guides conclusions about whether the explanatory variables are important in shaping the response variable. Or, looking at things the other way, knowing how much is accounted for also tells us how much remains *unaccounted for*.
 
-That's what this lesson is about. As you'll see, we'll a statistic called R with the long-winded name "coefficient of variation."  (When you read about statistical models, you'll generally encounter the square of R, called "R-squared" and written R^2^. There's a good reason for that, but it's not important now.)
+That's what this lesson is about. As you'll see, we'll work with a statistic called R with the long-winded name "coefficient of variation."  (When you read about statistical models, you'll generally encounter the square of R, called "R-squared" and written R^2^. There's a good reason for that, but it's not important now.)
 
 # Activity
 
@@ -39,9 +39,9 @@ That's what this lesson is about. As you'll see, we'll a statistic called R with
 
     The graph that will be displayed will look like this (although your random sample will be different):
 
-    ```{r echo = FALSE}
+    ```{r echo = FALSE, warning = FALSE}
 set.seed(101)
-This_data <- SDSdata::Births_2014 %>% select(age_mother, age_father) %>% sample_n(size = 50) %>%
+This_data <- SDSdata::Births_2014 %>% dplyr::select(age_mother, age_father) %>% sample_n(size = 50) %>%
   mutate(age_mother = jitter(age_mother), age_father = jitter(age_father))
 the_formula <- age_father ~ age_mother
 smoother_plot(the_formula, the_formula, This_data, color = "black", 
@@ -55,7 +55,7 @@ smoother_plot(the_formula, the_formula, This_data, color = "black",
 
     `r question_blank("*Use the measuring stick to find out the **difference** between the maximum and minimum value of the response variable. Write down the difference you found.*")`
 
-2. The *standard deviation* us another, usually better, way to measure the spread of the red bars is with . The black I-shaped mark spans a vertical distance of one standard deviation.
+2. Another way to quantify the spread of the red bars is with the *standard deviation*. The black I-shaped mark spans a vertical distance of one standard deviation.
 
    Use the measuring stick to measure the length of the standard deviation mark. 
     
@@ -63,9 +63,9 @@ smoother_plot(the_formula, the_formula, This_data, color = "black",
 
     The range and the standard deviation are different quantities. Both describe the spread of the response variable, but they do so in different ways. You could use either,  but the standard deviation is a more reliable way to measure the variation, so that's what we generally use use.
 
-3. The Little App automatically shows the best-fitting  straight-line description of how the response and explanatory variable are related. This is called the *regression line*. For every position on the x-axis, the regression line gives a corresponding position on the y-axis. Since the x-axis shows the explanatory variable and the y-axis shows the response variable, the straight line is a way of translating from the explanatory variable to the response variable. The actual data points are not usually exactly on the regression line, because the explanatory variable offers only a partial explanation for the reponse variable. 
+3. The Little App automatically shows the best-fitting  straight-line description of how the response and explanatory variable are related. This is called the *regression line*. For every position on the x-axis, the regression line gives a corresponding position on the y-axis. Since the x-axis shows the explanatory variable and the y-axis shows the response variable, the straight line is a way of translating from the explanatory variable to the response variable. The actual data points are not usually exactly on the regression line, because the explanatory variable offers only a partial explanation for the response variable. 
 
-    To measure the amount of the response variable accounted for by the explanatory variable, use  the  bars next to the red bars. Remember the red bars showed the actual values of the response variables. The  bars are different. They show the values for the response variable that you get when you use the line to translate the expanatory variable into a value for the response variable. These values are called the "model values." There is a blue I-shaped mark over the  bars that shows the standard deviation of the model values.  
+    To measure the amount of the response variable accounted for by the explanatory variable, use  the  bars next to the red bars. Remember the red bars showed the actual values of the response variables. The  bars are different. They show the values for the response variable that you get when you use the line to translate the explanatory variable into a value for the response variable. These values are called the "model values." There is a blue I-shaped mark over the  bars that shows the standard deviation of the model values.  
 
     Measure the variation of the model values with the standard deviation. You can use the measuring stick to figure out how long the blue mark is. 
     

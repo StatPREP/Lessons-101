@@ -25,10 +25,10 @@ sumsquare_app <- get_app_info("sum")
 * Sensibly choose which variable should be the response and which the explanatory variable, and know when it does and doesn't matter. (Other nomenclature for explanatory/response:  predictor/response or independent/dependent.) Lesson: [response and explanatory variables](/lessons/response-and-explanatory/)
     - External evidence of which  direction  causation goes, e.g. hours work explains total pay.
     - Why are you making a prediction:
-        - Deduce from something easy to measure, something that would be hard to measure. Future.
+        - Deduce from something easy to measure, something that would be hard to measure. Often, it's a future value that we're interested in. Sometimes it can be a past or present value that we just don't know yet.
         - Hypothesis formation.
-* Determine whether a straight-line model is appropriate for describing a given relationship. Lesson: [flexibility](../Lesson-guide.html#flexibility)
-    - Students can distinguish between situations where the relationship is approximately linear and when it is not. Examples: Height versus  age, BMI vs weight, BMI versus height (which has a crazy, upsidedown whistle-shaped cloud)
+* Determine whether a straight-line model is appropriate for describing a given relationship. Lesson: [flexibility](/lessons/flexibility/)
+    - Students can distinguish between situations where the relationship is approximately linear and when it is not. Examples: Height versus  age, BMI vs weight, BMI versus height (which has a crazy, upside-down whistle-shaped cloud)
     - residual, e.g.  heteroscedasticity
     - covariate
 * Interpret the correlation coefficient in terms of pos/neg/null and strength of correlation
@@ -111,7 +111,7 @@ The analog to $r$ in multiple regression is $\sqrt{R^2}$, where $R^2$, the *coef
 
 When we use coefficients like $b$ to quantify a relationship, we set up an interpretation of $b$ as as a kind of translation factor from $x$ units to $y$ units. That is, a one-unit increase in $x$ is associated with a $b$-unit increase in $y$.
 
-Sometimes simple regression is presented as a way to *predict* a value of $y$ given the value of $x$. This use is seriously misleading. A proper prediction should not be in the form of a single number, but a probability assigned to each possible outcome. In the case of simple regression, a meaningful prediction is that the output $y$ is predicted to have the form of a normal distribution with mean $ a + b x$ and a standard deviation corresponding roughly to the standard deviation of the residuals of the y-values from the corresponding model value.
+
 
 $R^2$ (or, $r^2$ if you insist) has a central role in statistical inference. The ratio
 
@@ -127,7 +127,7 @@ Note that the t-statistic on $b$ is simply $t = \sqrt{F}$. A reason to use F ins
 
 The F statistic also generalizes to nonlinear formulas $y = f(x)$. Roughly speaking, for a quadratic shaped model, the $n-1$ term in $F$ should be replaced by $\frac{n-2}{2}$.
 
-
+Sometimes simple regression is presented as a way to *predict* a value of $y$ given the value of $x$. This use is seriously misleading. Clearly you can plug a value of the explanatory variable $x$ into the $a + b x$ regression formula. The number you get out will be the *most likely* single value. This is not a proper statistical prediction.  The prediction should not be in the form of a single number. Instead, the prediction should take the form of a probability assigned to each possible outcome. In the case of simple regression, a meaningful prediction is that the output $y$ for any given $x$ is predicted to have the form of a normal distribution with mean $a + b x$ and a standard deviation corresponding roughly to the standard deviation of the residuals of the y-values from the corresponding model value.
 
 ## Student pre-requisites {#prereqs}
 
@@ -172,7 +172,7 @@ Some specific discussion topics/themes for linear regression:
 5. Consider **systolic blood pressure** from the NHANES2 data.    
     - Background: Explain to students what is the difference between the systolic and diastolic blood pressure. Each time the heart beats, the blood pressure in the arteries goes up. It quickly rises to a maximum and then decays until the next beat.  Systolic is the maximum blood pressure each beat, diastolic the minimum. The  "pulse pressure" is the difference between the two. See [this site on blood pressure](https://www.mayoclinic.org/diseases-conditions/high-blood-pressure/expert-answers/pulse-pressure/faq-20058189).
     - Tasks
-        1. Determinine three explanatory variables that are predictive of systolic blood pressure. 
+        1. Determine three explanatory variables that are predictive of systolic blood pressure. 
         2. For each of the three, list the strength of the relationship both as a fraction of the variation explained as as the change in systolic blood pressure per  unit change of the explanatory variable. 
         3. Then check whether those three explanatory variables explain diastolic blood pressure as well. Which of systolic or diastolic blood pressure is better explained by the explanatory variables?
 6. **Diamonds** similar to the above, but predict the price of a diamond.
@@ -189,7 +189,7 @@ Some specific discussion topics/themes for linear regression:
     - Don't use $y  = m x + b$ except as a reminder of what a slope is.  Instead ...
         - read the slope off a graph. Don't worry about the intercept.
         - read the slope off a regression report.
-        - "the effect size of x on y"????
+        - interpret the slope as the "effect size" of x on y."
     - Differences: if the input changes, how much does the output change?
     
 - With the app: Can we predict something hard to measure from something easy.
@@ -216,16 +216,16 @@ The slope $b$ is a physical quantity that has dimension and units. For instance 
 
 The correlation coefficient $r$ is a scaled version of $b$. The scaling is by the ratio of the standard deviations of the $x$ and $y$ variables, that is, $r = \frac{\sigma_x}{\sigma_y} b$. This scaling results in $r$ being a pure number since the units  of $\sigma_x  / \sigma_y$ cancel out the units of $b$.
 
-The slope $b$ can be any numerical quantity. In contrast, the correlation coefficient must always be $-1 \leq r \leq 1$. Many mathematics educators believe that this means that $r$ describes the "strength" of the relationship between $y$ and $x$. Whether or  not this is  true depends  on  what one means by "strength." In scientific research, the intuition behind strength corresponds better to the slope $b$ and includes the physical units of $b$. In statistics, when "strength" is taken to refer to how compelling the evidence is for  a claim, an appropriate measure is the *confidence interval* on $b$. Another statistical quantity, the *p-value* on the slope, refers to a quantifying the evidence for a particular but very weak  sort of claim, that $m$ is anything but zero. 
+The slope $b$ can be any numerical quantity. In contrast, the correlation coefficient must always be $-1 \leq r \leq 1$. Many mathematics educators believe that this means that $r$ describes the "strength" of the relationship between $y$ and $x$. Whether or  not this is  true depends  on  what one means by "strength." In scientific research, the intuition behind strength corresponds better to the slope $b$ and includes the physical units of $b$. In statistics, when "strength" is taken to refer to how compelling the evidence is for  a claim, an appropriate measure is the *confidence interval* on $b$. Another statistical quantity, the *p-value* on the slope, refers to a quantifying the evidence for a particular but very weak  sort of claim, that $b$ is anything but zero. 
 
-Although students are often drilled in the fact that $-1 \leq r \leq 1$, the reason why $r$ is bounded in this way is subtle. It's misleading to conclude that the bounds on $r$ suggest that a "strong" relationship  is one there $|r| \approx 1$.  The correlation coefficient $r$ predates the distinction  between descriptive and inferential statistics and mixes together aspects of both. This leads to pedagogical challenges that could be avoided if relationships are described using $m$ and inferences made using the confidence interval on $m$.
+Although students are often drilled in the fact that $-1 \leq r \leq 1$, the reason why $r$ is bounded in this way is subtle. It's misleading to conclude that the bounds on $r$ suggest that a "strong" relationship  is one where $|r| \approx 1$.  The correlation coefficient $r$ predates the distinction  between descriptive and inferential statistics and mixes together aspects of both. This leads to pedagogical challenges that could be avoided if relationships are described using $b$ and inferences made using the confidence interval on $b$.
 
 
 * Too much is made of the "optimality" of the estimates of the slope and intercept. `r app <- get_app_info("sum")` See the [sum of squares Little App](`r app$url`).
 * Categorical explanatory variables can also be used. ANOVA is a  general procedure in linear regression. Almost  every statistical method covered in intro stats -- proportions, differences in  proportions, means, differences in means, ANOVA -- can be presented quite naturally as a linear regression  problem.
 * Robust statistical methods are available to deal automatically with outliers, without having to handle them as special cases.
 * $r$ is meaningless in  multiple regression. $R^2$ is more general.
-* Although $y$ and $x$ are conventional names given to the variables involved when discussing  statistical and mathematical theory, 
+* Although $y$ and $x$ are conventional names given to the variables involved when discussing  statistical and mathematical theory, in statistical practice, both $x$ and $y$ are variables with *names*, and those names should be used explicitly. This is one reason why a regression table is the conventional format for describing a linear regression, not a formula.
 
 ## Author info
 

@@ -213,7 +213,7 @@ In statistics, it’s helpful to have standard ways to refer to frequency. The s
       <guid>/lessons/introducing-linear-regression/</guid>
       <description>Get formatted versions: Word : PDF
 Showing various sorts of relationships for discussion Open up the linear regression Little App. (See footnote1). In this activity we’ll explore three different data sets available through the app. For each data set, the variable indicated below plays the role of the response variable. Some explanatory variables are listed as sub-points.
-Data set: NHANES2. Response variable: BMI. It’s important for students to know what BMI is.</description>
+Data set: NHANES. Response variable: BMI. It’s important for students to know what BMI is.</description>
     </item>
     
     <item>
@@ -335,7 +335,7 @@ A possible explanation for the observed difference in the two means is that it i
     <item>
       <title>Confidence intervals</title>
       <link>/topics/instructions-confidence-intervals/</link>
-      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/topics/instructions-confidence-intervals/</guid>
       <description>Activities  What is a confidence interval? Sampling bias and confidence intervals Comparing two groups Comparing two confidence intervals Two-sample t test   Learning objectives connected to confidence intervals  Master the relevant vocabulary … population, sample, sample statistic, point estimate, margin of error, confidence interval, confidence level. Recognize the estimation process that leads to a confidence interval: a sample is selected randomly from a population a statistic is calculated from that sample the margin of error and, correspondingly, the confidence interval are calculated from that sample.</description>
@@ -359,7 +359,7 @@ This lesson introduces the conventions for such a summary.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/topics/instructions-two-sample-t-test/</guid>
-      <description>Activities  Comparing two groups Comparing confidence intervals Two sample t-test Instructor customizations:  Ambika Silva: Comparing two samples with confidence intervals    Learning objectives Typical course objectives relating to the t-based test and confidence interval are:
+      <description>Activities  Comparing two groups Comparing confidence intervals Two sample t-test Instructor customizations:  Ambika Silva: Comparing two samples with confidence intervals activity &amp;amp; assessment    Learning objectives Typical course objectives relating to the t-based test and confidence interval are:
  Confidence interval:  Compute from data the confidence interval on the difference of means. Interpret the confidence interval in the context of the question intended to be addressed with the data.</description>
     </item>
     

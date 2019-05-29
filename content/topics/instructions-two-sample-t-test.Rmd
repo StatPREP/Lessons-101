@@ -22,7 +22,7 @@ library(LittleApp)
 * [Comparing confidence intervals](/lessons/comparing-confidence-intervals/)
 * [Two sample t-test](/lessons/two-sample-t-test/)
 * Instructor customizations:
-    - Ambika Silva: [Comparing two samples with confidence intervals](/derived-activities/two-sample-T-CI.pdf)
+    - Ambika Silva: Comparing two samples with confidence intervals [activity](/derived-activities/two-sample-T-CI.pdf) & [assessment](/derived-activities/assessment-two-t.pdf)
 
 ## Learning objectives
 

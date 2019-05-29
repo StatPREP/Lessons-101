@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 MAY 2019 14:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  29 MAY 2019 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1135,27 +1135,27 @@ obotoCondensed-LF.
 )
 LaTeX Font Info:    Font shape `TS1/RobotoCondensed-LF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 222.
-LaTeX Font Info:    Try loading font information for U+msa on input line 282.
+LaTeX Font Info:    Try loading font information for U+msa on input line 292.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 282.
+LaTeX Font Info:    Try loading font information for U+msb on input line 292.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 320.
+(Font)              scaled to size 12.0pt on input line 330.
 LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 327.
+(Font)              scaled to size 10.0pt on input line 337.
 LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 374.
+(Font)              scaled to size 10.0pt on input line 369.
 [2] [3]
 LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 462.
+(Font)              scaled to size 9.0pt on input line 472.
 [4]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 559.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 569.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1165,16 +1165,16 @@ Package bibentry Warning: You have used \nobibliography*
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 690.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 700.
 [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 690.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 700.
 (./instructions-two-sample-t-test.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 690.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 690.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 700.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 700.
 Package rerunfilecheck Info: File `instructions-two-sample-t-test.out' has not 
 changed.
 (rerunfilecheck)             Checksum: 0D645B0474C5043D13F1F8AE460A768A;1223.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 690.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 700.
  ) 
 Here is how much of TeX's memory you used:
  13984 strings out of 492995
@@ -1183,7 +1183,7 @@ Here is how much of TeX's memory you used:
  17211 multiletter control sequences out of 15000+600000
  64183 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,11n,45p,356b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,11n,45p,356b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{pitfalls} has been referenced but does not exist,
  replaced by a fixed one
 
@@ -1209,10 +1209,10 @@ amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-sup
 er/sftt1000.pfb>
-Output written on instructions-two-sample-t-test.pdf (7 pages, 141770 bytes).
+Output written on instructions-two-sample-t-test.pdf (7 pages, 142590 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
+ 185 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
  50 named destinations out of 1000 (max. 500000)
  1089 words of extra memory for PDF output out of 10000 (max. 10000000)
 

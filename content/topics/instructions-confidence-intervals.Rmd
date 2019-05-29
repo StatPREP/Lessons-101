@@ -2,7 +2,7 @@
 title: "Confidence intervals"
 author: "Rona Axelrod  and Danny Kaplan"
 weight: 40
-date: "2019-04-15"
+date: "StatPREP Instructor Guide"
 ---
 
 ```{r setup, include=FALSE}
@@ -26,10 +26,11 @@ options(htmltools.dir.version = FALSE)
     1. a sample is selected randomly from a population
     2. a statistic is calculated from that sample
     3. the margin of error and, correspondingly, the confidence interval are calculated from that sample.
+#. Distinguish between the "summary interval" (which is a summary of the raw values of the variable) and the "confidence interval" (which describes uncertainty in a sample statistic or model parameter).
 #. Understand that each time that estimation process is carried out, a new confidence interval will be created.
+#. Recognize and appropriately make use of the confidence interval as a presentation of uncertainty due to sampling.
 #. Appropriately compare confidence intervals not by whether their endpoints are approximately the same but by whether or not they overlap.
-#. Interpret a lack of overlap as an indication that the two estimation processes did not each sample at random from the same population.
-#. Recognize and appropriately make use of the confidence interval as an presentation of uncertainty due to sampling.
+    i. Interpret a lack of overlap as an indication that the populations underlying the two samples are different.
 #. Be able to translate the width of a confidence interval from a preliminary study of size n into a reasonable guess for the margin of error for a study of size N.
 #. Recognize common sources of sampling bias -- e.g. self-selection, pre-screening, survival -- and that the possible existence of sampling bias is not incorporated into the confidence interval. 
 
@@ -72,7 +73,7 @@ Perhaps it would be better simply to regard confidence intervals as a marker of 
 
 ## Conceptual pitfalls
 
-Many students (and professionals) will acquire a completely incorrect interpretation of confidence intervals and treat them as if they were summary intervals. For instance, consider an estimate of mean commute time and it's confidence interval. Many people will mistakenly think that "most" commute times fall within the confidence interval. In reality the fraction that do can be vanishingly small for large n.
+Many students (and professionals) will acquire a completely incorrect interpretation of confidence intervals and treat them as if they were summary intervals. For instance, consider an estimate of mean commute time and its confidence interval. Many people will mistakenly think that "most" commute times fall within the confidence interval. In reality the fraction that do can be vanishingly small for large n.
 
 We suspect that one reason for this misconception is that conventional intro stats book do not have a name for the interval that contains "most" of the raw values. This is why we introduce the *summary interval* in these StatPREP 101 lessons.
 
@@ -90,15 +91,18 @@ The confidence interval can be calculated from data and is a reliable measure of
 
 ## Student prerequisites {#prereqs}
 
-
+1. Familiarity with how the process of random sampling introduces uncertainty: the sample statistic will likely be different from one sampling trial to another.
+2. Acquaintance with the idea of an interval representing the *vast majority* (taken usually as 95%) of the possibilities.
 
 ## Creating an active classroom {#active}
 
-See the document on [general tips for creating an active classroom](/etc/tips-for-active-classroom.html). 
-
 Some specific discussion topics/themes for confidence intervals:
 
-GET EXAMPLES FROM RONA's DOCUMENT
+* Where is the mean located relative to the lower and upper bounds of the confidence interval?  
+* How do the following factors affect the distance between the lower and upper bounds of the confidence interval: sample size, spread of the data, and confidence level? 
+* Do you notice any overlap of the confidence intervals?  Generate new samples and notice whether the same behaviors occur.  What does the overlap or lack of overlap tell us?
+
+
 
 
 

@@ -12,7 +12,7 @@ output:
 
 ```{r include = FALSE}
 SDSdata::sds_setup()
-library(LittleApp)
+library(LittleApp) 
 library(DT)
 ```
 

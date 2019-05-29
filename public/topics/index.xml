@@ -63,7 +63,7 @@ Role in statistical practice  Conceptual pitfalls  Learning objectives  Student 
     <item>
       <title>Confidence intervals</title>
       <link>/topics/instructions-confidence-intervals/</link>
-      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/topics/instructions-confidence-intervals/</guid>
       <description>Activities  What is a confidence interval? Sampling bias and confidence intervals Comparing two groups Comparing two confidence intervals Two-sample t test   Learning objectives connected to confidence intervals  Master the relevant vocabulary … population, sample, sample statistic, point estimate, margin of error, confidence interval, confidence level. Recognize the estimation process that leads to a confidence interval: a sample is selected randomly from a population a statistic is calculated from that sample the margin of error and, correspondingly, the confidence interval are calculated from that sample.</description>
@@ -75,7 +75,7 @@ Role in statistical practice  Conceptual pitfalls  Learning objectives  Student 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/topics/instructions-two-sample-t-test/</guid>
-      <description>Activities  Comparing two groups Comparing confidence intervals Two sample t-test Instructor customizations:  Ambika Silva: Comparing two samples with confidence intervals    Learning objectives Typical course objectives relating to the t-based test and confidence interval are:
+      <description>Activities  Comparing two groups Comparing confidence intervals Two sample t-test Instructor customizations:  Ambika Silva: Comparing two samples with confidence intervals activity &amp;amp; assessment    Learning objectives Typical course objectives relating to the t-based test and confidence interval are:
  Confidence interval:  Compute from data the confidence interval on the difference of means. Interpret the confidence interval in the context of the question intended to be addressed with the data.</description>
     </item>
     
