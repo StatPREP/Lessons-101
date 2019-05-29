@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 MAY 2019 13:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  29 MAY 2019 08:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1162,40 +1162,40 @@ LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/m/it' will be
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/m/sc' will be
+(Font)              scaled to size 10.0pt on input line 339.
+[2]
 LaTeX Font Info:    Try loading font information for TS1+RobotoCondensed-LF on 
-input line 340.
+input line 343.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/roboto/TS1RobotoCondensed-LF.fd
 File: TS1RobotoCondensed-LF.fd 2015/09/15 (autoinst) Font definitions for TS1/R
 obotoCondensed-LF.
 )
 LaTeX Font Info:    Font shape `TS1/RobotoCondensed-LF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 340.
-LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 342.
-[2]
+(Font)              scaled to size 10.0pt on input line 343.
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 357.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 360.
 [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 360.
 (./comparing-two-groups.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 357.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 357.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 360.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 360.
 Package rerunfilecheck Info: File `comparing-two-groups.out' has not changed.
 (rerunfilecheck)             Checksum: B4E2DA71871AB8157DDE7CD826B6BCA9;183.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 357.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 360.
  ) 
 Here is how much of TeX's memory you used:
  13948 strings out of 492995
  198778 string characters out of 6132704
- 291874 words of memory out of 5000000
+ 291878 words of memory out of 5000000
  17205 multiletter control sequences out of 15000+600000
  76689 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,11n,45p,346b,517s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,12n,45p,346b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/roboto/rbto_bergpl.enc}{/
 usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/roboto/rbto_v5svcm.enc}{/usr/
 local/texlive/2017/texmf-dist/fonts/enc/dvips/roboto/rbto_idpkzy.enc}{/usr/loca
@@ -1207,10 +1207,10 @@ nsed-Light.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/google/roboto/Ro
 botoCondensed-Regular.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
 c/cm-super/sftt0800.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
 cm-super/sftt1000.pfb>
-Output written on comparing-two-groups.pdf (3 pages, 117984 bytes).
+Output written on comparing-two-groups.pdf (3 pages, 117311 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  13 named destinations out of 1000 (max. 500000)
  1041 words of extra memory for PDF output out of 10000 (max. 10000000)
 

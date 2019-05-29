@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 MAY 2019 13:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  29 MAY 2019 08:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1147,7 +1147,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 230.
 Here is how much of TeX's memory you used:
  13826 strings out of 492995
  195866 string characters out of 6132704
- 286809 words of memory out of 5000000
+ 286813 words of memory out of 5000000
  17129 multiletter control sequences out of 15000+600000
  34938 words of font info for 26 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1157,7 +1157,7 @@ usr/local/texlive/2017/texmf-dist/fonts/type1/google/roboto/RobotoCondensed-Bol
 d.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/google/roboto/RobotoConde
 nsed-Light.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/google/roboto/Ro
 botoCondensed-Regular.pfb>
-Output written on changes-in-risk.pdf (1 page, 41664 bytes).
+Output written on changes-in-risk.pdf (1 page, 40817 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream

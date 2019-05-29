@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 MAY 2019 13:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  29 MAY 2019 08:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1205,7 +1205,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 387.
 Here is how much of TeX's memory you used:
  13942 strings out of 492995
  198801 string characters out of 6132704
- 291725 words of memory out of 5000000
+ 291729 words of memory out of 5000000
  17195 multiletter control sequences out of 15000+600000
  76006 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1220,7 +1220,7 @@ ondensed-Light.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/google/robot
 o/RobotoCondensed-Regular.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
 ublic/cm-super/sftt0800.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
 lic/cm-super/sftt1000.pfb>
-Output written on jittering.pdf (3 pages, 295404 bytes).
+Output written on jittering.pdf (3 pages, 295325 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  69 compressed objects within 1 object stream

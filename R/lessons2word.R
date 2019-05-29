@@ -8,7 +8,7 @@ library(rmarkdown)
 source_files <- dir("content/lessons", pattern  = ".Rmd$", full.names = FALSE)
 
 #  for testing:
-source_files <- "what-is-a-confidence-interval.Rmd"
+#source_files <- "what-is-a-confidence-interval.Rmd"
 for (this_file  in source_files[]) {
   text <- readLines(paste0("content/lessons/",this_file))
   text <- gsub("/images/", "../../static/images/", text)

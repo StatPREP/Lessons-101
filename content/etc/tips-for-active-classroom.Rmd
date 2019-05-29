@@ -1,6 +1,6 @@
 ---
 title: "Tips for an active classroom"
-description: "Some ideas for engaging students in discussion about statistics."
+description: "Some ideas for engaging students in discussion about statistics." 
 output: 
   html_document:
     theme: readable

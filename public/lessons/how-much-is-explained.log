@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 MAY 2019 13:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  29 MAY 2019 08:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1193,7 +1193,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 428.
 Here is how much of TeX's memory you used:
  13938 strings out of 492995
  198718 string characters out of 6132704
- 291897 words of memory out of 5000000
+ 291901 words of memory out of 5000000
  17188 multiletter control sequences out of 15000+600000
  81770 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1209,7 +1209,7 @@ roboto/RobotoCondensed-Light.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 1/google/roboto/RobotoCondensed-Regular.pfb></usr/local/texlive/2017/texmf-dist
 /fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2017/texmf-dist/f
 onts/type1/public/cm-super/sftt1000.pfb>
-Output written on how-much-is-explained.pdf (4 pages, 155681 bytes).
+Output written on how-much-is-explained.pdf (4 pages, 154848 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  82 compressed objects within 1 object stream

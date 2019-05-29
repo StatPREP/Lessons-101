@@ -23,6 +23,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "/littleapps/"
     weight = 10
 [[menu.main]]
+    name = "Suggestions?"
+    url = "https://docs.google.com/document/d/1F76ypB785RyA_CAedEITXrs__hQj2pvbtSaLwD3b31k/edit?usp=sharing"
+    weight = 15
+[[menu.main]]
     name = "+"
     url = "/etc/" 
     weight = 20

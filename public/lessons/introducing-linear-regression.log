@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 MAY 2019 13:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  29 MAY 2019 08:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1183,7 +1183,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 321.
 Here is how much of TeX's memory you used:
  13951 strings out of 492995
  199126 string characters out of 6132704
- 293224 words of memory out of 5000000
+ 293228 words of memory out of 5000000
  17204 multiletter control sequences out of 15000+600000
  72104 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1199,7 +1199,7 @@ sed-Regular.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super
 /sftt0800.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/s
 ftt1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sft
 t1095.pfb>
-Output written on introducing-linear-regression.pdf (2 pages, 115655 bytes).
+Output written on introducing-linear-regression.pdf (2 pages, 114826 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
