@@ -20,13 +20,11 @@ date: "2019-04-22"
 
 ## Learning objectives 
 
-1. Frame the prediction of an unknown quantity using an *interval*.
-2. Choose the prediction interval endpoints to convey a range of likely outcomes.
-3. Understand that predictions are more likely to be right when the interval is constructed to  be long.
-4. Understand, in contrast to (3), that predictions are more likely to be informative when the interval is short. 
-5. Master the convention that is widely used for accomplishing both (3) and (4), e.g. the use of 95% coverage as a sensible evaluation of the trade-off. Identify 95% as a "level" selected specifically to have a reasonable balance between (3) and (4).
-6. Be able to work with two formats for describing an interval: "A to B" and "C ± D"
-7. Use intervals as a way to identify outliers and data anomalies.
+1. Summarize the likely range of a variable using an *interval*.
+2. Choose the summary interval endpoints to include the "vast majority" of the values.
+3. Master the convention that "vast majority" is the central 95% of the values. 
+4. Be able to work with two formats for describing an interval: "A to B" and "C ± D".
+5. Use intervals as a way to identify outliers and data anomalies.
 
 ## Additional sections
 

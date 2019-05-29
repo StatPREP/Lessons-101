@@ -29,28 +29,50 @@ The purpose of this lesson is to help you understand the standard deviation in t
 
 Open up the [Center and spread](`r center_app$url`) Little App (see footnote^[<`r center_app$url`>])., and select the `Births_2014` data frame. Set the sample size to n = 200.
 
-1. Set the response variable to be `baby_wt`, the age of the mother at the time of birth. You'll see that there is variability, that is, not every mother is exactly the same age.
+1. Set the response variable to be `baby_wt`, the weight of the baby at birth. You'll see that there is variability, that is, not every baby weighs exactly the same.
 
 2. Turn on the display of the mean and the standard deviation. Look closely at the annotation for the standard deviation. The standard deviation is a kind of measuring unit, like the inch marks on a ruler. The annotation is being drawn as a ruler. The mean is exactly in the middle and there are tick marks at ± 1 standard deviation and at ± 2 standard deviations.^[Sometimes the ± 2 marks don't fit within the frame, so those aren't included on the ruler.]
 
 4. The numerical value of the standard deviation is the length between tick marks, just as an inch is the length between marks on a ruler. 
 
-    a. Use the measuring stick to find the numerical value for the standard deviation for the data shown in your plot.
-    b. Open the "Statistics" tab underneath the graphic where you will find printed the standard deviation as calculated directly from the data. Compare that number to the number you found in (a). They should be just about the same.
-    c. Use the measuring stick to find the length of the whole ruler being displayed. Compare that to the number you read in (b) from the Statistics tab. Explain how long the ruler is by how many standard deviations it is long.
+    * Use the measuring stick to find the numerical value for the standard deviation for the data shown in your plot.
+    * Open the "Statistics" tab underneath the graphic where you will find printed the standard deviation as calculated directly from the data. Compare that number to the number you found in (a). They should be just about the same.
+    * Use the measuring stick to find the length of the whole ruler being displayed. Compare that to the number you read in (b) from the Statistics tab. 
+    
+    `r question_blank("*Describing how long the ruler is by how many standard deviations it is long.*", breaks = 1)`
     
 5. Turn on the display of the 95% summary interval. See where the ends of the 95% summary interval fall along the standard deviation ruler.
 
-    * How long is the standard deviation compared to the length of the 95% summary interval? 
-    * Make the sample size bigger, say, n = 2000. Does the relationship between the 95% summary interval and the standard deviation change?
-    * Fill in the blank: The 95% summary interval is ____ times as long as the standard deviation. Feel free to round to a whole number. 
+    `r question_blank("*How long is the standard deviation compared to the length of the 95% summary interval?*", breaks = 2)`
+    
+    * Make the sample size bigger, say, n = 2000. 
+    
+    `r question_blank("*Does the relationship between the 95% summary interval and the standard deviation change?*", breaks = 1)`
+    
+    `r question_blank("*Fill in the blank in the following statement.* (Feel free to round to a whole number.)", breaks = 0)`  
+    
+    > The 95% summary interval is ____ times as long as the standard deviation. 
     
 6. The simple relationship between the 95% summary interval and the standard deviation often holds, but not always. Some variables consistently have the standard deviation ruler mis-aligned with the 95% summary interval.
 
-    * Set the response variable to be APGAR score. Try several New Samples and see if the 95% summary interval aligns with the ruler.
-    * Turn on the violin density display. Is it symmetric? Does it have a very long tail?
-    * Go back to `baby_wt` and look at the violin. How does the shape of this violin differ from that for APGAR. Is it symmetric? Does it have a very long tail.
-    * Fill in the blank: The 95% summary interval is ____ times as long as the standard deviation for variables that have a density that is ____ (about symmetry) and ____ have a long tail.
+    * Set the response variable to be APGAR score. Try several New Samples. 
+    
+    `r question_blank("*Does the 95% summary interval align with the ruler?*", breaks = 1)`
+    
+  
+    * Turn on the violin density display. 
+    
+    `r question_blank("*Is the density shape symmetric (top to bottom)? Does it have a very long tail?*", breaks = 2)`
+    
+    * Go back to `baby_wt` and look at the violin. 
+    
+    `r question_blank("*How does the shape of this violin differ from that for APGAR. Is it symmetric? Does it have a very long tail?*", breaks = 3)`
+    
+    `r question_blank("*For response variables with a bell-shaped distribution, roughly how long is the 95% summary interval in terms of the standard deviation? Circle one of the following.*", breaks = 0)`
+    
+    > The 95% summary interval is         the same lengthas         twice as long as         three times longer than        the standard deviation.
+    
+    `r question_blank("*For response variables that don't have a bell-shaped distribution, e.g. they have a long tail on one side but not the other, does the answer you gave to the previous question still hold?", breaks = 1)`
 
 
     

@@ -13,7 +13,7 @@ options(htmltools.dir.version = FALSE)
 
 ## Activities
 
-* [What is a confidence interval?](/lessons/what_is_a_confidence_interval/)
+* [What is a confidence interval?](/lessons/what-is-a-confidence-interval/)
 * [Sampling bias and confidence intervals](/lessons/sampling-bias/)
 * [Comparing two groups](/lessons/comparing-two-groups/)
 * [Comparing two confidence intervals](/lessons/comparing-confidence-intervals/)

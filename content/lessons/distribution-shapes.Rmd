@@ -1,5 +1,5 @@
 ---
-title: "Common shapes of distributions"
+title: "Shapes of distributions"
 date: "StatPREP Class Activity"
 weight: 9
 description: "Introduces terms such as skew, bi-modal, and flat, by reference to the difference of the actual variable from a theoretical normal distribution."
@@ -27,13 +27,15 @@ As you've probably figured out already, the columns of data frames are called *v
 
 In the early 1800s, it was discovered that many different variables have a pattern in common: the most common values are near the mean and values become less common the further they are from the mean. Not all variables have this pattern, but many do and so the pattern came to be called the *normal distribution*.
 
-In this lesson, your going to look at several different variables and compare them to the normal distribution. Based on this comparison, you'll be able to choose appropriate descriptive words for the distribution: long-tailed, bi-modal, right- or left-skew, truncated, flat, normal.
+In this lesson, you're going to look at several different variables and compare them to the normal distribution. Based on this comparison, you'll be able to make an appropriate description in words of the distribution.
 
 Here are three rules of thumb, each of which can be used to estimate the mean and standard deviation of a distribution:
 
 1. Mark off the interval containing the center *two-thirds* of the data. That interval will run from one standard deviation below the mean to one standard deviation above the mean. So the mean is in the very center, and the standard deviation is *half the length of the interval*. It may take some practice to be able to judge where the center two-thirds of the data is, and some people are better at it than others, just as some cooks can measure ingredients effectively by eye.
 
-2. Mark off the interval containing the center *95%* of the data. Some people have a good sense of small numbers, and so they are able to estimate reasonably the dividing line between the outer 40th of the data at the high and low end. The interval runs from two standard deviations below the mean to two standard deviations above the mean, so the standard deviation is *one quarter the length of the interval*. The mean is right in the middle of the distribution.
+2. Mark off the "summary interval", that is, the interval containing the center *95%* of the data. 2.5% of the data points should be above the interval and 2.5% below. So, if n = 200, there will be 5 points above an five points below. 
+
+    When the distribution is bell-shaped, the summary interval runs from two standard deviations below the mean to two standard deviations above the mean, so the standard deviation is *one quarter the length of the interval*. The mean is right in the center of the distribution.
 
 3. If you have a display of the distribution such as a violin plot or a density plot, there's another way to find the interval from one standard deviation below the mean to one standard deviation above the mean. First, find the peak of the display of the distribution. Then come down half way from the peak and mark the two points where the display of the distribution touches the half-way line. Those points are pretty close to plus-and-minus one standard deviation from the mean.
 
@@ -89,6 +91,22 @@ frames that come with the Little App. You might want to practice several times t
 
     `r question_blank("*Write down at least one variable that **does not have** a bell-shaped distribution.*", breaks = 2, length = 3)`
 
+6. Now you're going to find some variables whose density has specific shapes.
+
+    `* Find a variable with a density that has a long trailing tail *below* the mean, but not above it. (This is called "negatively skewed" or "left skewed.")
+    
+    `r question_blank("*Write down the name of the left skewed variable you found.*", breaks = 1)`
+
+
+    `* Find a variable with a density that has a long trailing tail *above* the mean, but not below it it. (This is called "positively skewed" or "right skewed.")
+    
+    `r question_blank("*Write down the name of the right skewed variable you found.*", breaks = 1)`
+
+
+
+    `* Find a variable for which the density has two peaks. (This is called "bimodal."
+    
+    `r question_blank("*Write down the name of the bimodal variable you found.*", breaks = 1)`
 ----------------------
 
 Version 0.2, `r Sys.Date()`, Thomas Kinzeler and Danny Kaplan, [Word version](`r paste0("/word-versions/",tools::file_path_sans_ext(knitr::current_input()), ".docx")`) 

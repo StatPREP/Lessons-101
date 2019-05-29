@@ -30,7 +30,7 @@ Remarkably, it is possible to calculate from the sample alone and indicator of h
 
 Often, statistics books devote  many pages to  how to calculate a confidence interval. We're not going to do that here. The fact is, computers allow us to do the calculation just by asking for a  confidence interval. We're going to look at things a different way:
 
-> Suppose somewhat  presented a computer program as a legitimate way to  calculate a confidence  interval? How would you know that the claim is correct?
+> Suppose someone presented a computer program as a legitimate way to  calculate a confidence  interval? How would you know that the claim is correct?
 
 The calculations for a legitimate confidence interval were designed by people, and usually there are different ways to calculate a legitimate interval on the same sample statistic.  
 
